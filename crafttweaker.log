@@ -1,16 +1,16 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Robijnvogel
-realTIMematrix
-NickT
-Jonathan McManus
-Freebi
-IDroid
-AdaraChristine
-DreamThorn
 quaternary
+AdaraChristine
+Freebi
+NickT
 Pongo Sapiens
 Peregrinus11
+Jonathan McManus
+IDroid
+Robijnvogel
 otakup0pe
+DreamThorn
+realTIMematrix
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
@@ -54,7 +54,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: storage_blocks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: thermalexpansion.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 4ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 5ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: actuallyadditions.zs} as we are currently loading with a different loader
@@ -96,7 +96,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: storage_blocks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: thermalexpansion.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 390ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 396ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [mekatweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: actuallyadditions.zs} as we are currently loading with a different loader
@@ -1372,11 +1372,17 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Portable Tank (Creative)
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Flux Capacitor (Creative)
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 2389ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 684ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "appliedenergistics2:network/blocks/interfaces_interface"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "appliedenergistics2:network/cells/empty_storage_cell"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "environmentaltech:m_resources/litherite/litherite_crystal"
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:blockRedstone> and replacing them with <actuallyadditions:block_crystal_empowered>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <minecraft:enchanting_table> and replacing them with <actuallyadditions:block_crystal_empowered:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:nuggetGold> and replacing them with <ore:plateCrystallineAlloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:barsIron> and replacing them with <ore:plateTough>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:nuggetGold> and replacing them with <ore:plateCrystallineAlloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:blockGlass> and replacing them with <ore:fusedQuartz>
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "extendedcrafting:luminessence"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "unidict:gearsteel_x1_shape.aba c aba"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "industrialforegoing:black_hole_unit"
@@ -1495,6 +1501,16 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diode with name ct_shaped-831504311
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Connector with name ct_shaped-1943705213
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Modifier Component with name ct_shaped-1938596951
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Speed Modifier with name ct_shaped-1099020495
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Structure Frame Tier 1 with name ct_shaped-967792246
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Structure Frame Tier 2 with name ct_shaped848789910
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Structure Frame Tier 3 with name ct_shaped-1009992376
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Structure Frame Tier 4 with name ct_shaped918768624
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Structure Frame Tier 5 with name ct_shaped-553485644
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Structure Frame Tier 6 with name ct_shaped2110696106
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lightning Rod with name ct_shaped-1050011427
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Insulated Lightning Rod with name ct_shaped1785891341
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Photovoltaic Cell with name ct_shaped-883904131
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystalline Exchanger with name ct_shaped1075159525
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Melodic Exchanger with name ct_shaped445929164
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stellar Exchanger with name ct_shaped896488305
@@ -1603,6 +1619,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Elite Induction Cell with name ct_shaped-1908845718
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ultimate Induction Cell with name ct_shaped949516460
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Terrestrial Artifact with name ct_shapeless93803626
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Item Translocator with name ct_shaped-183333747
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Liquid Translocator with name ct_shaped-2054625922
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Casing with name ct_shaped1546035787
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Controller with name ct_shaped1895509258
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Vent with name ct_shaped473057686
@@ -1610,6 +1628,30 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reinforced Machine Casing with name ct_shaped-1535813645
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Circuitry with name ct_shaped1188930930
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Blueprint with name ct_shaped1492962566
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Normal Item Input with name ct_shaped625960966
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reinforced Item Input with name ct_shaped972814699
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Big Item Input with name ct_shaped790940286
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Huge Item Input with name ct_shaped-885893807
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ludicrous Item Input with name ct_shaped-411892039
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Normal Item Output with name ct_shaped-1381121124
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reinforced Item Output with name ct_shaped-1727807947
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Big Item Output with name ct_shaped-1156198304
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Huge Item Output with name ct_shaped-1588634349
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ludicrous Item Output with name ct_shaped692897355
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Normal Fluid Input Hatch with name ct_shaped-868397375
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reinforced Fluid Input Hatch with name ct_shaped1517374517
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Big Fluid Input Hatch with name ct_shaped-1723753142
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Huge Fluid Input Hatch with name ct_shaped1439151472
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ludicrous Fluid Input Hatch with name ct_shaped2102332277
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Vacuum Fluid Input Hatch with name ct_shaped-301699984
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tiny Energy Input Hatch with name ct_shaped-335474822
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Small Energy Input Hatch with name ct_shaped-276887079
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Normal Energy Input Hatch with name ct_shaped-1719601282
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reinforced Energy Input Hatch with name ct_shaped-112506369
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Big Energy Input Hatch with name ct_shaped1976809851
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Huge Energy Input Hatch with name ct_shaped1793234855
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ludicrous Energy Input Hatch with name ct_shaped1031851658
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ultimate Energy Input Hatch with name ct_shaped831368794
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Plating with name ct_shaped789323763
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Servomechanism with name ct_shaped-14521257
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Linear Actuator with name ct_shaped-1161363699
@@ -1844,6 +1886,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Piston with name ct_shaped-819963269
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Beacon with name ct_shaped225736413
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Elytra with name ct_shaped1315714758
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Speed Modifier with name environmentaltech-m_multiblocks/m_components/m_modifiers/modifier_speed-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Luck Modifier with name environmentaltech-m_multiblocks/m_nanobot/modifier_luck-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Structure Panel with name environmentaltech-m_multiblocks/m_components/m_structurepanel/structure_panel-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Clear Structure Panel with name environmentaltech-m_multiblocks/m_components/m_structurepanel/structure_panel_clear-remodified
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <contenttweaker:cobalt_dust>
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <contenttweaker:ardite_dust>
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <contenttweaker:tungsten_dust>
@@ -3149,17 +3195,17 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <liquid:tungstensteel> * 1296
 [AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <liquid:tungstensteel> * 144
 [AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <liquid:tungstensteel> * 576
-[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@605be8d6"
+[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@5daf5f1f"
 [AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <contenttweaker:cobalt_dust>
-[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@1047bf70"
+[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@10b78033"
 [AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <contenttweaker:ardite_dust>
-[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@11947025"
+[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@6036dbf5"
 [AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <contenttweaker:tungsten_dust>
-[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@518514ce"
+[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@33096112"
 [AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <contenttweaker:adamantium_dust>
-[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@6e274b70"
+[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@14f997cb"
 [AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <contenttweaker:opinionium_dust>
-[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@4336c5fb"
+[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@38632b7f"
 [AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <contenttweaker:eternity_dust>
 [AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <contenttweaker:fluix_plate> in mode: ALL
 [AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <contenttweaker:fluix_plate> in mode: ALL
