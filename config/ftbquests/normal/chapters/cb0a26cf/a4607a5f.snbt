@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	description: "Make the Ultimate Component",
+	text: [
+		"Crafting component"
+	],
+	dependencies: [
+		"9db94142"
+	],
+	tasks: [{
+		uid: "9797fa16",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 19"
+		}]
+	}]
+}

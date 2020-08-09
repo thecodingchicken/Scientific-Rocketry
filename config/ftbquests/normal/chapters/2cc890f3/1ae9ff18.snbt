@@ -1,0 +1,36 @@
+{
+	title: "To the Nether",
+	icon: "minecraft:netherrack",
+	x: -2.5d,
+	y: 6.0d,
+	shape: "diamond",
+	description: "Go to the Nether",
+	text: [
+		"To go to the Nether, you will have to make a portal out of obsidian.",
+		"You then have to light the portal using a Flint and Steel.",
+		"It is dangerous in there, so it is recommended to bring good weapons and armor."
+	],
+	dependencies: [
+		"81219173"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "9c2be98b",
+		type: "dimension",
+		dim: -1
+	},
+	{
+		uid: "8f1e1337",
+		type: "item",
+		items: [{
+			item: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d8930a4e",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

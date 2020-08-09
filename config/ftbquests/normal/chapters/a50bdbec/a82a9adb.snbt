@@ -1,0 +1,18 @@
+{
+	x: 0.5d,
+	y: 2.0d,
+	description: "Craft a Drawer Controller",
+	text: [
+		"Drawer Controllers allow you to interact with all drawers in a 12-block radius around the controller."
+	],
+	dependencies: [
+		"33de03ad"
+	],
+	tasks: [{
+		uid: "b2b82198",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -3.5d,
+	y: -0.5d,
+	description: "Craft a Fluid Infuser",
+	text: [
+		"The Fluid Infuser can infuse items with fluids."
+	],
+	dependencies: [
+		"2b40a23d"
+	],
+	tasks: [{
+		uid: "2adec4da",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:infuser"
+		}]
+	}]
+}

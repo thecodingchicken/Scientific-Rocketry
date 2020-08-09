@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: 3.5d,
+	description: "Craft an Iron Furnace",
+	text: [
+		"The Iron Furnaces mod adds several new furnaces.",
+		"They are generally faster than a vanilla furnace."
+	],
+	dependencies: [
+		"6a0ecc39"
+	],
+	tasks: [{
+		uid: "447f7fa8",
+		type: "item",
+		items: [{
+			item: "morefurnaces:furnaceblock"
+		}]
+	}]
+}

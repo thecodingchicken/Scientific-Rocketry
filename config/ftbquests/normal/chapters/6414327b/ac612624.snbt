@@ -1,0 +1,23 @@
+{
+	title: "Erodium",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"dbaf612a"
+	],
+	tasks: [{
+		uid: "df0c0028",
+		type: "item",
+		items: [{
+			item: "environmentaltech:erodium"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "e346ff2f",
+		type: "item",
+		item: "environmentaltech:erodium",
+		count: 16
+	}]
+}

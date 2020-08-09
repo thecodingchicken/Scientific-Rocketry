@@ -1,0 +1,18 @@
+{
+	title: "Crystal Matrix Ingots",
+	x: -1.0d,
+	y: 2.5d,
+	description: "Make some Crystal Matrix Ingots",
+	dependencies: [
+		"3bade267",
+		"ebade7ee"
+	],
+	tasks: [{
+		uid: "6392fcbb",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 1"
+		}],
+		count: 8L
+	}]
+}

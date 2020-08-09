@@ -1,0 +1,20 @@
+{
+	title: "Mining Level 5",
+	x: -5.5d,
+	y: 3.0d,
+	shape: "square",
+	description: "Iridium",
+	text: [
+		"Iridium is the next mining level.",
+		"An Ender Pickaxe or a Flux-Infused Pickaxe will be needed for these ores."
+	],
+	dependencies: [
+		"dbaf612a"
+	],
+	tasks: [{
+		uid: "aeff0a8c",
+		type: "checkmark",
+		title: "Iridium",
+		icon: "thermalfoundation:ore 1 7"
+	}]
+}

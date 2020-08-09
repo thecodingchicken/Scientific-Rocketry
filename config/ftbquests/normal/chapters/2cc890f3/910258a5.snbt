@@ -1,0 +1,21 @@
+{
+	title: "Diamond Pickaxe",
+	x: 0.0d,
+	y: 4.0d,
+	description: "Craft a Diamond Pickaxe",
+	text: [
+		"A Diamond Pickaxe will allow you to mine Obsidian."
+	],
+	dependencies: [
+		"5eda48b3"
+	],
+	tasks: [{
+		uid: "3b516dd8",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

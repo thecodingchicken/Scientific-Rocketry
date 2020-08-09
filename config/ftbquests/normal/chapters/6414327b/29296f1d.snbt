@@ -1,0 +1,25 @@
+{
+	title: "Black Quartz Ore",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"Black Quartz Ore can be found in the Overworld below y=45."
+	],
+	dependencies: [
+		"3e283be3"
+	],
+	tasks: [{
+		uid: "65c1ea2d",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_misc 1 3"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "4931b76d",
+		type: "item",
+		item: "actuallyadditions:item_misc 1 5",
+		count: 16
+	}]
+}

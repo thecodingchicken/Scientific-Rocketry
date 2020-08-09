@@ -1,0 +1,22 @@
+{
+	title: "Mining Level 3",
+	icon: "minecraft:obsidian",
+	x: -5.5d,
+	y: 1.0d,
+	shape: "square",
+	description: "Obsidian",
+	text: [
+		"Obsidian is the next mining level.",
+		"A Diamond Pickaxe can mine these ores."
+	],
+	dependencies: [
+		"ee9a999b",
+		"910258a5"
+	],
+	tasks: [{
+		uid: "56fb86bf",
+		type: "checkmark",
+		title: "Obsidian",
+		icon: "minecraft:obsidian"
+	}]
+}

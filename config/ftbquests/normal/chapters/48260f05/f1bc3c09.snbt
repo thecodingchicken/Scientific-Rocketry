@@ -1,0 +1,19 @@
+{
+	title: "Auxiliary Transmission Coil",
+	x: -5.0d,
+	y: 4.0d,
+	description: "Craft an Auxiliary Transmission Coil",
+	text: [
+		"This augment makes dynamos produce more RF/t but consume fuel faster."
+	],
+	dependencies: [
+		"bc1c037a"
+	],
+	tasks: [{
+		uid: "2b478bf5",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 512"
+		}]
+	}]
+}

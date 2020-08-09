@@ -1,0 +1,18 @@
+{
+	title: "Silicon",
+	x: -3.5d,
+	y: 2.0d,
+	description: "Make some Silicon",
+	text: [
+		"Silicon can be made in several ways.",
+		"The Manufactory, Crusher, or Material StoneWork Factory are all possible options."
+	],
+	tasks: [{
+		uid: "e07f6690",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:gem 1 6"
+		}],
+		count: 8L
+	}]
+}

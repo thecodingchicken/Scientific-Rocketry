@@ -1,0 +1,23 @@
+{
+	title: "Kyronite",
+	x: -1.0d,
+	y: 3.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"b6d1efec"
+	],
+	tasks: [{
+		uid: "c9d97d9f",
+		type: "item",
+		items: [{
+			item: "environmentaltech:kyronite"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "91673f4a",
+		type: "item",
+		item: "environmentaltech:kyronite",
+		count: 16
+	}]
+}

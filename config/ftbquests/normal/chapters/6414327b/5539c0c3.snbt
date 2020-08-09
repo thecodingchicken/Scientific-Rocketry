@@ -1,0 +1,25 @@
+{
+	title: "Gold Ore",
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"Gold Ore is found rarely in the Overworld below y=32."
+	],
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "b8a6c0cc",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "6fab129e",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 16
+	}]
+}

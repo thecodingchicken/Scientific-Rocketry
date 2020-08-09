@@ -1,0 +1,18 @@
+{
+	x: -3.5d,
+	y: -2.5d,
+	description: "Craft a Machine Chassis",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"d12d61b7"
+	],
+	tasks: [{
+		uid: "495c24b5",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 10"
+		}]
+	}]
+}

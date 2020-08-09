@@ -1,0 +1,13 @@
+{
+	x: -5.5d,
+	y: -3.0d,
+	shape: "square",
+	text: [
+		"This pack has some custom mining levels. They are listed in the quests below."
+	],
+	tasks: [{
+		uid: "df4e695f",
+		type: "checkmark",
+		title: "Mining Levels"
+	}]
+}

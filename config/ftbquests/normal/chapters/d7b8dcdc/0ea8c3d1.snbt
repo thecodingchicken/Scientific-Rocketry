@@ -1,0 +1,15 @@
+{
+	x: -4.5d,
+	y: 7.5d,
+	description: "Make a Litherite Crystal",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d40dfc65",
+		type: "item",
+		items: [{
+			item: "environmentaltech:litherite_crystal"
+		}]
+	}]
+}

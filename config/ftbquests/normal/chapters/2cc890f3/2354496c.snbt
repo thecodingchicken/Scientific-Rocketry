@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 5.5d,
+	description: "Craft an Obsidian Furnace",
+	text: [
+		"The Obsidian Furnace can smelt two items at once."
+	],
+	dependencies: [
+		"81219173"
+	],
+	tasks: [{
+		uid: "75c2f04e",
+		type: "item",
+		items: [{
+			item: "morefurnaces:furnaceblock 1 3"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Mithril Ore",
+	x: -2.0d,
+	y: 4.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"320ab7ec"
+	],
+	tasks: [{
+		uid: "80461b6d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 8"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "cfbbf881",
+		type: "item",
+		item: "thermalfoundation:material 1 136",
+		count: 16
+	}]
+}

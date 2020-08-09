@@ -1,0 +1,23 @@
+{
+	title: "Ionite",
+	x: -1.0d,
+	y: 4.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"320ab7ec"
+	],
+	tasks: [{
+		uid: "1575dcad",
+		type: "item",
+		items: [{
+			item: "environmentaltech:ionite"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "7226a501",
+		type: "item",
+		item: "environmentaltech:ionite",
+		count: 16
+	}]
+}

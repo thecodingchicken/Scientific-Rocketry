@@ -1,0 +1,22 @@
+{
+	title: "First Pickaxe",
+	icon: "minecraft:wooden_pickaxe",
+	x: 0.0d,
+	y: -0.5d,
+	description: "Craft a Wooden Pickaxe",
+	text: [
+		"To progress, you will need to craft a pickaxe in order to mine stone."
+	],
+	dependencies: [
+		"90aa6030"
+	],
+	tasks: [{
+		uid: "5b43bc30",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

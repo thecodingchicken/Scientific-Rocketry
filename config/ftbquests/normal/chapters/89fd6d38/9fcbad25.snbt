@@ -1,0 +1,17 @@
+{
+	title: "Osmiridium",
+	x: 2.5d,
+	y: 0.0d,
+	description: "Make some Osmiridium",
+	dependencies: [
+		"38c4a1fe"
+	],
+	tasks: [{
+		uid: "2386935f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:osmiridium_ingot"
+		}],
+		count: 8L
+	}]
+}

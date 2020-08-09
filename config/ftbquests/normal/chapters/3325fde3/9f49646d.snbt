@@ -1,0 +1,21 @@
+{
+	title: "9x9 Crafting",
+	x: 2.0d,
+	y: 4.0d,
+	description: "Make the Ultimate Crafting Table",
+	text: [
+		"This is used for 9x9 crafting recipes."
+	],
+	dependencies: [
+		"4578871c",
+		"9b1ba4c2",
+		"275c7982"
+	],
+	tasks: [{
+		uid: "2ef1ceae",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_ultimate"
+		}]
+	}]
+}

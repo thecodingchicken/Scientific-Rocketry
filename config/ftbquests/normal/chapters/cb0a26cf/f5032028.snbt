@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: 2.0d,
+	description: "Requires 1 of each singularity",
+	dependencies: [
+		"f64fb05f"
+	],
+	tasks: [{
+		uid: "d509486e",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_ultimate"
+		}]
+	}]
+}

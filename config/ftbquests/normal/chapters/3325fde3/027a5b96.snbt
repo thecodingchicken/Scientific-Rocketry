@@ -1,0 +1,19 @@
+{
+	title: "5x5 Crafting",
+	x: -1.0d,
+	y: -0.5d,
+	description: "Make an Advanced Crafting Table",
+	text: [
+		"This is used for 5x5 crafting recipes."
+	],
+	dependencies: [
+		"3ea27871"
+	],
+	tasks: [{
+		uid: "3a4b7f1d",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -6.0d,
+	y: 1.5d,
+	description: "Craft a Machine Frame",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"f62100fb"
+	],
+	tasks: [{
+		uid: "3ba2a67c",
+		type: "item",
+		items: [{
+			item: "rftools:machine_frame"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Energized Netherrack",
+	icon: "thermalfoundation:ore_fluid 1 3",
+	x: 6.0d,
+	y: -1.0d,
+	description: "Spawns in the Nether",
+	dependencies: [
+		"1ae9ff18",
+		"3e283be3"
+	],
+	tasks: [{
+		uid: "9f718420",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 894"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "ba6da329",
+		type: "item",
+		item: "thermalfoundation:material 1 894",
+		count: 16
+	}]
+}

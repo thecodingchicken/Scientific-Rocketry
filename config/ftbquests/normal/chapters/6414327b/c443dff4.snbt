@@ -1,0 +1,19 @@
+{
+	title: "Mining Level 7",
+	icon: "contenttweaker:adamantium_ore",
+	x: -5.5d,
+	y: 5.0d,
+	shape: "square",
+	description: "Adamantium",
+	text: [
+		"Adamantium is the next mining level.",
+		"A Stellar Pickaxe or better is required to mine ores in this level."
+	],
+	dependencies: [
+		"320ab7ec"
+	],
+	tasks: [{
+		uid: "754720bd",
+		type: "checkmark"
+	}]
+}

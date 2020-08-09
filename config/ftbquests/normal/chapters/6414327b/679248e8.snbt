@@ -1,0 +1,23 @@
+{
+	title: "Sapphire Ore",
+	icon: "projectred-exploration:ore 1 1",
+	x: 11.0d,
+	y: 0.0d,
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "3d797c47",
+		type: "item",
+		items: [{
+			item: "projectred-core:resource_item 1 201"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "f8988d17",
+		type: "item",
+		item: "projectred-core:resource_item 1 201",
+		count: 16
+	}]
+}

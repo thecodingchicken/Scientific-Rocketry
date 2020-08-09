@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	description: "Craft a Machine Frame",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"562e36bf"
+	],
+	tasks: [{
+		uid: "7d44202e",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}]
+}

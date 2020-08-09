@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 3.5d,
+	shape: "diamond",
+	description: "Make an Elite Control Circuit",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"29a8fec0",
+		"880b4992",
+		"98ababa5"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "8969ce56",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 2"
+		}]
+	}]
+}

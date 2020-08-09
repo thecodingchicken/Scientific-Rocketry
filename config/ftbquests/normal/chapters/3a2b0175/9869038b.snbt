@@ -1,0 +1,18 @@
+{
+	x: -11.0d,
+	y: 6.0d,
+	description: "Craft a Capacitor Bank",
+	text: [
+		"Stores 10M RF per block."
+	],
+	dependencies: [
+		"11ac9ee0"
+	],
+	tasks: [{
+		uid: "de487072",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 2"
+		}]
+	}]
+}

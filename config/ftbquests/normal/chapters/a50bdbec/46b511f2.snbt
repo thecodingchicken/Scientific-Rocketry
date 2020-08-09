@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: 2.0d,
+	description: "Craft a Void Upgrade",
+	text: [
+		"Void Upgrades void excess items, which can be helpful for automation and farming."
+	],
+	dependencies: [
+		"33de03ad"
+	],
+	tasks: [{
+		uid: "45982acd",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_void"
+		}]
+	}]
+}

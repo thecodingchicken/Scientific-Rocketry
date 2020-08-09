@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"The main tech progression quests are split up into 4 subchapters.",
+		"They outline the progression, but do not serve as a strict guide."
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "295cccc4",
+		type: "checkmark",
+		title: "Tech Progression"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Mining Level 1",
+	x: -5.5d,
+	y: -1.0d,
+	shape: "square",
+	description: "Iron",
+	text: [
+		"Iron is the next mining level.",
+		"Stone Pickaxes can be used to mine ores in this level."
+	],
+	dependencies: [
+		"9271e162",
+		"4655a1de"
+	],
+	tasks: [{
+		uid: "a612c545",
+		type: "checkmark",
+		title: "Iron",
+		icon: "minecraft:iron_ore"
+	}]
+}

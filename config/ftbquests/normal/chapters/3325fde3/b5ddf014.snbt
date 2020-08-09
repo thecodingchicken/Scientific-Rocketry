@@ -1,0 +1,17 @@
+{
+	title: "Tungstensteel",
+	x: -4.0d,
+	y: 1.0d,
+	description: "Make some Tungstensteel",
+	dependencies: [
+		"324c094f"
+	],
+	tasks: [{
+		uid: "20a9bac0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tungstensteel_ingot"
+		}],
+		count: 8L
+	}]
+}

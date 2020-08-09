@@ -1,0 +1,23 @@
+{
+	title: "Sky Stone",
+	x: 1.0d,
+	y: 1.0d,
+	description: "Spawns in meteors and on the Moon",
+	dependencies: [
+		"fad0586e"
+	],
+	tasks: [{
+		uid: "3db8b5b0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_block"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "e17c56df",
+		type: "item",
+		item: "appliedenergistics2:sky_stone_block",
+		count: 16
+	}]
+}

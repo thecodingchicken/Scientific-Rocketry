@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: 2.5d,
+	description: "Craft an Obsidian Chest",
+	dependencies: [
+		"796530b1"
+	],
+	tasks: [{
+		uid: "f908f835",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 6"
+		}]
+	}]
+}

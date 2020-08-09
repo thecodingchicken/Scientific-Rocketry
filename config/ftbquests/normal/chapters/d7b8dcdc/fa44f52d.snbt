@@ -1,0 +1,15 @@
+{
+	x: -6.5d,
+	y: 5.5d,
+	description: "Make an Empowered Restonia Crystal",
+	dependencies: [
+		"373657e3"
+	],
+	tasks: [{
+		uid: "50dae424",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered"
+		}]
+	}]
+}

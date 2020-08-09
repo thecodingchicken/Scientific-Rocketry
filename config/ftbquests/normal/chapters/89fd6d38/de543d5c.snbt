@@ -1,0 +1,17 @@
+{
+	title: "Ender Ingots",
+	x: 2.5d,
+	y: -4.0d,
+	description: "Make some Ender Ingots",
+	dependencies: [
+		"38c4a1fe"
+	],
+	tasks: [{
+		uid: "49bc9d06",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 36"
+		}],
+		count: 8L
+	}]
+}

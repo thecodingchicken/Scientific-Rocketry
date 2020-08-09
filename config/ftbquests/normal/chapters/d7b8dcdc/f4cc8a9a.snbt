@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 3.5d,
+	description: "Craft a Signalum Upgrade Kit",
+	dependencies: [
+		"de5d8512"
+	],
+	tasks: [{
+		uid: "c8a61c7a",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 2"
+		}]
+	}]
+}

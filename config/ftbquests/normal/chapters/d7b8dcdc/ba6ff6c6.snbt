@@ -1,0 +1,15 @@
+{
+	x: -5.5d,
+	y: 5.5d,
+	description: "Make an Empowered Palis Crystal",
+	dependencies: [
+		"373657e3"
+	],
+	tasks: [{
+		uid: "06b70d99",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 1"
+		}]
+	}]
+}

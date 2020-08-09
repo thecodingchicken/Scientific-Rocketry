@@ -1,0 +1,18 @@
+{
+	x: -7.0d,
+	y: 2.0d,
+	description: "Craft a Ranged Collector",
+	text: [
+		"The Ranged Collector can pick up nearby items. It can be configured to whitelist or blacklist certain items."
+	],
+	dependencies: [
+		"f62100fb"
+	],
+	tasks: [{
+		uid: "f813a642",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_ranged_collector"
+		}]
+	}]
+}

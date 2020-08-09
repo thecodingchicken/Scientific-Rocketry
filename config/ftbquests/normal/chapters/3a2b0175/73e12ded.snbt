@@ -1,0 +1,18 @@
+{
+	x: -10.0d,
+	y: 1.5d,
+	description: "Craft a Machine Case",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"f62100fb"
+	],
+	tasks: [{
+		uid: "f5729757",
+		type: "item",
+		items: [{
+			item: "teslacorelib:machine_case"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Resonant End Stone",
+	icon: "thermalfoundation:ore_fluid 1 4",
+	x: 7.0d,
+	y: -1.0d,
+	description: "Spawns in the End",
+	dependencies: [
+		"392e994b",
+		"3e283be3"
+	],
+	tasks: [{
+		uid: "ddff97c6",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 895"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "4f420939",
+		type: "item",
+		item: "thermalfoundation:material 1 895",
+		count: 16
+	}]
+}

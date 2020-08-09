@@ -1,0 +1,21 @@
+{
+	title: "Mining Level 2",
+	x: -5.5d,
+	y: 0.0d,
+	shape: "square",
+	description: "Diamond",
+	text: [
+		"Diamond is the next mining level.",
+		"Ores in this level can be mined with an Iron Pickaxe."
+	],
+	dependencies: [
+		"e50f55d9",
+		"3e283be3"
+	],
+	tasks: [{
+		uid: "deada45f",
+		type: "checkmark",
+		title: "Diamond",
+		icon: "minecraft:diamond_ore"
+	}]
+}

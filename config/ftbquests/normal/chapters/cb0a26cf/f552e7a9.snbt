@@ -1,0 +1,16 @@
+{
+	title: "To Infinity",
+	x: -2.5d,
+	y: 4.0d,
+	description: "Make an Infinity Ingot",
+	dependencies: [
+		"97e2058a"
+	],
+	tasks: [{
+		uid: "40449029",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}]
+	}]
+}

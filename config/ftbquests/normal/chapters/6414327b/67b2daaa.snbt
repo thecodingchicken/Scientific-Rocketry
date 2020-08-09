@@ -1,0 +1,22 @@
+{
+	title: "Lithium Ore",
+	x: 8.0d,
+	y: 0.0d,
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "3c9c9f41",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 6"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "5da96c5f",
+		type: "item",
+		item: "nuclearcraft:ingot 1 6",
+		count: 16
+	}]
+}

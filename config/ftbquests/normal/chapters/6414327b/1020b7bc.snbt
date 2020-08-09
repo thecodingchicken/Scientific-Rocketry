@@ -1,0 +1,20 @@
+{
+	title: "Mining Level 8",
+	x: -5.5d,
+	y: 6.0d,
+	shape: "square",
+	description: "Infinity",
+	text: [
+		"Infinity is the final mining level.",
+		"A World Breaker will be required for any ores in this tier."
+	],
+	dependencies: [
+		"c443dff4"
+	],
+	tasks: [{
+		uid: "43fdec00",
+		type: "checkmark",
+		title: "Infinity",
+		icon: "avaritia:block_resource 1 1"
+	}]
+}

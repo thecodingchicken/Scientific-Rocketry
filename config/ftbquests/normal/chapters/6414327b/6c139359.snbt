@@ -1,0 +1,26 @@
+{
+	title: "Diamond Ore",
+	icon: "minecraft:diamond_ore",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"Diamond Ore is found rarely in the Overworld below y=16."
+	],
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "f8967659",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "3bfde198",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 16
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Mining Level 4",
+	x: -5.5d,
+	y: 2.0d,
+	shape: "square",
+	description: "Titanium",
+	text: [
+		"Titanium is the next mining level.",
+		"There are a few tools that can mine ores in this level.",
+		"I would recommend using a Dark Pick."
+	],
+	dependencies: [
+		"fad0586e"
+	],
+	tasks: [{
+		uid: "5d857878",
+		type: "checkmark",
+		title: "Titanium",
+		icon: "libvulpes:ore0 1 8"
+	}]
+}

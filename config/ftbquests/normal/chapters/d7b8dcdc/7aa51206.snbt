@@ -1,0 +1,20 @@
+{
+	title: "HSLA Steel",
+	x: -5.5d,
+	y: 1.5d,
+	description: "Make some HSLA Steel",
+	text: [
+		"To make the manganese required, granite can be crushed into rhodochrosite, which can be processed into manganese."
+	],
+	dependencies: [
+		"917ed755"
+	],
+	tasks: [{
+		uid: "ddeed942",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy 1 15"
+		}],
+		count: 8L
+	}]
+}

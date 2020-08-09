@@ -1,0 +1,15 @@
+{
+	title: "Welcome to Scientific Rocketry",
+	x: -1.5d,
+	y: -2.5d,
+	shape: "diamond",
+	text: [
+		"In this pack you will automate various things and explore various planets."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "fda04a6a",
+		type: "checkmark",
+		title: "Welcome to Space Pack"
+	}]
+}

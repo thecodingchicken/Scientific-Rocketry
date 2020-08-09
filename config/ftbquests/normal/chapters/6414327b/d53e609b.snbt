@@ -1,0 +1,23 @@
+{
+	title: "Aethium",
+	x: -2.0d,
+	y: 5.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"c443dff4"
+	],
+	tasks: [{
+		uid: "3bbf45f9",
+		type: "item",
+		items: [{
+			item: "environmentaltech:aethium"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "f68aba76",
+		type: "item",
+		item: "environmentaltech:aethium",
+		count: 16
+	}]
+}

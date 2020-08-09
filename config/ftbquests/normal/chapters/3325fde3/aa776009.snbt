@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: 7.0d,
+	description: "Make an Enriched Elite Ingot",
+	dependencies: [
+		"44d15005"
+	],
+	tasks: [{
+		uid: "d07fe1b8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:enriched_elite_ingot"
+		}]
+	}]
+}

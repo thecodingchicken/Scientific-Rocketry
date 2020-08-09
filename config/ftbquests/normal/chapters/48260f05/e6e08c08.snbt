@@ -1,0 +1,36 @@
+{
+	title: "Pulverizer",
+	x: -4.5d,
+	y: -1.0d,
+	description: "Craft a Pulverizer",
+	text: [
+		"The Pulverizer can crush various items into dusts.",
+		"",
+		"It can also be used for ore doubling."
+	],
+	dependencies: [
+		"61511461"
+	],
+	tasks: [{
+		uid: "5ddf9546",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 1s
+		}]
+	}]
+}

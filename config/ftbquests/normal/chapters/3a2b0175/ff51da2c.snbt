@@ -1,0 +1,17 @@
+{
+	title: "Grains of Infinity",
+	x: -10.0d,
+	y: 4.0d,
+	description: "Make some Grains of Infinity",
+	text: [
+		"Crafting Component",
+		"Made by lighting Bedrock on fire."
+	],
+	tasks: [{
+		uid: "e75d608d",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}]
+	}]
+}

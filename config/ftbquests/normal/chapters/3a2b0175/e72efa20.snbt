@@ -1,0 +1,19 @@
+{
+	x: -8.0d,
+	y: 5.0d,
+	description: "Craft an Advanced Coil",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"1e3c54a1",
+		"d83c80df"
+	],
+	tasks: [{
+		uid: "82564ed1",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 8"
+		}]
+	}]
+}

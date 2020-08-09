@@ -1,0 +1,27 @@
+{
+	title: "Lapis Lazuli Ore",
+	icon: "minecraft:lapis_ore",
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"Lapis Lazuli Ore can be found rarely in the Overworld below y=28.",
+		"It is most common at y=15."
+	],
+	dependencies: [
+		"3e283be3"
+	],
+	tasks: [{
+		uid: "3d412a02",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "b62d360c",
+		type: "item",
+		item: "minecraft:dye 1 4",
+		count: 16
+	}]
+}

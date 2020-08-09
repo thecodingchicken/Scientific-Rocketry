@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: 6.0d,
+	description: "Best pickaxe in the game",
+	dependencies: [
+		"886f9d17"
+	],
+	tasks: [{
+		uid: "e5630b59",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Adamantium",
+	x: -4.0d,
+	y: 8.5d,
+	description: "Make some Adamantium",
+	dependencies: [
+		"b5ddf014"
+	],
+	tasks: [{
+		uid: "86f70461",
+		type: "item",
+		items: [{
+			item: "contenttweaker:adamantium_ingot"
+		}],
+		count: 8L
+	}]
+}

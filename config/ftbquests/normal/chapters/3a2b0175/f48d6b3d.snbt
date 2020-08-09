@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: 0.5d,
+	description: "Make a Steel Casing",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"5bf5c9fe"
+	],
+	tasks: [{
+		uid: "bb67115c",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 8"
+		}]
+	}]
+}

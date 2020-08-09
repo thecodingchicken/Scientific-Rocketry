@@ -1,0 +1,25 @@
+{
+	title: "Steel",
+	x: -1.0d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "Create some Steel",
+	text: [
+		"Steel is an important resource that is required for many machines.",
+		"It can be created in an Induction Smelter or Metallurgic Infuser."
+	],
+	dependencies: [
+		"5598145c",
+		"6b6bc9fd"
+	],
+	dependency_requirement: "one_completed",
+	size: 1.5d,
+	tasks: [{
+		uid: "2170da56",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}],
+		count: 16L
+	}]
+}

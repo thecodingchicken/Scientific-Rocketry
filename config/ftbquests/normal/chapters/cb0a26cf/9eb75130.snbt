@@ -1,0 +1,73 @@
+{
+	title: "Duping Tanks",
+	x: 0.5d,
+	y: 4.0d,
+	description: "Make some more Creative Portable Tanks",
+	text: [
+		"Creative Portable Tanks can be duped in the Advanced Metallurgic Fabricator.",
+		"The recipe takes 1 trillion RF."
+	],
+	dependencies: [
+		"886f9d17"
+	],
+	tasks: [{
+		uid: "4ba3beae",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				Creative: 1,
+				Level: 4
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "70b64196",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				Creative: 1,
+				Level: 4
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "44e63ec2",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				Creative: 1,
+				Level: 4
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b5b5930e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				Creative: 1,
+				Level: 4
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "873a97ac",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				Creative: 1,
+				Level: 4
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

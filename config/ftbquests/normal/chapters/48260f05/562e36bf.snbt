@@ -1,0 +1,51 @@
+{
+	title: "Basic Resources",
+	icon: "thermalfoundation:material 1 128",
+	x: -2.0d,
+	y: -3.0d,
+	description: "Get some resources",
+	text: [
+		"You will need lots of resources to progress in tech."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "480ff9c1",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 128"
+		}],
+		count: 16L
+	},
+	{
+		uid: "44ed30ec",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 129"
+		}],
+		count: 16L
+	},
+	{
+		uid: "9fbc904f",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 16L
+	},
+	{
+		uid: "cad03eb5",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		count: 32L
+	},
+	{
+		uid: "9c0deaa8",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 1"
+		}],
+		count: 16L
+	}]
+}

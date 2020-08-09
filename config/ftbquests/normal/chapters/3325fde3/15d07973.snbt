@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 8.5d,
+	description: "Make an Empowered Elite Ingot",
+	dependencies: [
+		"0155cea5",
+		"67e17423"
+	],
+	tasks: [{
+		uid: "822c1ea9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:empowered_elite_ingot"
+		}]
+	}]
+}

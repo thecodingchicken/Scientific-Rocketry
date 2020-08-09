@@ -1,0 +1,22 @@
+{
+	title: "Boron Ore",
+	x: 7.0d,
+	y: 0.0d,
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "5f13cb55",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 5"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "e3b7a581",
+		type: "item",
+		item: "nuclearcraft:ingot 1 5",
+		count: 16
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: -4.0d,
+	text: [
+		"These ores are pretty much the same as their Nether counterparts, except they spawn in the End instead."
+	],
+	dependencies: [
+		"392e994b"
+	],
+	tasks: [{
+		uid: "b1035f85",
+		type: "checkmark",
+		title: "End Ores",
+		icon: "cyclicmagic:end_iron_ore"
+	}]
+}

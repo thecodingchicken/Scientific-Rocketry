@@ -1,0 +1,7 @@
+{
+	title: "Tier 2",
+	icon: "nuclearcraft:part",
+	always_invisible: false,
+	group: -8030415,
+	default_quest_shape: ""
+}

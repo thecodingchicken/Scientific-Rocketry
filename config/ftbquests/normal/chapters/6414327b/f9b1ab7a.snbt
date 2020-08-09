@@ -1,0 +1,23 @@
+{
+	title: "Platinum Ore",
+	x: -1.0d,
+	y: 2.0d,
+	description: "Spawns on the Moon",
+	dependencies: [
+		"dbaf612a"
+	],
+	tasks: [{
+		uid: "c591d365",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 6"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "896cdee1",
+		type: "item",
+		item: "thermalfoundation:material 1 134",
+		count: 16
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Pladium",
+	x: 0.0d,
+	y: 3.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"b6d1efec"
+	],
+	tasks: [{
+		uid: "c6a5b488",
+		type: "item",
+		items: [{
+			item: "environmentaltech:pladium"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "3e58a4a6",
+		type: "item",
+		item: "environmentaltech:pladium",
+		count: 16
+	}]
+}

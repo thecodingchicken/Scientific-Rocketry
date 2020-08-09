@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	description: "Make a Machine Controller",
+	dependencies: [
+		"760f17e4"
+	],
+	tasks: [{
+		uid: "0c76921e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Storage Upgrades",
+	x: -1.5d,
+	y: 2.0d,
+	description: "Craft a Storage Upgrade (IV)",
+	text: [
+		"Storage Drawers has several storage upgrades that allow you to store more items in your drawers.",
+		"This particular one requires 2 diamonds and increases your storage capacity by 16x."
+	],
+	dependencies: [
+		"33de03ad"
+	],
+	tasks: [{
+		uid: "8553d8e6",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage 1 3"
+		}]
+	}]
+}

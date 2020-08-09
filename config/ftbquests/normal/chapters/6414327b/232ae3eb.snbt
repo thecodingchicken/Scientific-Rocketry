@@ -1,0 +1,22 @@
+{
+	title: "Copper Ore",
+	x: 2.0d,
+	y: -1.0d,
+	dependencies: [
+		"3e283be3"
+	],
+	tasks: [{
+		uid: "6b1fa67e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "65d6a967",
+		type: "item",
+		item: "thermalfoundation:material 1 128",
+		count: 16
+	}]
+}

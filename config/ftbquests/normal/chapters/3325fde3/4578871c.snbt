@@ -1,0 +1,19 @@
+{
+	title: "7x7 Crafting",
+	x: 2.0d,
+	y: 2.5d,
+	description: "Make an Elite Crafting Table",
+	text: [
+		"This is used for 7x7 crafting recipes."
+	],
+	dependencies: [
+		"bfa11ce6"
+	],
+	tasks: [{
+		uid: "5e0bbc44",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_elite"
+		}]
+	}]
+}

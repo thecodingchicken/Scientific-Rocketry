@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: 2.0d,
+	description: "Make a Basic Component",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"39690191",
+		"b3dd6fcc"
+	],
+	tasks: [{
+		uid: "445e501b",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 14"
+		}]
+	}]
+}

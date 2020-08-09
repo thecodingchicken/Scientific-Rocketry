@@ -1,0 +1,15 @@
+{
+	x: -9.0d,
+	y: 2.0d,
+	description: "Craft a Reinforced Upgrade Kit",
+	dependencies: [
+		"f62100fb"
+	],
+	tasks: [{
+		uid: "54526d84",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 1"
+		}]
+	}]
+}

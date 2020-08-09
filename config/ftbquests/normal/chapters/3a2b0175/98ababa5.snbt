@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	description: "Make an Advanced Control Circuit",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"30cefdc6"
+	],
+	tasks: [{
+		uid: "2eae1ca7",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 1"
+		}]
+	}]
+}

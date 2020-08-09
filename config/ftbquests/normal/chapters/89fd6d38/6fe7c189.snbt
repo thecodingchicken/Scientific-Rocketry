@@ -1,0 +1,20 @@
+{
+	title: "Reinforced Thermalloy",
+	x: 2.5d,
+	y: -1.0d,
+	description: "Make some Reinforced Thermalloy",
+	text: [
+		"An alloy of Thermal Expansion materials."
+	],
+	dependencies: [
+		"38c4a1fe"
+	],
+	tasks: [{
+		uid: "e16c6eba",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reinforced_thermalloy_ingot"
+		}],
+		count: 8L
+	}]
+}

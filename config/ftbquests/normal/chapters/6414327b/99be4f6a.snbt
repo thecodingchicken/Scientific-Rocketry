@@ -1,0 +1,23 @@
+{
+	title: "Electrotine Ore",
+	icon: "projectred-exploration:ore 1 6",
+	x: 13.0d,
+	y: 0.0d,
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "4aa5c7a9",
+		type: "item",
+		items: [{
+			item: "projectred-core:resource_item 1 105"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "702f8ceb",
+		type: "item",
+		item: "projectred-core:resource_item 1 105",
+		count: 16
+	}]
+}

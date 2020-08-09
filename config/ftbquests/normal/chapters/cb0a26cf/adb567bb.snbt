@@ -1,0 +1,22 @@
+{
+	title: "Neutrons",
+	x: -2.5d,
+	y: -1.0d,
+	description: "Make some Neutrons",
+	text: [
+		"Piles of Neutrons can be crafted in the Advanced Metallurgic Fabricator.",
+		"They can be made into Neutronium Ingots.",
+		"The Neutron Collector is not craftable in this pack."
+	],
+	dependencies: [
+		"9db94142"
+	],
+	tasks: [{
+		uid: "03022508",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 2"
+		}],
+		count: 64L
+	}]
+}

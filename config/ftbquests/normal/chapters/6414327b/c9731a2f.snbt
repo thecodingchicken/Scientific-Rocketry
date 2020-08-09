@@ -1,0 +1,22 @@
+{
+	title: "Nickel Ore",
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "8297b249",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 5"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "419a4e63",
+		type: "item",
+		item: "thermalfoundation:material 1 133",
+		count: 16
+	}]
+}

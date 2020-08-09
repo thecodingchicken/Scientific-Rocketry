@@ -1,0 +1,18 @@
+{
+	x: -11.0d,
+	y: 7.0d,
+	description: "Craft a Vibrant Capacitor Bank",
+	text: [
+		"Stores 50M RF per block."
+	],
+	dependencies: [
+		"e1d82209"
+	],
+	tasks: [{
+		uid: "5474dc58",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 3"
+		}]
+	}]
+}

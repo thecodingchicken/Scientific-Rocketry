@@ -1,0 +1,26 @@
+{
+	title: "Certus Quartz Ore",
+	icon: "appliedenergistics2:quartz_ore",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9271e162"
+	],
+	tasks: [{
+		uid: "6132be00",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "f6fddd7e",
+		type: "item",
+		item: "appliedenergistics2:material",
+		count: 16
+	}]
+}

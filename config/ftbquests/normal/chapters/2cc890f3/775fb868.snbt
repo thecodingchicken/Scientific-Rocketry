@@ -1,0 +1,21 @@
+{
+	title: "Into Fire",
+	x: -3.5d,
+	y: 7.0d,
+	description: "Collect some Blaze Rods",
+	text: [
+		"If you explore the Nether, you may find a Nether Fortress.",
+		"They have Blazes, which you can kill to get Blaze Rods."
+	],
+	dependencies: [
+		"1ae9ff18"
+	],
+	tasks: [{
+		uid: "d4743420",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}],
+		count: 4L
+	}]
+}

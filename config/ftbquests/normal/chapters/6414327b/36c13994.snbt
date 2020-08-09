@@ -1,0 +1,22 @@
+{
+	title: "Tin Ore",
+	x: 3.0d,
+	y: -1.0d,
+	dependencies: [
+		"3e283be3"
+	],
+	tasks: [{
+		uid: "41861432",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "cfd7bba2",
+		type: "item",
+		item: "thermalfoundation:material 1 129",
+		count: 16
+	}]
+}

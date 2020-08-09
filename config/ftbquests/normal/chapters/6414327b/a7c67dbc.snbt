@@ -1,0 +1,25 @@
+{
+	title: "Ender Biotite Ore",
+	icon: "quark:biotite_ore",
+	x: 1.0d,
+	y: -2.0d,
+	description: "Spawns in the End",
+	dependencies: [
+		"392e994b",
+		"9271e162"
+	],
+	tasks: [{
+		uid: "e0722246",
+		type: "item",
+		items: [{
+			item: "quark:biotite"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "81b20815",
+		type: "item",
+		item: "quark:biotite",
+		count: 16
+	}]
+}

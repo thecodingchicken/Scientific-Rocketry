@@ -1,0 +1,19 @@
+{
+	title: "Auxiliary Reception Coil",
+	x: -4.0d,
+	y: 4.0d,
+	description: "Craft an Auxiliary Reception Coil",
+	text: [
+		"This augment makes machines run faster but consume more RF/t."
+	],
+	dependencies: [
+		"bc1c037a"
+	],
+	tasks: [{
+		uid: "e9d1c699",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 128"
+		}]
+	}]
+}

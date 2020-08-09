@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: 4.0d,
+	description: "Make a Crystaltine Catalyst",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"6180cddc"
+	],
+	tasks: [{
+		uid: "7355a533",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 12"
+		}]
+	}]
+}

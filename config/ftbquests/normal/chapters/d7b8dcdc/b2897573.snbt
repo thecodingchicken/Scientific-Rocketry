@@ -1,0 +1,15 @@
+{
+	x: -6.5d,
+	y: 6.5d,
+	description: "Make an Empowered Void Crystal",
+	dependencies: [
+		"373657e3"
+	],
+	tasks: [{
+		uid: "419a4676",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 3"
+		}]
+	}]
+}

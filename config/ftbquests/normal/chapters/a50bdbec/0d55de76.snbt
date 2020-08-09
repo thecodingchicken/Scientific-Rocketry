@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	description: "Craft an Iron Chest",
+	text: [
+		"Chests from the Iron Chests mod hold more items than a regular chest.",
+		"They gain more storage space as you progress in the mod."
+	],
+	dependencies: [
+		"66186880"
+	],
+	tasks: [{
+		uid: "322ff5fc",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}]
+	}]
+}

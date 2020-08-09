@@ -1,0 +1,22 @@
+{
+	title: "Osmium Ore",
+	x: 1.0d,
+	y: -1.0d,
+	dependencies: [
+		"3e283be3"
+	],
+	tasks: [{
+		uid: "34595bc0",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "2f2bde6d",
+		type: "item",
+		item: "mekanism:ingot 1 1",
+		count: 16
+	}]
+}

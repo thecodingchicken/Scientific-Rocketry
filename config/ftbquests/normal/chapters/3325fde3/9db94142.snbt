@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: 11.0d,
+	shape: "diamond",
+	description: "Craft the Ultimate Ingot",
+	dependencies: [
+		"03e2ffc9"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "3b1baf75",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 32"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Magnesium Ore",
+	x: 9.0d,
+	y: 0.0d,
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "f6624cc3",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 7"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "e148bb42",
+		type: "item",
+		item: "nuclearcraft:ingot 1 7",
+		count: 16
+	}]
+}

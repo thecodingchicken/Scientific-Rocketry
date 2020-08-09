@@ -1,0 +1,26 @@
+{
+	title: "Coal Ore",
+	icon: "minecraft:coal_ore",
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"Coal Ore can be found frequently in the Overworld below y=128."
+	],
+	dependencies: [
+		"9271e162"
+	],
+	tasks: [{
+		uid: "101d3321",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "086434e3",
+		type: "item",
+		item: "minecraft:coal",
+		count: 16
+	}]
+}

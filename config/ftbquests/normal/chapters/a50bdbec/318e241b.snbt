@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	description: "Craft a Compacting Drawer",
+	text: [
+		"Compacting Drawers can convert items into compressed forms such as storage blocks, allowing you to store more of a compatible item."
+	],
+	dependencies: [
+		"33de03ad"
+	],
+	tasks: [{
+		uid: "151c2249",
+		type: "item",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		}]
+	}]
+}

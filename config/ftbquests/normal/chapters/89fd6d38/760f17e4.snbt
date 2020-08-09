@@ -1,0 +1,17 @@
+{
+	title: "Machine Casing",
+	x: 0.0d,
+	y: -3.5d,
+	description: "Make some Machine Casings",
+	dependencies: [
+		"101e490c"
+	],
+	tasks: [{
+		uid: "85bc96c7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 2L
+	}]
+}

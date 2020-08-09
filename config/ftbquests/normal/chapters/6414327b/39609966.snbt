@@ -1,0 +1,23 @@
+{
+	title: "Charged Certus Quartz Ore",
+	icon: "appliedenergistics2:charged_quartz_ore",
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "1999d70f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "4c7f1da4",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 16
+	}]
+}

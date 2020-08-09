@@ -1,0 +1,25 @@
+{
+	title: "Dimensional Shard Ore",
+	icon: "rftools:dimensional_shard_ore 1 1",
+	x: 14.0d,
+	y: 0.0d,
+	description: "Spawns in the Nether and End",
+	dependencies: [
+		"ee9a999b",
+		"1ae9ff18"
+	],
+	tasks: [{
+		uid: "f12d6fa3",
+		type: "item",
+		items: [{
+			item: "rftools:dimensional_shard"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "d0f98f11",
+		type: "item",
+		item: "rftools:dimensional_shard",
+		count: 16
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Redstone Ore",
+	icon: "minecraft:redstone_ore",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Redstone Ore is found frequently in the Overworld below y=16."
+	],
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "34850dca",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "a83c2003",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 16
+	}]
+}

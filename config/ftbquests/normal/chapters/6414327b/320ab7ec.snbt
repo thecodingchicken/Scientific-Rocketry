@@ -1,0 +1,21 @@
+{
+	title: "Mining Level 6",
+	icon: "thermalfoundation:ore 1 8",
+	x: -5.5d,
+	y: 4.0d,
+	shape: "square",
+	description: "Mithril",
+	text: [
+		"Mithril is the next mining level.",
+		"You will need a Gelid Enderium Pickaxe or better to mine these ores."
+	],
+	dependencies: [
+		"b6d1efec"
+	],
+	tasks: [{
+		uid: "b273847d",
+		type: "checkmark",
+		title: "Stellar",
+		icon: "enderio:block_alloy_endergy 1 3"
+	}]
+}

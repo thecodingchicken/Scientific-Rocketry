@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	text: [
+		"Variants of vanilla ores spawn in the Nether.",
+		"These ores drop fewer resources than their Overworld components, but don't need to be processed and spawn at every y-level."
+	],
+	dependencies: [
+		"1ae9ff18"
+	],
+	tasks: [{
+		uid: "931aa988",
+		type: "checkmark",
+		title: "Nether Ores",
+		icon: "cyclicmagic:nether_iron_ore"
+	}]
+}

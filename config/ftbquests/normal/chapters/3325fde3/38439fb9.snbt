@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: 11.0d,
+	description: "Craft an Empowered Component",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"15d07973"
+	],
+	tasks: [{
+		uid: "f4c23297",
+		type: "item",
+		items: [{
+			item: "contenttweaker:empowered_component"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Silver Ore",
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "3098405b",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 2"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "e7162fb5",
+		type: "item",
+		item: "thermalfoundation:material 1 130",
+		count: 16
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Nether Quartz Ore",
+	icon: "minecraft:quartz_ore",
+	x: -1.0d,
+	y: -2.0d,
+	description: "Spawns in the Nether",
+	text: [
+		"Nether Quartz Ore can be found at every elevation in the Nether."
+	],
+	dependencies: [
+		"1ae9ff18",
+		"9271e162"
+	],
+	tasks: [{
+		uid: "18b31340",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "1eb57770",
+		type: "item",
+		item: "minecraft:quartz",
+		count: 16
+	}]
+}

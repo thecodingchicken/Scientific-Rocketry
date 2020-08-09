@@ -1,0 +1,17 @@
+{
+	title: "Modularium",
+	x: 0.0d,
+	y: -4.5d,
+	description: "Make some Modularium",
+	dependencies: [
+		"7aa51206"
+	],
+	tasks: [{
+		uid: "856c3f4e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}],
+		count: 8L
+	}]
+}

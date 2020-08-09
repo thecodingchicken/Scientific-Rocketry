@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	description: "Craft a Small Storage Crate",
+	text: [
+		"Storage Crates from Actually Additions store a lot of items."
+	],
+	dependencies: [
+		"66186880"
+	],
+	tasks: [{
+		uid: "b18c9371",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest"
+		}]
+	}]
+}

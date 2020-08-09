@@ -1,0 +1,27 @@
+{
+	title: "Chests",
+	icon: "minecraft:chest",
+	x: -1.5d,
+	y: -2.0d,
+	description: "Craft some Chests",
+	text: [
+		"Chests hold 27 stacks of items each."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "e644b307",
+		type: "item",
+		title: "Any chestWood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "chestWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L,
+		consume_items: false
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 0.5d,
+	y: 11.0d,
+	description: "Craft an Empowered Catalyst",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"38439fb9"
+	],
+	tasks: [{
+		uid: "1c4bb300",
+		type: "item",
+		items: [{
+			item: "contenttweaker:empowered_catalyst"
+		}]
+	}]
+}

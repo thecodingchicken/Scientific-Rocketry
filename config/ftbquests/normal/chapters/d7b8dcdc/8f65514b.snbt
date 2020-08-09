@@ -1,0 +1,19 @@
+{
+	title: "Atomic Alloy",
+	x: -8.0d,
+	y: 3.0d,
+	description: "Craft some Atomic Alloy",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"29a8fec0"
+	],
+	tasks: [{
+		uid: "14c919cd",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicalloy"
+		}]
+	}]
+}

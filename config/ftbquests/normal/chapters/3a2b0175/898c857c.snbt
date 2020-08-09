@@ -1,0 +1,21 @@
+{
+	title: "Hardened Glass",
+	x: -9.5d,
+	y: -2.5d,
+	description: "Make some Hardened Glass",
+	text: [
+		"Hardened Glass can be made using lead dust and obsidian dust in an Induction Smelter.",
+		"",
+		"There are other variants of Hardened Glass. Usually any kind will be usable for a recipe, except in some edge cases."
+	],
+	dependencies: [
+		"6b6bc9fd"
+	],
+	tasks: [{
+		uid: "8e42f991",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:glass 1 3"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Mining Level 0",
+	icon: "minecraft:stone",
+	x: -5.5d,
+	y: -2.0d,
+	shape: "square",
+	description: "Stone",
+	text: [
+		"First mining level, used by Wood Pickaxes and similar."
+	],
+	dependencies: [
+		"e7c44be1",
+		"92a86c1b"
+	],
+	tasks: [{
+		uid: "bffc3c19",
+		type: "checkmark"
+	}]
+}

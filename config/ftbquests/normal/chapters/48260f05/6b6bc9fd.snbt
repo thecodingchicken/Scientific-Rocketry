@@ -1,0 +1,34 @@
+{
+	title: "Induction Smelter",
+	x: -3.0d,
+	y: 2.0d,
+	description: "Craft an Induction Smelter",
+	text: [
+		"The Induction Smelter can be used to make alloys more easily."
+	],
+	dependencies: [
+		"3870719a"
+	],
+	tasks: [{
+		uid: "61f56b94",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		}]
+	}]
+}

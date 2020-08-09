@@ -1,0 +1,23 @@
+{
+	title: "Litherite",
+	x: 3.0d,
+	y: 1.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"fad0586e"
+	],
+	tasks: [{
+		uid: "24d9819d",
+		type: "item",
+		items: [{
+			item: "environmentaltech:litherite"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "ba4df1bf",
+		type: "item",
+		item: "environmentaltech:litherite",
+		count: 16
+	}]
+}

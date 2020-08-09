@@ -1,0 +1,23 @@
+{
+	title: "Diamond Furnace",
+	x: -2.0d,
+	y: 4.5d,
+	description: "Craft a Diamond Furnace",
+	dependencies: [
+		"5eda48b3",
+		"5191a063"
+	],
+	tasks: [{
+		uid: "67a51919",
+		type: "item",
+		items: [{
+			item: "morefurnaces:furnaceblock 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "9222237e",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 5
+	}]
+}

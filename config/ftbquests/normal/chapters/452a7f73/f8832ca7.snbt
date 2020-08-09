@@ -1,0 +1,17 @@
+{
+	title: "Machine Structures",
+	x: -1.5d,
+	y: -1.0d,
+	description: "Craft some Machine Structures",
+	text: [
+		"Used for Advanced Rocketry"
+	],
+	tasks: [{
+		uid: "29245079",
+		type: "item",
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 16L
+	}]
+}

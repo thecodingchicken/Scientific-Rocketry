@@ -1,0 +1,25 @@
+{
+	title: "Iron Ore",
+	x: -2.0d,
+	y: -1.0d,
+	text: [
+		"Iron Ore can be found frequently in the Overworld below y=64."
+	],
+	dependencies: [
+		"3e283be3"
+	],
+	tasks: [{
+		uid: "9cc1beac",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "e2038ca3",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 16
+	}]
+}

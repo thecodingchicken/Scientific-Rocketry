@@ -1,0 +1,18 @@
+{
+	x: -5.5d,
+	y: -0.5d,
+	description: "Craft a Rock Crusher",
+	text: [
+		"The Rock Crusher crushes rocks into dusts."
+	],
+	dependencies: [
+		"2b40a23d"
+	],
+	tasks: [{
+		uid: "548ab5f2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rock_crusher"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Emerald Ore",
+	icon: "minecraft:emerald_ore",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"Emerald Ore is found rarely in Extreme Hills in the Overworld below y=32."
+	],
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "91162842",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "8fe5b62d",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 16
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "Equipping Yourself",
+	icon: {
+		id: "redstonearsenal:tool.sword_flux",
+		tag: {
+			Energy: 0
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

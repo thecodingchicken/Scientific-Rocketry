@@ -1,0 +1,22 @@
+{
+	title: "Aluminum Ore",
+	x: 4.0d,
+	y: -1.0d,
+	dependencies: [
+		"3e283be3"
+	],
+	tasks: [{
+		uid: "e9808853",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 4"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "b3c65b6b",
+		type: "item",
+		item: "thermalfoundation:material 1 132",
+		count: 16
+	}]
+}

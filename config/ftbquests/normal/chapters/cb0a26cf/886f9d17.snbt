@@ -1,0 +1,22 @@
+{
+	title: "Creative Portable Tank",
+	x: -1.5d,
+	y: 4.0d,
+	description: "Produces infinite fluids.",
+	dependencies: [
+		"c01a70df",
+		"f552e7a9"
+	],
+	tasks: [{
+		uid: "d718cc93",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				Creative: 1,
+				Level: 4
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

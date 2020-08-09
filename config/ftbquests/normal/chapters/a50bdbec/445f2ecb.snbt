@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: 2.0d,
+	description: "Craft a Large Storage Crate",
+	dependencies: [
+		"3a0f73af"
+	],
+	tasks: [{
+		uid: "141cab62",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest_large"
+		}]
+	}],
+	rewards: [{
+		uid: "158b0a5b",
+		type: "item",
+		item: "actuallyadditions:item_crystal_empowered 1 3",
+		count: 8
+	}]
+}

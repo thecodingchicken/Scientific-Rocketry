@@ -1,0 +1,23 @@
+{
+	title: "Lonsdaleite",
+	x: 1.0d,
+	y: 3.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"b6d1efec"
+	],
+	tasks: [{
+		uid: "985f2111",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lonsdaleite"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "557f5c62",
+		type: "item",
+		item: "environmentaltech:lonsdaleite",
+		count: 16
+	}]
+}

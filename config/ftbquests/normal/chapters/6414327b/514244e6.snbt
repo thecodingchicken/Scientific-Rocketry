@@ -1,0 +1,14 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	shape: "square",
+	text: [
+		"This tab explains where various resources spawn.",
+		"The quests also allow the player to get some extra resources once they can get a stack of a resource."
+	],
+	tasks: [{
+		uid: "31bc3fb8",
+		type: "checkmark",
+		title: "Mining Tab"
+	}]
+}

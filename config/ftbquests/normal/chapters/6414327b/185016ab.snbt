@@ -1,0 +1,27 @@
+{
+	title: "Obsidian",
+	icon: "minecraft:obsidian",
+	x: -2.0d,
+	y: 1.0d,
+	text: [
+		"Obsidian can be found wherever water flows on lava.",
+		"This is most common around y=11."
+	],
+	dependencies: [
+		"fad0586e"
+	],
+	tasks: [{
+		uid: "adf67acc",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "b707a9b8",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 16
+	}]
+}

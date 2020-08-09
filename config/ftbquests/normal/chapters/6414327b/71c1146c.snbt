@@ -1,0 +1,24 @@
+{
+	title: "Dilithium Ore",
+	icon: "libvulpes:ore0",
+	x: 0.0d,
+	y: 1.0d,
+	description: "Spawns on the Moon",
+	dependencies: [
+		"fad0586e"
+	],
+	tasks: [{
+		uid: "bf3d09b3",
+		type: "item",
+		items: [{
+			item: "libvulpes:productgem"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "79388b2f",
+		type: "item",
+		item: "libvulpes:productgem",
+		count: 16
+	}]
+}

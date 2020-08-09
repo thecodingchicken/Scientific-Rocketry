@@ -1,0 +1,23 @@
+{
+	title: "Rutile Ore",
+	x: -2.0d,
+	y: 2.0d,
+	description: "Spawns on the Moon",
+	dependencies: [
+		"dbaf612a"
+	],
+	tasks: [{
+		uid: "24025deb",
+		type: "item",
+		items: [{
+			item: "libvulpes:ore0 1 8"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "17c4c515",
+		type: "item",
+		item: "libvulpes:productingot 1 7",
+		count: 16
+	}]
+}

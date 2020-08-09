@@ -1,0 +1,14 @@
+{
+	title: "Cryotheum Dust",
+	x: 0.0d,
+	y: 4.5d,
+	description: "Make some Cryotheum Dust",
+	tasks: [{
+		uid: "11c02858",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1025"
+		}],
+		count: 8L
+	}]
+}

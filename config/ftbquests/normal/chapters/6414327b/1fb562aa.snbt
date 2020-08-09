@@ -1,0 +1,23 @@
+{
+	title: "Destabilized Redstone Ore",
+	icon: "thermalfoundation:ore_fluid 1 2",
+	x: 5.0d,
+	y: -1.0d,
+	dependencies: [
+		"3e283be3"
+	],
+	tasks: [{
+		uid: "5ab1f38a",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 893"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "881b8c2e",
+		type: "item",
+		item: "thermalfoundation:material 1 893",
+		count: 16
+	}]
+}

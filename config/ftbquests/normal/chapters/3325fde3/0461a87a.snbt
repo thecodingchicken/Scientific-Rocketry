@@ -1,0 +1,19 @@
+{
+	title: "Empty Resonant Cell Frame",
+	x: 0.5d,
+	y: -0.5d,
+	description: "Make an Empty Resonant Cell Frame",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"027a5b96"
+	],
+	tasks: [{
+		uid: "b8cffeac",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 132"
+		}]
+	}]
+}

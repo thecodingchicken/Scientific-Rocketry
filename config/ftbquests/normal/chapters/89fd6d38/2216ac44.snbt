@@ -1,0 +1,19 @@
+{
+	title: "Signalum Cell Frame",
+	x: -1.5d,
+	y: 0.0d,
+	description: "Make a Signalum Cell Frame",
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"e95146ca"
+	],
+	tasks: [{
+		uid: "c1413a16",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 147"
+		}]
+	}]
+}

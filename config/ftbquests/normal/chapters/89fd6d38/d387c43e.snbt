@@ -1,0 +1,17 @@
+{
+	title: "Manyullyn",
+	x: 4.0d,
+	y: -1.0d,
+	description: "Make some Manyullyn",
+	dependencies: [
+		"38c4a1fe"
+	],
+	tasks: [{
+		uid: "0837a473",
+		type: "item",
+		items: [{
+			item: "contenttweaker:manyullyn_ingot"
+		}],
+		count: 8L
+	}]
+}

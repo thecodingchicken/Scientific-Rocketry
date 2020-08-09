@@ -1,0 +1,24 @@
+{
+	title: "Mica",
+	icon: "environmentaltech:mica",
+	x: 2.0d,
+	y: 1.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"fad0586e"
+	],
+	tasks: [{
+		uid: "86bf6819",
+		type: "item",
+		items: [{
+			item: "environmentaltech:mica"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "138d4062",
+		type: "item",
+		item: "environmentaltech:mica",
+		count: 16
+	}]
+}

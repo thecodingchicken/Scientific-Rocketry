@@ -1,0 +1,23 @@
+{
+	title: "Iridium Ore",
+	x: -2.0d,
+	y: 3.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"b6d1efec"
+	],
+	tasks: [{
+		uid: "22219a55",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 7"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "6a7181a1",
+		type: "item",
+		item: "thermalfoundation:material 1 135",
+		count: 16
+	}]
+}

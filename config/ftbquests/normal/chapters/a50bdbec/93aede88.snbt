@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	description: "Craft a Gold Chest",
+	dependencies: [
+		"0d55de76"
+	],
+	tasks: [{
+		uid: "7ccd86ea",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 1"
+		}]
+	}]
+}

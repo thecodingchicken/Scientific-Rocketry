@@ -1,0 +1,24 @@
+{
+	icon: "minecraft:skull 1 5",
+	x: -2.5d,
+	y: 11.0d,
+	shape: "diamond",
+	description: "Kill the Ender Dragon",
+	dependencies: [
+		"392e994b"
+	],
+	size: 2.5d,
+	tasks: [{
+		uid: "50320274",
+		type: "kill",
+		title: "Good Luck",
+		icon: "minecraft:skull 1 5",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "365be37e",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

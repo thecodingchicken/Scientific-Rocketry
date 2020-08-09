@@ -1,0 +1,20 @@
+{
+	title: "Glitch Infused Ingots",
+	x: 2.5d,
+	y: -5.0d,
+	description: "Make some Glitch Infused Ingots",
+	text: [
+		"This also can be made using the trial mechanic in Deep Mob Learning."
+	],
+	dependencies: [
+		"38c4a1fe"
+	],
+	tasks: [{
+		uid: "8effff60",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_infused_ingot"
+		}],
+		count: 8L
+	}]
+}

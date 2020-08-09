@@ -1,0 +1,7 @@
+{
+	title: "Tier 4",
+	icon: "extendedcrafting:material 1 11",
+	always_invisible: false,
+	group: -8030415,
+	default_quest_shape: ""
+}

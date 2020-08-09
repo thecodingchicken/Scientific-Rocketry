@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	description: "Craft a Gold Furnace",
+	dependencies: [
+		"4ac3496e",
+		"e50f55d9"
+	],
+	tasks: [{
+		uid: "4e4c98e5",
+		type: "item",
+		items: [{
+			item: "morefurnaces:furnaceblock 1 1"
+		}]
+	}]
+}

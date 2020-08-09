@@ -1,0 +1,22 @@
+{
+	title: "Uranium Ore",
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"ee9a999b"
+	],
+	tasks: [{
+		uid: "597ff2e2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 4"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "00711924",
+		type: "item",
+		item: "nuclearcraft:ingot 1 4",
+		count: 16
+	}]
+}

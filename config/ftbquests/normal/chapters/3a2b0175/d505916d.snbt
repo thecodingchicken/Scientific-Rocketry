@@ -1,0 +1,20 @@
+{
+	x: -11.0d,
+	y: 5.0d,
+	description: "Craft a Basic Capacitor Bank",
+	text: [
+		"Capacitor Banks can be placed in a multiblock to store additional power.",
+		"",
+		"Each Basic Capacitor Bank stores 2M RF."
+	],
+	dependencies: [
+		"d83c80df"
+	],
+	tasks: [{
+		uid: "edb33ea1",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 1"
+		}]
+	}]
+}

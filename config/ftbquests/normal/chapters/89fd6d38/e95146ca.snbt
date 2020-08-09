@@ -1,0 +1,18 @@
+{
+	title: "Titanium",
+	x: -1.5d,
+	y: -1.5d,
+	description: "Get some Titanium",
+	text: [
+		"Rutile Ore can be processed into Titanium, which is required for various recipes.",
+		"It can be found on the Moon."
+	],
+	tasks: [{
+		uid: "9c800737",
+		type: "item",
+		items: [{
+			item: "libvulpes:productingot 1 7"
+		}],
+		count: 16L
+	}]
+}

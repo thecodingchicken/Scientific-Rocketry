@@ -1,0 +1,20 @@
+{
+	title: "Ender Pearls",
+	x: -1.5d,
+	y: 7.0d,
+	description: "Collect some Ender Pearls",
+	text: [
+		"By killing Endermen, you can get Ender Pearls."
+	],
+	dependencies: [
+		"1ae9ff18"
+	],
+	tasks: [{
+		uid: "385a7e95",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 4L
+	}]
+}
