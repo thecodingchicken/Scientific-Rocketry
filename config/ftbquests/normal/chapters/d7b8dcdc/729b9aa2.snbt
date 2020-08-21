@@ -3,9 +3,6 @@
 	x: -10.0d,
 	y: 4.0d,
 	description: "Make some End Steel",
-	dependencies: [
-		"d918b3ef"
-	],
 	tasks: [{
 		uid: "c2be2992",
 		type: "item",

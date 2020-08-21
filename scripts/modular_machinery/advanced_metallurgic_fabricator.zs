@@ -93,3 +93,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_infinity_process", m, 1200)
     .addItemInput(<avaritia:resource:6> * 8)
     .addFluidInput(<liquid:neutronium> * 160000)
     .build();
+
+// Infinite photovoltaic cell
+mods.modularmachinery.RecipeBuilder.newBuilder(m + "_infinite_photovoltaic", m, 400)
+    .addEnergyPerTickInput(10000000)
+    .addItemOutput(<contenttweaker:infinite_photovoltaic_cell>)
+    .addItemInput(<contenttweaker:neutronium_photovoltaic_cell> * 8)
+    .addItemInput(<moreplates:infinity_plate> * 6)
+    .addFluidInput(<liquid:adamantium> * 5040)
+    .addFluidInput(<liquid:crystal_matrix> * 5040)
+    .addFluidInput(<liquid:helium3> * 5000)
+    .build();

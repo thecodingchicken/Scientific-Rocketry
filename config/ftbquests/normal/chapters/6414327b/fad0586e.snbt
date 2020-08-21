@@ -10,8 +10,7 @@
 		"A Diamond Pickaxe can mine these ores."
 	],
 	dependencies: [
-		"ee9a999b",
-		"910258a5"
+		"ee9a999b"
 	],
 	tasks: [{
 		uid: "56fb86bf",

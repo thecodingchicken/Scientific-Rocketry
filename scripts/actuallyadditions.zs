@@ -303,3 +303,26 @@ recipes.addShaped(<actuallyadditions:item_misc:6>, [
 	[<ore:ingotElectrum>, <ore:dustGlowstone>, <ore:ingotElectrum>], 
 	[<ore:ingotInvar>, <ore:ingotElectrum>, <ore:ingotInvar>]
 ]);
+
+// Ender casing
+recipes.replaceAllOccurences(<minecraft:ender_pearl>, <ore:plateEnderium>, <actuallyadditions:block_misc:8>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:2>, <ore:plateDiamatineEmpowered>, <actuallyadditions:block_misc:8>);
+
+// Phantomface
+recipes.replaceAllOccurences(<actuallyadditions:block_misc:6>, <actuallyadditions:block_misc:8>, <actuallyadditions:block_phantomface>);
+
+// Phantom booster
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:0>, <actuallyadditions:item_crystal_empowered:0>, <actuallyadditions:block_phantom_booster>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:2>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:block_phantom_booster>);
+
+// Lens
+recipes.remove(<actuallyadditions:item_misc:18>);
+
+recipes.addShaped(<actuallyadditions:item_misc:18>, [
+    [<actuallyadditions:item_crystal_empowered:5>, <ore:fusedQuartz>, <actuallyadditions:item_crystal_empowered:5>], 
+	[<ore:fusedQuartz>, <ore:gemQuartzBlack>, <ore:fusedQuartz>], 
+	[<actuallyadditions:item_crystal_empowered:5>, <ore:fusedQuartz>, <actuallyadditions:item_crystal_empowered:5>]
+]);
+
+// Disables solar panel
+recipes.remove(<actuallyadditions:block_furnace_solar>);

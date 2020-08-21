@@ -1975,3 +1975,6 @@ mods.nuclearcraft.Melter.addRecipe(<contenttweaker:tungstensteel_plate>, <liquid
 mods.nuclearcraft.Melter.addRecipe(<contenttweaker:tungstensteel_gear>, <liquid:tungstensteel> * 576, 4.0, 4.0);
 
 mods.nuclearcraft.IngotFormer.addRecipe(<liquid:tungstensteel> * 144, <contenttweaker:tungstensteel_ingot>, 1.0, 4.0);
+
+// Menril resin
+mods.nuclearcraft.Crystallizer.addRecipe(<liquid:menrilresin> * 1000, <integrateddynamics:crystalized_menril_block>);

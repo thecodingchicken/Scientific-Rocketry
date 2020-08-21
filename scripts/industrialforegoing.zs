@@ -51,3 +51,24 @@ recipes.addShaped(<industrialforegoing:black_hole_controller_reworked>, [
 	[<ore:ingotEnhancedEnder>, <thermalexpansion:frame:147>, <ore:ingotEnhancedEnder>], 
 	[<ore:circuitUltimate>, <extendedcrafting:material:11>, <ore:circuitUltimate>]
 ]);
+
+// Mob crusher
+recipes.replaceAllOccurences(<minecraft:iron_sword>, <redstonearsenal:tool.sword_flux>, <industrialforegoing:mob_relocator>);
+recipes.replaceAllOccurences(<ore:gearGold>, <ore:gearEnergeticAlloy>, <industrialforegoing:mob_relocator>);
+recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:circuitAdvanced>, <industrialforegoing:mob_relocator>);
+
+// Mob duplicator
+recipes.remove(<industrialforegoing:mob_duplicator>);
+
+recipes.addShaped(<industrialforegoing:mob_duplicator>, [
+	[<ore:itemRubber>, <ore:blockEnderium>, <ore:itemRubber>], 
+	[<deepmoblearning:simulation_chamber>, <thermalexpansion:frame:146>, <deepmoblearning:simulation_chamber>], 
+	[<deepmoblearning:extraction_chamber>, <ore:circuitUltimate>, <deepmoblearning:extraction_chamber>]
+]);
+
+// Tree fluid extractor
+recipes.replaceAllOccurences(<minecraft:furnace>, <teslacorelib:machine_case>, <industrialforegoing:tree_fluid_extractor>);
+recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:circuitBasic>, <industrialforegoing:tree_fluid_extractor>);
+
+// Fortune addon
+recipes.replaceAllOccurences(<ore:gemEmerald>, <actuallyadditions:item_crystal_empowered:4>, <industrialforegoing:fortune_addon>);

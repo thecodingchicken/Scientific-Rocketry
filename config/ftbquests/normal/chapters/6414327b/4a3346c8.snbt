@@ -5,7 +5,6 @@
 	y: -1.0d,
 	description: "Spawns in the Nether",
 	dependencies: [
-		"1ae9ff18",
 		"3e283be3"
 	],
 	tasks: [{

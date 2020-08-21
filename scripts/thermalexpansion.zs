@@ -403,3 +403,45 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:capacitor:320
 	[<ore:plateCosmicNeutronium>, <extendedcrafting:material:13>, <extendedcrafting:singularity:34>, <extendedcrafting:singularity:34>, <extendedcrafting:singularity:48>, <extendedcrafting:singularity:64>, <extendedcrafting:singularity:64>, <extendedcrafting:material:13>, <ore:plateCosmicNeutronium>], 
 	[<ore:blockCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockCosmicNeutronium>]
 ]);
+
+// Auxiliary reception coil
+recipes.replaceAllOccurences(<ore:ingotGold>, <ore:ingotElectrum>, <thermalexpansion:augment:128>);
+
+// Tectonic initiator
+recipes.replaceAllOccurences(<ore:plateBronze>, <ore:plateDarkSteel>, <thermalexpansion:augment:273>);
+
+// Resin funnel
+recipes.replaceAllOccurences(<ore:plateCopper>, <ore:plateBronze>, <thermalexpansion:augment:288>);
+
+// Metallurgic recovery
+recipes.replaceAllOccurences(<ore:gearSilver>, <ore:gearCrystallineAlloy>, <thermalexpansion:augment:303>);
+
+// Pyro-concentrator
+recipes.replaceAllOccurences(<ore:dustPyrotheum>, <ore:dustMana>, <thermalexpansion:augment:304>);
+recipes.replaceAllOccurences(<ore:plateNickel>, <ore:plateLumium>, <thermalexpansion:augment:304>);
+
+// Flux linkage concentrator
+recipes.replaceAllOccurences(<ore:plateSilver>, <ore:plateEnrichedSignalum>, <thermalexpansion:augment:400>);
+
+// Flux reconstruction
+recipes.replaceAllOccurences(<ore:blockIron>, <actuallyadditions:block_item_repairer>, <thermalexpansion:augment:401>);
+
+// Parabolic flux coupling
+recipes.replaceAllOccurences(<ore:plateSilver>, <ore:plateEnrichedSignalum>, <thermalexpansion:augment:402>);
+
+// Fluidic fabrication
+recipes.replaceAllOccurences(<ore:ingotCopper>, <ore:ingotConstantan>, <thermalexpansion:augment:433>);
+
+// Auxiliary transmission coil
+recipes.replaceAllOccurences(<ore:ingotSilver>, <ore:ingotElectrum>, <thermalexpansion:augment:512>);
+
+// Fuel catalyzer
+recipes.replaceAllOccurences(<ore:ingotLead>, <ore:ingotSteel>, <thermalexpansion:augment:513>);
+
+// Elemental catalyzer
+recipes.replaceAllOccurences(<ore:dustAerotheum>, <ore:dustMana>, <thermalexpansion:augment:688>);
+recipes.replaceAllOccurences(<ore:plateLead>, <ore:plateGelidEnderium>, <thermalexpansion:augment:688>);
+recipes.replaceAllOccurences(<ore:gearSignalum>, <ore:gearEnrichedSignalum>, <thermalexpansion:augment:688>);
+
+// Lapidary calibration
+recipes.replaceAllOccurences(<ore:gemEmerald>, <actuallyadditions:item_crystal_empowered:4>, <thermalexpansion:augment:720>);

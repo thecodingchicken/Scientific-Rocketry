@@ -79,7 +79,7 @@ recipes.addShaped(<rftools:environmental_controller>, [
 	[<contenttweaker:ender_plate>, <actuallyadditions:block_crystal_empowered:4>, <contenttweaker:ender_plate>]
 ]);
 
-// Quarry card
+// Quarry card fortune
 recipes.removeByRecipeName("rftools:shape_card_quarry_fortune");
 
 recipes.addShaped(<rftools:shape_card:4>, [
@@ -87,3 +87,60 @@ recipes.addShaped(<rftools:shape_card:4>, [
 	[<actuallyadditions:block_crystal_empowered:2>, <rftools:shape_card:2>, <actuallyadditions:block_crystal_empowered:2>], 
 	[<ore:gemDimensionalShard>, <actuallyadditions:block_crystal_empowered:4>, <ore:gemDimensionalShard>]
 ]);
+
+// Advanced powercell
+recipes.remove(<rftools:powercell_advanced>);
+
+recipes.addShaped(<rftools:powercell_advanced>, [
+	[<actuallyadditions:block_crystal_empowered:0>, <rftools:infused_diamond>, <actuallyadditions:block_crystal_empowered:0>],
+	[<rftools:infused_diamond>, <rftools:powercell>, <rftools:infused_diamond>],
+	[<actuallyadditions:block_crystal_empowered:0>, <rftools:infused_diamond>, <actuallyadditions:block_crystal_empowered:0>]
+]);
+
+// Machine base
+recipes.remove(<rftools:machine_base>);
+
+recipes.addShaped(<rftools:machine_base>, [
+	[<ore:plateElectrum>, <ore:plateElectrum>, <ore:plateElectrum>], 
+	[<quark:iron_plate>, <quark:iron_plate>, <quark:iron_plate>]
+]);
+
+// Storage scanner
+recipes.remove(<rftools:storage_scanner>);
+
+recipes.addShaped(<rftools:storage_scanner>, [
+	[<ore:circuitAdvanced>, <ore:ingotVividAlloy>, <ore:circuitAdvanced>], 
+	[<ore:ingotElectrum>, <rftools:machine_frame>, <ore:ingotElectrum>], 
+	[<ore:circuitAdvanced>, <ore:ingotVividAlloy>, <ore:circuitAdvanced>]
+]);
+
+// Shield projectors
+recipes.replaceAllOccurences(<minecraft:obsidian>, <enderio:block_reinforced_obsidian>, <rftools:shield_block1>);
+recipes.replaceAllOccurences(<minecraft:obsidian>, <ore:blockDarkSteel>, <rftools:shield_block2>);
+recipes.replaceAllOccurences(<minecraft:obsidian>, <ore:blockTough>, <rftools:shield_block3>);
+recipes.replaceAllOccurences(<minecraft:obsidian>, <ore:blockTungsten>, <rftools:shield_block4>);
+
+// Spawner
+recipes.remove(<rftools:spawner>);
+
+recipes.addShaped(<rftools:spawner>, [
+	[<ore:circuitElite>, <ore:pearlEnderEye>, <ore:circuitElite>], 
+	[<deepmoblearning:data_model_blank>, <rftools:machine_frame>, <deepmoblearning:data_model_blank>], 
+	[<ore:circuitElite>, <ore:pearlEnderEye>, <ore:circuitElite>]
+]);
+
+// Matter beamer
+recipes.remove(<rftools:matter_beamer>);
+
+recipes.addShaped(<rftools:matter_beamer>, [
+	[<actuallyadditions:block_crystal>, <ore:plateCrystallinePinkSlime>, <actuallyadditions:block_crystal>], 
+	[<ore:plateCrystallinePinkSlime>, <rftools:machine_frame>, <ore:plateCrystallinePinkSlime>], 
+	[<actuallyadditions:block_crystal>, <ore:plateCrystallinePinkSlime>, <actuallyadditions:block_crystal>]
+]);
+
+// Block protector
+recipes.replaceAllOccurences(<minecraft:obsidian>, <enderio:block_reinforced_obsidian>, <rftools:block_protector>);
+
+// Endergenic generator
+recipes.replaceAllOccurences(<ore:enderpearl>, <ore:plateEnhancedEnder>, <rftools:endergenic>);
+recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:plateMithril>, <rftools:endergenic>);

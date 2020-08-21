@@ -1,0 +1,96 @@
+{
+    "dimensions": [
+        {
+            "dim": 100,
+            "biome": "biometweaker:custom_moon",
+
+            "dimensiontype": {
+                "id": 100,
+                "name": "Luna",
+                "suffix": "_dim100",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+
+            "jed": {
+                "FogColor": "000000",
+                "SkyColor": "000000",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "generatorOptions": "{\"useWaterLakes\":false}",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 101,
+            "biome": "biometweaker:volcanus",
+
+            "dimensiontype": {
+                "id": 101,
+                "name": "Volcanus",
+                "suffix": "_dim101",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+
+            "jed": {
+                "FogColor": "ff000d",
+                "SkyColor": "ff000d",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 480000,
+                "NightLength": 480000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "generatorOptions": "{\"useWaterLakes\":false}",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 102,
+            "biome": "biometweaker:asteroids",
+
+            "dimensiontype": {
+                "id": 102,
+                "name": "Asteroids",
+                "suffix": "_dim102",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "FogColor": "000000",
+                "SkyColor": "000000",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "generatorOptions": "{\"useWaterLakes\":false}",
+                "MapFeatures": 0
+            }
+        }
+    ]
+}

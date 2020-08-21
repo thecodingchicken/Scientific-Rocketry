@@ -439,13 +439,18 @@ mods.extendedcrafting.TableCrafting.addShaped(<extendedcrafting:compressor>, [
 
 // Creative storage upgrade (150M RF)
 mods.extendedcrafting.CombinationCrafting.addRecipe(<storagedrawers:upgrade_creative>, 150000000, 1000000, <storagedrawers:upgrade_storage:4>, [
+    <industrialforegoing:black_hole_controller_reworked>,
+    <industrialforegoing:black_hole_tank>,
     <industrialforegoing:black_hole_unit>,
     <extendedcrafting:storage:7>,
-    <danknull:dank_null_5>
+    <danknull:dank_null_4>,
+    <thermalexpansion:cache:0>.withTag({Level: 4}),
+    <mekanism:basicblock:6>.withTag({tier: 3}),
+    <mekanism:basicblock2:3>.withTag({tier: 3})
 ]);
 
 // Le endgame recipe thing
-mods.extendedcrafting.CompressionCrafting.addRecipe(<storagedrawers:upgrade_creative:1>, <contenttweaker:eternity_ingot>, 9001, <avaritia:resource:5>, 2147483647, 1000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<storagedrawers:upgrade_creative:1>, <contenttweaker:eternity_ingot>, 9001, <contenttweaker:infinite_catalyst>, 2147483647, 1000000);
 
 recipes.addShapeless(<storagedrawers:upgrade_creative:1> * 2, [<storagedrawers:upgrade_creative:1>]);
 
@@ -463,4 +468,13 @@ mods.extendedcrafting.TableCrafting.addShapeless(0, <contenttweaker:elite_ingot>
 ]);
 
 // Infinity ingot alternate recipe
-mods.extendedcrafting.CompressionCrafting.addRecipe(<avaritia:resource:6>, <extendedcrafting:material:32>, 16, <contenttweaker:infinite_catalyst>, 2147483647, 1000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<avaritia:resource:6>, <extendedcrafting:material:32>, 48, <contenttweaker:infinite_catalyst>, 2147483647, 1000000);
+
+// Automation interface
+recipes.remove(<extendedcrafting:interface>);
+
+recipes.addShaped(<extendedcrafting:interface>, [
+    [<ore:blockTough>, <extendedcrafting:material:11>, <ore:blockTough>], 
+	[<extendedcrafting:material:10>, <extendedcrafting:material:12>, <extendedcrafting:material:10>], 
+	[<ore:blockTough>, <extendedcrafting:material:11>, <ore:blockTough>]
+]);

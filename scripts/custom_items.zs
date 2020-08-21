@@ -205,7 +205,18 @@ var items = [
     "eternity_dust",
     "infinite_component",
     "infinite_catalyst",
-    "infinity_artifact"
+    "infinity_artifact",
+    "hardened_photovoltaic_cell",
+    "reinforced_photovoltaic_cell",
+    "signalum_photovoltaic_cell",
+    "resonant_photovoltaic_cell",
+    "iridium_photovoltaic_cell",
+    "osgloglas_photovoltaic_cell",
+    "mithril_photovoltaic_cell",
+    "adamantium_photovoltaic_cell",
+    "neutronium_photovoltaic_cell",
+    "infinite_photovoltaic_cell",
+    "stellar_armor_plating"
 ] as string[];
 
 for item in items {

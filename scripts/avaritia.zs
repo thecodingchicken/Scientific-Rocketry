@@ -117,3 +117,175 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_pickaxe>, [
 	[<ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:ingotCosmicNeutronium>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>], 
 	[<ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <extendedcrafting:material:13>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>]
 ]);
+
+// Hides compressor tab
+mods.jei.JEI.hideCategory("Avatitia.Compressor");
+
+// Neutronium description
+mods.jei.JEI.addDescription(<avaritia:resource:2>, "Neutron Collector is disabled, use the Advanced Metallurgic Fabricator instead");
+
+// Sword of the cosmos
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_sword>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_sword>, [
+	[null, null, null, null, null, null, null, <ore:ingotInfinity>, <ore:blockInfinity>], 
+	[null, null, null, null, null, null, <ore:ingotInfinity>, <ore:blockInfinity>, <ore:ingotInfinity>], 
+	[null, null, null, null, null, <ore:ingotInfinity>, <ore:blockInfinity>, <ore:ingotInfinity>, null], 
+	[null, null, null, null, <ore:ingotInfinity>, <ore:blockInfinity>, <ore:ingotInfinity>, null, null], 
+	[null, <ore:blockCrystalMatrix>, null, <ore:ingotInfinity>, <ore:blockInfinity>, <ore:ingotInfinity>, null, null, null], 
+	[null, <ore:blockCrystalMatrix>, <ore:blockCrystalMatrix>, <ore:blockInfinity>, <ore:ingotInfinity>, null, null, null, null], 
+	[null, null, <ore:blockCosmicNeutronium>, <ore:blockCrystalMatrix>, null, null, null, null, null], 
+	[null, <avaritia:skullfire_sword>, null, <ore:blockCrystalMatrix>, <ore:blockCrystalMatrix>, null, null, null, null], 
+	[<avaritia:resource:5>, null, null, null, null, null, null, null, null]
+]);
+
+// Infinity bow
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_bow>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_bow>, [
+	[null, null, null, <ore:ingotInfinity>, <extendedcrafting:material:13>, <mekanism:teleportationcore>, null, null, null], 
+	[null, null, <ore:ingotInfinity>, <mekanism:teleportationcore>, <extendedcrafting:material:13>, <mekanism:teleportationcore>, null, null, null], 
+	[null, <ore:ingotInfinity>, null, <mekanism:teleportationcore>, <extendedcrafting:material:13>, <mekanism:teleportationcore>, null, null, null], 
+	[<ore:blockInfinity>, null, null, <mekanism:teleportationcore>, <extendedcrafting:material:13>, <mekanism:teleportationcore>, null, null, null], 
+	[<ore:blockInfinity>, null, null, <mekanism:teleportationcore>, <extendedcrafting:material:13>, <mekanism:teleportationcore>, null, null, null], 
+	[<ore:blockInfinity>, null, null, <mekanism:teleportationcore>, <extendedcrafting:material:13>, <mekanism:teleportationcore>, null, null, null], 
+	[null, <ore:ingotInfinity>, null, <mekanism:teleportationcore>, <extendedcrafting:material:13>, <mekanism:teleportationcore>, null, null, null], 
+	[null, null, <ore:ingotInfinity>, <mekanism:teleportationcore>, <extendedcrafting:material:13>, <mekanism:teleportationcore>, null, null, null], 
+	[null, null, null, <ore:ingotInfinity>, <extendedcrafting:material:13>, <mekanism:teleportationcore>, null, null, null]
+]);
+
+// Infinity shovel
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_shovel>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_shovel>, [
+	[null, null, null, null, null, null, <ore:ingotInfinity>, <ore:blockInfinity>, <ore:ingotInfinity>], 
+	[null, null, null, null, null, <ore:ingotInfinity>, <ore:blockInfinity>, <ore:blockInfinity>, <ore:blockInfinity>], 
+	[null, null, null, null, null, null, <ore:ingotInfinity>, <ore:blockInfinity>, <ore:ingotInfinity>], 
+	[null, null, null, null, null, <ore:ingotCosmicNeutronium>, null, <ore:ingotInfinity>, null], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null], 
+	[null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null, null], 
+	[null, null, <ore:ingotCosmicNeutronium>, null, null, null, null, null, null], 
+	[null, <ore:ingotCosmicNeutronium>, null, null, null, null, null, null, null], 
+	[<extendedcrafting:material:13>, null, null, null, null, null, null, null, null]
+]);
+
+// Infinity axe
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_axe>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_axe>, [
+	[null, null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, null, null, null], 
+	[null, null, null, <ore:ingotInfinity>, <ore:blockInfinity>, <ore:blockInfinity>, <ore:ingotInfinity>, null, null], 
+	[null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:blockInfinity>, <ore:blockInfinity>, <ore:ingotInfinity>, null], 
+	[null, null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, null, null], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null], 
+	[null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null, null], 
+	[null, null, <ore:ingotCosmicNeutronium>, null, null, null, null, null, null], 
+	[null, <ore:ingotCosmicNeutronium>, null, null, null, null, null, null, null], 
+	[<extendedcrafting:material:13>, null, null, null, null, null, null, null, null]
+]);
+
+// Infinity hoe
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_hoe>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_hoe>, [
+	[null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, null, null, null, null], 
+	[null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, null, null], 
+	[null, null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:blockInfinity>, <ore:ingotInfinity>, null], 
+	[null, null, null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, null, null], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null], 
+	[null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null, null], 
+	[null, null, <ore:ingotCosmicNeutronium>, null, null, null, null, null, null], 
+	[null, <ore:ingotCosmicNeutronium>, null, null, null, null, null, null, null], 
+	[<extendedcrafting:material:13>, null, null, null, null, null, null, null, null]
+]);
+
+// Infinity helmet
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_helmet>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_helmet>, [
+	[null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null], 
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotCosmicNeutronium>, <enderio:item_stellar_alloy_helmet>, <avaritia:resource:5>, <ore:blockInfinity>, <avaritia:resource:5>, <enderio:item_stellar_alloy_helmet>, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, null, <ore:ingotInfinity>, null, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null]
+]);
+
+// Infinity chestplate
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_chestplate>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_chestplate>, [
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <enderio:item_stellar_alloy_chestplate>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:blockInfinity>, <avaritia:resource:5>, <ore:blockInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <enderio:item_stellar_alloy_chestplate>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
+	[null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null]
+]);
+
+// Infinity leggings
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_pants>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_pants>, [
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:blockInfinity>, <avaritia:resource:5>, <ore:blockInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <avaritia:resource:5>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <enderio:item_stellar_alloy_leggings>, <ore:ingotCosmicNeutronium>, null, null, null, <ore:ingotCosmicNeutronium>, <enderio:item_stellar_alloy_leggings>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>]
+]);
+
+// Infinity boots
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_boots>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_boots>, [
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotCosmicNeutronium>, <avaritia:resource:5>, <ore:ingotCosmicNeutronium>, null, <ore:ingotCosmicNeutronium>, <avaritia:resource:5>, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockInfinity>, <ore:ingotCosmicNeutronium>, null, <ore:ingotCosmicNeutronium>, <ore:blockInfinity>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:blockInfinity>, <enderio:item_stellar_alloy_boots>, <ore:ingotCosmicNeutronium>, null, <ore:ingotCosmicNeutronium>, <enderio:item_stellar_alloy_boots>, <ore:blockInfinity>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null]
+]);
+
+// Skullfire sword
+mods.avaritia.ExtremeCrafting.remove(<avaritia:skullfire_sword>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:skullfire_sword>, [
+	[null, null, null, null, null, null, null, <ore:ingotUltimate>, <enderio:item_stellar_alloy_sword>], 
+	[null, null, null, null, null, null, <ore:ingotUltimate>, <enderio:item_stellar_alloy_sword>, <ore:ingotUltimate>], 
+	[null, null, null, null, null, <ore:ingotUltimate>, <enderio:item_stellar_alloy_sword>, <ore:ingotUltimate>, null], 
+	[null, null, null, null, <ore:ingotUltimate>, <enderio:item_stellar_alloy_sword>, <ore:ingotUltimate>, null, null], 
+	[null, <ore:plateUltimate>, null, <ore:ingotUltimate>, <enderio:item_stellar_alloy_sword>, <ore:ingotUltimate>, null, null, null], 
+	[null, null, <ore:plateUltimate>, <enderio:item_stellar_alloy_sword>, <ore:ingotUltimate>, null, null, null, null], 
+	[null, null, <enderio:item_stellar_alloy_sword>, <ore:plateUltimate>, null, null, null, null, null], 
+	[null, <enderio:item_stellar_alloy_sword>, null, null, <ore:plateUltimate>, null, null, null, null], 
+	[<extendedcrafting:material:13>, null, null, null, null, null, null, null, null]
+]);
+
+// Ultimate stew
+mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew> * 2);
+
+mods.extendedcrafting.TableCrafting.addShapeless(0, <avaritia:ultimate_stew> * 2, [
+	<avaritia:resource:2>, <ore:cropWheat>, <ore:cropCarrot>, <ore:cropBeetroot>, <ore:cropPotato>, <ore:cropMelon>, <ore:cropPumpkin>, <ore:blockCactus>, <ore:cropMushroomBrown>, 
+	<ore:mushroomAny>, <ore:cropNetherWart>, <ore:cropRice>, <ore:cropCanola>, <ore:string>, <ore:cropCoffee>
+]);
+
+// Cosmic meatballs
+mods.avaritia.ExtremeCrafting.remove(<avaritia:cosmic_meatballs>);
+
+mods.extendedcrafting.TableCrafting.addShapeless(0, <avaritia:cosmic_meatballs>, [
+	<avaritia:resource:2>, <minecraft:beef>, <minecraft:beef>, <minecraft:porkchop>, <minecraft:porkchop>, <minecraft:chicken>, <minecraft:chicken>, <minecraft:fish>, <minecraft:fish>, 
+	<minecraft:fish:1>, <minecraft:fish:1>, <minecraft:mutton>, <minecraft:mutton>, <minecraft:rabbit>, <minecraft:rabbit>
+]);

@@ -5,8 +5,7 @@
 	y: 0.0d,
 	description: "Spawns in the Nether and End",
 	dependencies: [
-		"ee9a999b",
-		"1ae9ff18"
+		"ee9a999b"
 	],
 	tasks: [{
 		uid: "f12d6fa3",

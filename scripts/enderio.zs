@@ -235,11 +235,11 @@ mods.nuclearcraft.Infuser.addRecipe(<simplyjetpacks:metaitemmods:5>, <liquid:aer
 mods.extendedcrafting.TableCrafting.addShaped(<enderio:block_cap_bank:0>, [
 	[<ore:blockCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <mekanism:basicblock2:4>.withTag({tier: 3}), <mekanism:basicblock2:4>.withTag({tier: 3}), <mekanism:basicblock2:4>.withTag({tier: 3}), <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <mekanism:basicblock2:3>.withTag({tier: 3}), <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <solarflux:solar_panel_neutronium>, <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <ore:plateCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <mekanism:basicblock2:4>.withTag({tier: 3}), <thermalfoundation:upgrade:35>, <extendedcrafting:singularity:3>, <extendedcrafting:singularity:48>, <extendedcrafting:singularity:3>, <thermalfoundation:upgrade:35>, <mekanism:basicblock2:4>.withTag({tier: 3}), <ore:plateCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <mekanism:basicblock2:4>.withTag({tier: 3}), <mekanism:basicblock2:3>.withTag({tier: 3}), <extendedcrafting:singularity:48>, <extendedcrafting:material:13>, <extendedcrafting:singularity:48>, <mekanism:basicblock2:3>.withTag({tier: 3}), <mekanism:basicblock2:4>.withTag({tier: 3}), <ore:plateCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <mekanism:basicblock2:4>.withTag({tier: 3}), <thermalfoundation:upgrade:35>, <extendedcrafting:singularity:3>, <extendedcrafting:singularity:48>, <extendedcrafting:singularity:3>, <thermalfoundation:upgrade:35>, <mekanism:basicblock2:4>.withTag({tier: 3}), <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <mekanism:basicblock2:3>.withTag({tier: 3}), <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <solarflux:solar_panel_neutronium>, <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <ore:plateCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <mekanism:basicblock2:4>.withTag({tier: 3}), <mekanism:basicblock2:4>.withTag({tier: 3}), <mekanism:basicblock2:4>.withTag({tier: 3}), <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <ore:plateCosmicNeutronium>], 
 	[<ore:blockCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockCosmicNeutronium>]
 ]);
@@ -258,4 +258,193 @@ recipes.addShaped(<enderio:item_material:51> * 6, [
 	[<ore:dustLapis>, <ore:dustQuartz>, <ore:dustEnder>], 
 	[<ore:dustQuartz>, <ore:dustPetrotheum>, <ore:dustQuartz>], 
 	[<ore:dustEnder>, <ore:dustQuartz>, <ore:dustLapis>]
+]);
+
+// Animal token
+recipes.addShapeless(<enderio:item_material:78>, [
+	<ore:ballSoularium>,
+	<minecraft:porkchop>,
+	<minecraft:mutton>,
+	<minecraft:beef>,
+	<minecraft:chicken>
+]);
+
+// Monster token
+recipes.addShapeless(<enderio:item_material:79>, [
+	<ore:ballSoularium>,
+	<minecraft:rotten_flesh>,
+	<minecraft:bone>,
+	<minecraft:gunpowder>,
+	<minecraft:spider_eye>
+]);
+
+// Player token
+recipes.addShapeless(<enderio:item_material:80>, [
+	<ore:ballSoularium>,
+	<minecraft:golden_apple:0>,
+	<minecraft:iron_pickaxe>,
+	<minecraft:iron_sword>,
+	<minecraft:skull:3>
+]);
+
+// Z-logic controller
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<enderio:item_material:41>, <minecraft:skull:2>, 20000);
+
+// Ender resonator
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<enderio:item_material:43>, <enderio:block_enderman_skull:0>, 20000);
+
+// Sentient ender (1M RF)
+mods.actuallyadditions.Empowerer.addRecipe(
+    <enderio:item_material:44>, 
+    <enderio:item_material:43>, 
+    <extendedcrafting:material:48>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<deepmoblearning:data_model_enderman>,
+	<deepmoblearning:data_model_enderman>,
+    10000, 
+    100
+);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_material:44>, 1000000, 1000000, <enderio:item_material:43>, [
+    <extendedcrafting:material:48>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<deepmoblearning:data_model_enderman>,
+	<deepmoblearning:data_model_enderman>,
+]);
+
+// Ender fragment
+mods.nuclearcraft.Manufactory.addRecipe(<minecraft:ender_pearl>, <enderio:item_material:62> * 4);
+
+// Confusing powder
+mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_material:61> * 2, <enderio:item_material:62>, <enderio:item_material:38>, 4800);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<enderio:item_material:62>, <enderio:item_material:38>, <enderio:item_material:61> * 2, 0.5);
+
+// Dew of the void
+mods.nuclearcraft.Enricher.addRecipe(<enderio:item_material:35>, <liquid:ender> * 1000, <liquid:ender_distillation> * 1000);
+
+// Rocket fuel
+mods.nuclearcraft.Enricher.addRecipe(<thermalfoundation:material:1028>, <liquid:aerotheum> * 1000, <liquid:rocket_fuel> * 4000, 2.5, 2.5);
+
+// Fire water
+mods.nuclearcraft.Enricher.addRecipe(<thermalfoundation:material:1024>, <liquid:water> * 1000, <liquid:fire_water> * 1000);
+
+// Stellar equipment (500M RF)
+recipes.remove(<enderio:item_stellar_alloy_sword>);
+recipes.remove(<enderio:item_stellar_alloy_pickaxe>);
+recipes.remove(<enderio:item_stellar_alloy_axe>);
+recipes.remove(<enderio:item_stellar_alloy_helmet>);
+recipes.remove(<enderio:item_stellar_alloy_boots>);
+recipes.remove(<enderio:item_stellar_alloy_chestplate>);
+recipes.remove(<enderio:item_stellar_alloy_leggings>);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_sword>, 500000000, 1000000, <enderio:item_end_steel_sword>, [
+    <enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_capacitor_stellar>,
+	<enderio:item_material:44>,
+	<redstonerepository:tool.sword_gelid>,
+	<deepmoblearning:glitch_infused_sword>,
+	<cyclicmagic:crystal_sword>
+]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_pickaxe>, 500000000, 1000000, <enderio:item_end_steel_pickaxe>, [
+    <enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_capacitor_stellar>,
+	<enderio:item_material:44>,
+	<redstonerepository:tool.pickaxe_gelid>,
+	<advancedrocketry:jackhammer>,
+	<cyclicmagic:crystal_pickaxe>
+]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_axe>, 500000000, 1000000, <enderio:item_end_steel_axe>, [
+    <enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_alloy_endergy_ingot:3>,
+	<enderio:item_capacitor_stellar>,
+	<enderio:item_material:44>,
+	<redstonerepository:tool.axe_gelid>,
+	<actuallyadditions:item_axe_crystal_green>,
+	<cyclicmagic:crystal_axe>
+]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_helmet>, 500000000, 1000000, <enderio:item_end_steel_helmet>, [
+    <contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<enderio:item_capacitor_stellar>,
+	<enderio:item_material:44>,
+	<redstonerepository:armor.helmet_gelid>,
+	<deepmoblearning:glitch_infused_helmet>,
+	<cyclicmagic:purple_helmet>
+]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_chestplate>, 500000000, 1000000, <enderio:item_end_steel_chestplate>, [
+    <contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<enderio:item_capacitor_stellar>,
+	<enderio:item_material:44>,
+	<redstonerepository:armor.plate_gelid>,
+	<deepmoblearning:glitch_infused_chestplate>,
+	<cyclicmagic:purple_chestplate>
+]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_leggings>, 500000000, 1000000, <enderio:item_end_steel_leggings>, [
+    <contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<enderio:item_capacitor_stellar>,
+	<enderio:item_material:44>,
+	<redstonerepository:armor.legs_gelid>,
+	<deepmoblearning:glitch_infused_leggings>,
+	<cyclicmagic:purple_leggings>
+]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_boots>, 500000000, 1000000, <enderio:item_end_steel_boots>, [
+    <contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<contenttweaker:stellar_armor_plating>,
+	<enderio:item_capacitor_stellar>,
+	<enderio:item_material:44>,
+	<redstonerepository:armor.boots_gelid>,
+	<deepmoblearning:glitch_infused_boots>,
+	<cyclicmagic:purple_boots>
+]);
+
+// Stellar armor plating
+recipes.addShaped(<contenttweaker:stellar_armor_plating>, [
+	[<ore:plateMithril>, <ore:plateStellarAlloy>, <ore:plateMithril>],
+	[<ore:plateStellarAlloy>, <redstonerepository:material:7>, <ore:plateStellarAlloy>],
+	[<ore:plateMithril>, <ore:plateStellarAlloy>, <ore:plateMithril>]
 ]);

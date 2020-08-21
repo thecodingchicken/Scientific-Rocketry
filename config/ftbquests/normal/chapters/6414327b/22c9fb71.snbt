@@ -8,7 +8,6 @@
 		"Nether Quartz Ore can be found at every elevation in the Nether."
 	],
 	dependencies: [
-		"1ae9ff18",
 		"9271e162"
 	],
 	tasks: [{

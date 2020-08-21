@@ -1,12 +1,3 @@
-// ME Controller
-recipes.remove(<appliedenergistics2:controller>);
-
-recipes.addShaped(<appliedenergistics2:controller>, [
-    [<appliedenergistics2:smooth_sky_stone_block>, <ore:circuitElite>, <appliedenergistics2:smooth_sky_stone_block>],
-    [<appliedenergistics2:material:24>, <xnet:controller>, <appliedenergistics2:material:24>],
-    [<appliedenergistics2:smooth_sky_stone_block>, <storagedrawers:controller>, <appliedenergistics2:smooth_sky_stone_block>]
-]);
-
 // ME Chest
 recipes.remove(<appliedenergistics2:chest>);
 
@@ -28,10 +19,10 @@ recipes.addShaped(<appliedenergistics2:drive>, [
 // Pattern
 recipes.remove(<appliedenergistics2:material:52>);
 
-recipes.addShaped(<appliedenergistics2:material:52> * 2, [
-    [<appliedenergistics2:quartz_glass>, <ore:circuitAdvanced>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustGlowstone>, <contenttweaker:fluix_plate>, <ore:dustGlowstone>],
-    [<ore:plateElectricalSteel>, <ore:plateElectricalSteel>, <ore:plateElectricalSteel>]
+recipes.addShaped(<appliedenergistics2:material:52> * 8, [
+    [<ore:fusedQuartz>, <ore:circuitUltimate>, <ore:fusedQuartz>],
+    [<ore:plateLumium>, <contenttweaker:fluix_plate>, <ore:plateLumium>],
+    [<ore:plateOsmiridium>, <ore:plateOsmiridium>, <ore:plateOsmiridium>]
 ]);
 
 // Energy cell
@@ -101,27 +92,18 @@ recipes.addShaped(<ae2stuff:grower>, [
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/interfaces_interface");
 
 recipes.addShaped(<appliedenergistics2:interface>, [
-    [<ore:plateElectricalSteel>, <ore:blockGlassHardened>, <ore:plateElectricalSteel>],
-    [<appliedenergistics2:material:44>, <ore:circuitAdvanced>, <appliedenergistics2:material:43>],
-    [<ore:plateElectricalSteel>, <ore:blockGlassHardened>, <ore:plateElectricalSteel>]
+    [<ore:plateIridium>, <ore:blockGlassHardened>, <ore:plateIridium>],
+    [<appliedenergistics2:material:44>, <ore:circuitUltimate>, <appliedenergistics2:material:43>],
+    [<ore:plateIridium>, <ore:blockGlassHardened>, <ore:plateIridium>]
 ]);
 
 // Molecular assembler
 recipes.remove(<appliedenergistics2:molecular_assembler>);
 
 recipes.addShaped(<appliedenergistics2:molecular_assembler>, [
-    [<ore:plateElectricalSteel>, <ore:blockGlassHardened>, <ore:plateElectricalSteel>],
+    [<ore:plateMithril>, <ore:circuitElite>, <ore:plateMithril>],
     [<appliedenergistics2:material:44>, <rftools:crafter3>, <appliedenergistics2:material:43>],
-    [<ore:plateElectricalSteel>, <ore:blockGlassHardened>, <ore:plateElectricalSteel>]
-]);
-
-// ME Storage Housing
-recipes.removeByRecipeName("appliedenergistics2:network/cells/empty_storage_cell");
-
-recipes.addShaped(<appliedenergistics2:material:39>, [
-    [<appliedenergistics2:quartz_glass>, <actuallyadditions:item_crystal:0>, <appliedenergistics2:quartz_glass>],
-    [<actuallyadditions:item_crystal:0>, null, <actuallyadditions:item_crystal:0>],
-    [<ore:plateElectricalSteel>, <ore:plateElectricalSteel>, <ore:plateElectricalSteel>]
+    [<ore:plateMithril>, <ore:circuitElite>, <ore:plateMithril>]
 ]);
 
 // Crafting unit
@@ -270,9 +252,9 @@ recipes.addShaped(<appliedenergistics2:quantum_ring>, [
 recipes.remove(<appliedenergistics2:fluid_interface>);
 
 recipes.addShaped(<appliedenergistics2:fluid_interface>, [
-    [<ore:plateElectricalSteel>, <actuallyadditions:item_crystal:1>, <ore:plateElectricalSteel>], 
-	[<appliedenergistics2:material:44>, <ore:circuitAdvanced>, <appliedenergistics2:material:43>], 
-	[<ore:plateElectricalSteel>, <actuallyadditions:item_crystal:1>, <ore:plateElectricalSteel>]
+    [<ore:plateEnderium>, <actuallyadditions:item_crystal_empowered:1>, <ore:plateEnderium>], 
+	[<appliedenergistics2:material:44>, <ore:circuitUltimate>, <appliedenergistics2:material:43>], 
+	[<ore:plateEnderium>, <actuallyadditions:item_crystal_empowered:1>, <ore:plateEnderium>]
 ]);
 
 // Cell workbench
@@ -302,3 +284,115 @@ recipes.addShaped(<appliedenergistics2:part:460>, [
 	[<ore:plateFluix>, <ore:plateFluix>, <ore:plateFluix>]
 ]);
 
+// Packager
+recipes.remove(<packagedauto:packager>);
+
+recipes.addShaped(<packagedauto:packager>, [
+    [<ore:plateElectricalSteel>, <packagedauto:me_package_component>, <ore:plateElectricalSteel>], 
+	[<ore:circuitElite>, <appliedenergistics2:molecular_assembler>, <ore:circuitElite>], 
+	[<ore:plateElectricalSteel>, <thermalexpansion:frame:146>, <ore:plateElectricalSteel>]
+]);
+
+// Package recipe encoder
+recipes.remove(<packagedauto:encoder>);
+
+recipes.addShaped(<packagedauto:encoder>, [
+    [<ore:plateElectricalSteel>, <packagedauto:me_package_component>, <ore:plateElectricalSteel>], 
+	[<appliedenergistics2:molecular_assembler>, <ore:blockLumium>, <appliedenergistics2:molecular_assembler>], 
+	[<ore:plateElectricalSteel>, <ore:circuitElite>, <ore:plateElectricalSteel>]
+]);
+
+// Unpackager
+recipes.remove(<packagedauto:unpackager>);
+
+recipes.addShaped(<packagedauto:unpackager>, [
+    [<ore:plateElectricalSteel>, <packagedauto:me_package_component>, <ore:plateElectricalSteel>], 
+	[<ore:circuitElite>, <appliedenergistics2:drive>, <ore:circuitElite>], 
+	[<ore:plateElectricalSteel>, <thermaldynamics:servo:4>, <ore:plateElectricalSteel>]
+]);
+
+// Packager extension
+recipes.remove(<packagedauto:packager_extension>);
+
+recipes.addShaped(<packagedauto:packager_extension>, [
+    [<ore:plateElectricalSteel>, <packagedauto:me_package_component>, <ore:plateElectricalSteel>], 
+	[<ore:circuitElite>, <appliedenergistics2:molecular_assembler>, <ore:circuitElite>], 
+	[<ore:plateElectricalSteel>, <storagedrawers:controllerslave>, <ore:plateElectricalSteel>]
+]);
+
+// Recipe holder
+recipes.remove(<packagedauto:recipe_holder>);
+
+recipes.addShaped(<packagedauto:recipe_holder>, [
+    [<ore:blockGlassHardened>, <ore:circuitAdvanced>, <ore:blockGlassHardened>], 
+	[<ore:circuitAdvanced>, <ore:plateSignalum>, <ore:circuitAdvanced>], 
+	[<ore:ingotElectricalSteel>, <packagedauto:package_component>, <ore:ingotElectricalSteel>]
+]);
+
+// Packaging component
+recipes.replaceAllOccurences(<ore:ingotGold>, <ore:ingotVibrantAlloy>, <packagedauto:package_component>);
+
+// ME packaging component
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotElectricalSteel>, <packagedauto:me_package_component>);
+recipes.replaceAllOccurences(<appliedenergistics2:quartz_glass>, <ore:blockGlassHardened>, <packagedauto:me_package_component>);
+
+// ME controller
+recipes.remove(<appliedenergistics2:controller>);
+
+recipes.addShaped(<appliedenergistics2:controller>, [
+    [<appliedenergistics2:smooth_sky_stone_block>, <ore:circuitUltimate>, <appliedenergistics2:smooth_sky_stone_block>], 
+	[<appliedenergistics2:material:24>, <libvulpes:advstructuremachine>, <appliedenergistics2:material:24>], 
+	[<appliedenergistics2:smooth_sky_stone_block>, <ore:gearMithril>, <appliedenergistics2:smooth_sky_stone_block>]
+]);
+
+
+// Meteorite compass
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotTitanium>, <appliedenergistics2:sky_compass>);
+
+// Spatial pylon
+recipes.replaceAllOccurences(<ore:dustFluix>, <ore:plateTitanium>, <appliedenergistics2:spatial_pylon>);
+
+// ME Terminal
+recipes.remove(<appliedenergistics2:part:380>);
+
+recipes.addShaped(<appliedenergistics2:part:380>, [
+    [<ore:circuitAdvanced>, <ore:itemIlluminatedPanel>, <ore:circuitAdvanced>]
+]);
+
+// Crafting terminal
+recipes.remove(<appliedenergistics2:part:360>);
+
+recipes.addShapeless(<appliedenergistics2:part:360>, [<appliedenergistics2:part:380>, <rftools:crafter3>, <ore:circuitElite>]);
+
+// Storage bus
+recipes.remove(<appliedenergistics2:part:220>);
+
+recipes.addShapeless(<appliedenergistics2:part:220>, [<rftools:storage_scanner>, <minecraft:piston>, <minecraft:sticky_piston>, <ore:circuitElite>]);
+
+// ME storage components
+recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:ingotRedstoneAlloy>, <appliedenergistics2:material:35>);
+recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:ingotElectrum>, <appliedenergistics2:material:36>);
+recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:ingotEnergeticAlloy>, <appliedenergistics2:material:37>);
+recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:ingotSignalum>, <appliedenergistics2:material:38>);
+recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:ingotVibrantAlloy>, <extracells:storage.component:0>);
+recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:ingotOsgloglas>, <extracells:storage.component:1>);
+recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:ingotArdite>, <extracells:storage.component:2>);
+recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:ingotAdamantium>, <extracells:storage.component:3>);
+
+// ME fluid storage component
+recipes.replaceAllOccurences(<ore:gemLapis>, <ore:dustElectrotine>, <appliedenergistics2:material:54>);
+recipes.replaceAllOccurences(<ore:gemLapis>, <ore:ingotElectrotineAlloy>, <appliedenergistics2:material:55>);
+recipes.replaceAllOccurences(<ore:gemLapis>, <ore:ingotEnergeticSilver>, <appliedenergistics2:material:56>);
+recipes.replaceAllOccurences(<ore:gemLapis>, <ore:ingotVividAlloy>, <appliedenergistics2:material:57>);
+recipes.replaceAllOccurences(<ore:dyeBlue>, <ore:ingotEnderium>, <extracells:storage.component:8>);
+recipes.replaceAllOccurences(<ore:dyeBlue>, <ore:ingotCobalt>, <extracells:storage.component:9>);
+recipes.replaceAllOccurences(<ore:dyeBlue>, <ore:ingotMithril>, <extracells:storage.component:10>);
+
+// ME gas storage component
+recipes.replaceAllOccurences(<ore:dyeYellow>, <ore:ingotConstantan>, <extracells:storage.component:11>);
+recipes.replaceAllOccurences(<ore:dyeYellow>, <ore:ingotGold>, <extracells:storage.component:12>);
+recipes.replaceAllOccurences(<ore:dyeYellow>, <ore:ingotRefinedGlowstone>, <extracells:storage.component:13>);
+recipes.replaceAllOccurences(<ore:dyeYellow>, <ore:ingotLumium>, <extracells:storage.component:14>);
+recipes.replaceAllOccurences(<ore:dyeYellow>, <ore:ingotEndSteel>, <extracells:storage.component:15>);
+recipes.replaceAllOccurences(<ore:dyeYellow>, <ore:ingotOsmiridium>, <extracells:storage.component:16>);
+recipes.replaceAllOccurences(<ore:dyeYellow>, <ore:ingotStellarAlloy>, <extracells:storage.component:17>);

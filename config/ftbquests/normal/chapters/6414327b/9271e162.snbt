@@ -9,8 +9,7 @@
 		"First mining level, used by Wood Pickaxes and similar."
 	],
 	dependencies: [
-		"e7c44be1",
-		"92a86c1b"
+		"e7c44be1"
 	],
 	tasks: [{
 		uid: "bffc3c19",

@@ -9,8 +9,7 @@
 		"Stone Pickaxes can be used to mine ores in this level."
 	],
 	dependencies: [
-		"9271e162",
-		"4655a1de"
+		"9271e162"
 	],
 	tasks: [{
 		uid: "a612c545",

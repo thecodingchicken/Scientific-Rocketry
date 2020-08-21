@@ -5,7 +5,6 @@
 	y: -1.0d,
 	description: "Spawns in the End",
 	dependencies: [
-		"392e994b",
 		"3e283be3"
 	],
 	tasks: [{

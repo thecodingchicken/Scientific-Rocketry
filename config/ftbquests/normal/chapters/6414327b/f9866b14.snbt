@@ -4,9 +4,6 @@
 	text: [
 		"These ores are pretty much the same as their Nether counterparts, except they spawn in the End instead."
 	],
-	dependencies: [
-		"392e994b"
-	],
 	tasks: [{
 		uid: "b1035f85",
 		type: "checkmark",

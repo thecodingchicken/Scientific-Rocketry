@@ -3,8 +3,8 @@
 	y: 6.5d,
 	description: "Make a Terrestrial Artifact",
 	text: [
-		"Do you have AE2 set up yet?",
-		"You probably should, since you will need a lot of these for the endgame."
+		"It is in your best interest to set up some form of autocrafting.",
+		"While AE2 isn't quite available for you yet, there are various other options."
 	],
 	dependencies: [
 		"8f0c5ead",

@@ -138,3 +138,162 @@ recipes.addShaped(<environmentaltech:photovoltaic_cell>, [
 	[<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>], 
 	[<actuallyadditions:item_crystal:1>, <actuallyadditions:item_crystal:1>, <actuallyadditions:item_crystal:1>]
 ]);
+
+// T1 void ore miner
+recipes.replaceAllOccurences(<ore:blockDiamond>, <ore:blockTitanium>, <environmentaltech:void_ore_miner_cont_1>);
+
+// T2 void ore miner
+recipes.replaceAllOccurences(<ore:blockDiamond>, <ore:blockOsmiridium>, <environmentaltech:void_ore_miner_cont_2>);
+
+// T3 void ore miner (200M RF)
+recipes.remove(<environmentaltech:void_ore_miner_cont_3>);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:void_ore_miner_cont_3>, 200000000, 1000000, <environmentaltech:void_ore_miner_cont_2>, [
+    <environmentaltech:kyronite>,
+    <environmentaltech:kyronite>,
+    <environmentaltech:kyronite>,
+    <environmentaltech:kyronite>,
+    <environmentaltech:kyronite>,
+    <environmentaltech:kyronite>,
+	<contenttweaker:cobalt_block>,
+	<environmentaltech:laser_lens>,
+	<mekanism:machineblock2:13>,
+	<mekanism:machineblock2:13>,
+	<mekanism:machineblock2:13>,
+	<mekanism:machineblock2:13>
+]);
+
+// T4 void ore miner
+recipes.remove(<environmentaltech:void_ore_miner_cont_4>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_ore_miner_cont_4>, [
+	[<ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>], 
+	[<ore:blockPladium>, <ore:plateManyullyn>, <mekanism:machineblock2:14>, <ore:plateManyullyn>, <ore:blockPladium>], 
+	[<ore:blockPladium>, <environmentaltech:connector>, <environmentaltech:void_ore_miner_cont_3>, <environmentaltech:connector>, <ore:blockPladium>], 
+	[<ore:blockPladium>, <ore:plateGlitchInfused>, <mekanism:machineblock:4>, <ore:plateGlitchInfused>, <ore:blockPladium>], 
+	[<ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>]
+]);
+
+// T5 void ore miner
+recipes.remove(<environmentaltech:void_ore_miner_cont_5>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_ore_miner_cont_5>, [
+	[<ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>], 
+	[<ore:blockIonite>, <extendedcrafting:material:10>, <ore:plateCrystaltine>, <mekanism:machineblock2:15>, <ore:plateCrystaltine>, <extendedcrafting:material:10>, <ore:blockIonite>], 
+	[<ore:blockIonite>, <ore:plateCrystaltine>, <ore:plateCrystaltine>, <mekanism:machineblock2:14>, <ore:plateCrystaltine>, <ore:plateCrystaltine>, <ore:blockIonite>], 
+	[<ore:blockIonite>, <rftools:builder>, <rftools:builder>, <environmentaltech:void_ore_miner_cont_4>, <rftools:builder>, <rftools:builder>, <ore:blockIonite>], 
+	[<ore:blockIonite>, <ore:plateCrystaltine>, <ore:plateCrystaltine>, <rftools:builder>, <ore:plateCrystaltine>, <ore:plateCrystaltine>, <ore:blockIonite>], 
+	[<ore:blockIonite>, <extendedcrafting:material:10>, <ore:plateCrystaltine>, <rftools:builder>, <ore:plateCrystaltine>, <extendedcrafting:material:10>, <ore:blockIonite>], 
+	[<ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>]
+]);
+
+// T6 void ore miner
+recipes.remove(<environmentaltech:void_ore_miner_cont_6>);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_ore_miner_cont_6>, [
+	[<ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>], 
+	[<ore:blockAethium>, <extendedcrafting:material:12>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <ore:blockRuby>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:12>, <ore:blockAethium>], 
+	[<ore:blockAethium>, <extendedcrafting:material:18>, <ore:plateAdamantium>, <ore:plateAdamantium>, <ore:blockRuby>, <ore:plateAdamantium>, <ore:plateAdamantium>, <extendedcrafting:material:18>, <ore:blockAethium>], 
+	[<ore:blockAethium>, <extendedcrafting:material:18>, <ore:plateAdamantium>, <ore:blockRuby>, <ore:blockRuby>, <ore:blockRuby>, <ore:plateAdamantium>, <extendedcrafting:material:18>, <ore:blockAethium>], 
+	[<ore:blockAethium>, <ore:blockRuby>, <ore:blockRuby>, <ore:blockRuby>, <environmentaltech:void_ore_miner_cont_5>, <ore:blockRuby>, <ore:blockRuby>, <ore:blockRuby>, <ore:blockAethium>], 
+	[<ore:blockAethium>, <extendedcrafting:material:18>, <ore:plateAdamantium>, <ore:blockRuby>, <ore:blockRuby>, <ore:blockRuby>, <ore:plateAdamantium>, <extendedcrafting:material:18>, <ore:blockAethium>], 
+	[<ore:blockAethium>, <extendedcrafting:material:18>, <ore:plateAdamantium>, <ore:plateAdamantium>, <ore:blockRuby>, <ore:plateAdamantium>, <ore:plateAdamantium>, <extendedcrafting:material:18>, <ore:blockAethium>], 
+	[<ore:blockAethium>, <extendedcrafting:material:12>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <ore:blockRuby>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:12>, <ore:blockAethium>], 
+	[<ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>]
+]);
+
+// Litherite solar cell
+recipes.replaceAllOccurences(<minecraft:redstone>, <actuallyadditions:item_crystal_empowered:0>, <environmentaltech:solar_cell_litherite>);
+
+// Erodium solar cell
+recipes.replaceAllOccurences(<environmentaltech:photovoltaic_cell>, <contenttweaker:reinforced_photovoltaic_cell>, <environmentaltech:solar_cell_erodium>);
+
+// Kyronite solar cell
+recipes.replaceAllOccurences(<environmentaltech:photovoltaic_cell>, <contenttweaker:resonant_photovoltaic_cell>, <environmentaltech:solar_cell_kyronite>);
+
+// Pladium solar cell
+recipes.replaceAllOccurences(<environmentaltech:photovoltaic_cell>, <contenttweaker:iridium_photovoltaic_cell>, <environmentaltech:solar_cell_pladium>);
+
+// Ionite solar cell
+recipes.replaceAllOccurences(<environmentaltech:photovoltaic_cell>, <contenttweaker:osgloglas_photovoltaic_cell>, <environmentaltech:solar_cell_ionite>);
+
+// Aethium solar cell
+recipes.replaceAllOccurences(<environmentaltech:photovoltaic_cell>, <contenttweaker:mithril_photovoltaic_cell>, <environmentaltech:solar_cell_aethium>);
+
+// T1 solar
+recipes.replaceAllOccurences(<ore:blockLapis>, <actuallyadditions:block_crystal_empowered:1>, <environmentaltech:solar_cont_1>);
+
+// T3 solar (250M RF)
+recipes.remove(<environmentaltech:solar_cont_3>);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_cont_3>, 250000000, 1000000, <environmentaltech:solar_cont_2>, [
+    <environmentaltech:kyronite>,
+    <environmentaltech:kyronite>,
+    <environmentaltech:kyronite>,
+    <environmentaltech:kyronite>,
+	<environmentaltech:solar_cell_kyronite>,
+	<environmentaltech:solar_cell_kyronite>,
+	<environmentaltech:solar_cell_kyronite>,
+	<environmentaltech:solar_cell_kyronite>,
+	<solarflux:custom_solar_panel_resonant>,
+	<solarflux:custom_solar_panel_resonant>
+]);
+
+// T4 solar (500M RF)
+recipes.remove(<environmentaltech:solar_cont_4>);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_cont_4>, 500000000, 1000000, <environmentaltech:solar_cont_3>, [
+    <environmentaltech:pladium>,
+    <environmentaltech:pladium>,
+    <environmentaltech:pladium>,
+    <environmentaltech:pladium>,
+	<environmentaltech:solar_cell_pladium>,
+	<environmentaltech:solar_cell_pladium>,
+	<environmentaltech:solar_cell_pladium>,
+	<environmentaltech:solar_cell_pladium>,
+	<solarflux:custom_solar_panel_iridium>,
+	<solarflux:custom_solar_panel_iridium>
+]);
+
+// T5 solar (1B RF)
+recipes.remove(<environmentaltech:solar_cont_5>);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_cont_5>, 1000000000, 1000000, <environmentaltech:solar_cont_4>, [
+    <environmentaltech:ionite>,
+    <environmentaltech:ionite>,
+    <environmentaltech:ionite>,
+    <environmentaltech:ionite>,
+	<environmentaltech:solar_cell_ionite>,
+	<environmentaltech:solar_cell_ionite>,
+	<environmentaltech:solar_cell_ionite>,
+	<environmentaltech:solar_cell_ionite>,
+	<solarflux:custom_solar_panel_osgloglas>,
+	<solarflux:custom_solar_panel_osgloglas>
+]);
+
+// T6 solar (2147483647 RF)
+recipes.remove(<environmentaltech:solar_cont_6>);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_cont_6>, 2147483647, 1000000, <environmentaltech:solar_cont_5>, [
+    <environmentaltech:aethium>,
+    <environmentaltech:aethium>,
+    <environmentaltech:aethium>,
+    <environmentaltech:aethium>,
+	<environmentaltech:solar_cell_aethium>,
+	<environmentaltech:solar_cell_aethium>,
+	<environmentaltech:solar_cell_aethium>,
+	<environmentaltech:solar_cell_aethium>,
+	<solarflux:custom_solar_panel_mithril>,
+	<solarflux:custom_solar_panel_mithril>
+]);
+
+// Null modifier
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:plateDarkSteel>, <environmentaltech:modifier_null>);
+recipes.replaceAllOccurences(<ore:blockGlass>, <ore:fusedQuartz>, <environmentaltech:modifier_null>);
+
+// Laser core
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:plateIridium>, <environmentaltech:laser_core>);
+recipes.replaceAllOccurences(<ore:blockGlass>, <ore:fusedQuartz>, <environmentaltech:laser_core>);
+
+// Creative flight modifier
+recipes.replaceAllOccurences(<minecraft:leather>, <simplyjetpacks:itemjetpack:4>, <environmentaltech:modifier_creative_flight>);
