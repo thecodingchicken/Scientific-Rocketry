@@ -7,17 +7,25 @@
             "x": -1,
             "y": 0,
             "z": 0,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
-                "modularmachinery:blockcasing@5"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 1,
             "y": 2,
             "z": 1,
+            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
-                "chisel:blockplatinum@5"
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
@@ -25,128 +33,62 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "chisel:blockplatinum@2"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 1,
             "y": 0,
             "z": 0,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
-                "modularmachinery:blockcasing@5"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
-            "x": 1,
-            "y": -1,
+            "x": 2,
+            "y": 0,
             "z": 0,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "x": -2,
+            "y": 0,
+            "z": 4,
             "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 0,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 0,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 10,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 10,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 10,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": -2,
             "y": -2,
-            "z": 9,
+            "z": 3,
             "elements": [
-                "chisel:blockplatinum@2"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": -1,
             "y": 0,
-            "z": 10,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "z": 4,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": -1,
             "y": -2,
-            "z": 9,
+            "z": 3,
+            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
-                "chisel:blockplatinum@5"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
             "x": 0,
             "y": 0,
-            "z": 10,
+            "z": 4,
             "elements": [
                 "casings_energy_in"
             ]
@@ -154,3794 +96,719 @@
         {
             "x": 0,
             "y": -2,
-            "z": 9,
+            "z": 3,
             "elements": [
-                "chisel:blockplatinum@5"
+                "contenttweaker:ardite_block@0"
             ]
         },
         {
             "x": 1,
             "y": 0,
-            "z": 10,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "z": 4,
             "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 9,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 9,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 9,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 10,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 10,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 9,
-            "elements": [
-                "contenttweaker:manyullyn_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 9,
-            "elements": [
-                "contenttweaker:manyullyn_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 10,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 9,
-            "elements": [
-                "contenttweaker:manyullyn_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 9,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 9,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 9,
-            "elements": [
-                "contenttweaker:manyullyn_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 9,
-            "elements": [
-                "contenttweaker:manyullyn_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 9,
-            "elements": [
-                "contenttweaker:manyullyn_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@5"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 2,
             "y": 0,
-            "z": 9,
+            "z": 4,
             "elements": [
-                "chisel:blockplatinum@5"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 1,
             "y": -2,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 9,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 7,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 9,
-            "elements": [
-                "contenttweaker:manyullyn_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 9,
-            "elements": [
-                "contenttweaker:manyullyn_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 8,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 8,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 9,
-            "elements": [
-                "contenttweaker:manyullyn_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 6,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 9,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 8,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": 6,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "z": 3,
+            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@2"
             ]
         },
         {
             "x": 2,
-            "y": -1,
-            "z": 8,
+            "y": -2,
+            "z": 3,
             "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 2,
-            "y": -3,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": 6,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 7,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 9,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 9,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 9,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": 6,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 9,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:storage@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 9,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:storage@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:storage@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 6,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -4,
             "y": -1,
-            "z": 7,
+            "z": 0,
             "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "extendedcrafting:storage@0"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": -2,
             "y": 1,
-            "z": 8,
+            "z": 0,
             "elements": [
-                "extendedcrafting:storage@0"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
-            "x": -3,
-            "y": -3,
-            "z": 6,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
+            "x": 1,
             "y": -1,
-            "z": 7,
+            "z": 0,
             "elements": [
-                "thermalfoundation:glass@8"
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": -1,
             "y": 1,
-            "z": 8,
+            "z": 0,
             "elements": [
-                "thermalfoundation:glass@8"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 0,
             "y": 1,
-            "z": 8,
+            "z": 0,
             "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": -1,
-            "y": -3,
-            "z": 6,
+            "y": -1,
+            "z": 0,
             "elements": [
-                "thermalfoundation:fluid_mana@0"
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 1,
             "y": 1,
-            "z": 8,
+            "z": 0,
             "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 5,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": 5,
-            "elements": [
-                "extendedcrafting:storage@7"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": 5,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@2"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 6,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": 5,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 5,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": 6,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "contenttweaker:reinforced_thermalloy_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": -2,
             "y": 1,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 5,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 4,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 5,
-            "elements": [
-                "enderio:block_alloy_endergy@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": 4,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": 4,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "contenttweaker:osgloglas_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 5,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -1,
-            "z": 6,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "casings_item_out"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "contenttweaker:reinforced_thermalloy_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
             "z": 4,
             "elements": [
-                "chisel:blockplatinum@5"
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": -1,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
+            "y": 1,
             "z": 4,
             "elements": [
-                "thermalfoundation:storage@8"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 0,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "enderio:block_alloy_endergy@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
+            "y": 1,
             "z": 4,
             "elements": [
-                "thermalfoundation:storage@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "extendedcrafting:storage@0"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 1,
-            "y": -2,
-            "z": 5,
+            "y": 1,
+            "z": 4,
             "elements": [
-                "thermalfoundation:glass@8"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
-            "x": 4,
-            "y": 2,
-            "z": 7,
+            "x": 2,
+            "y": 1,
+            "z": 4,
             "elements": [
-                "chisel:blockplatinum@2"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
-            "x": 3,
-            "y": 0,
-            "z": 6,
+            "x": 2,
+            "y": -1,
+            "z": 3,
             "elements": [
-                "thermalfoundation:glass@8"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 2,
             "y": -2,
-            "z": 5,
+            "z": 0,
             "elements": [
-                "thermalfoundation:glass@8"
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 1,
-            "y": -4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
             "z": 4,
             "elements": [
-                "thermalfoundation:storage@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "contenttweaker:osgloglas_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "extendedcrafting:storage@0"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 2,
-            "y": -4,
-            "z": 4,
+            "y": 2,
+            "z": 0,
             "elements": [
-                "chisel:blockplatinum@5"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
-            "x": 5,
+            "x": -2,
             "y": 0,
-            "z": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:ardite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:ardite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:ardite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
             "elements": [
                 "casings_fluid_in"
             ]
         },
         {
-            "x": 4,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 1,
-            "z": 6,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": 5,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "contenttweaker:reinforced_thermalloy_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:reinforced_thermalloy_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
             "x": 0,
             "y": -1,
-            "z": 5,
+            "z": 2,
             "elements": [
-                "enderio:block_alloy_endergy@3"
+                "thermalfoundation:storage@8"
             ]
         },
         {
             "x": 2,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 3,
             "y": 1,
-            "z": 6,
+            "z": 3,
             "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "contenttweaker:osgloglas_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": 2,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 1,
-            "z": 6,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
             "y": -1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:osgloglas_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -1,
-            "z": 5,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 0,
-            "z": 5,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:reinforced_thermalloy_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "enderio:block_alloy_endergy@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 7,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:osgloglas_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "casings_fluid_in"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 1,
-            "z": 5,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": 4,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:reinforced_thermalloy_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reinforced_thermalloy_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "enderio:block_alloy_endergy@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:osgloglas_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 1,
-            "z": 5,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:osgloglas_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -1,
-            "z": 4,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 0,
-            "z": 4,
+            "z": 2,
             "elements": [
                 "casings_item_in"
             ]
         },
         {
-            "x": -4,
+            "x": -2,
             "y": 2,
-            "z": 5,
+            "z": 3,
             "elements": [
-                "chisel:blockplatinum@5"
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
-            "x": -4,
+            "x": -2,
             "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reinforced_thermalloy_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "deepmoblearning:infused_ingot_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "deepmoblearning:infused_ingot_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "deepmoblearning:infused_ingot_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "enderio:block_alloy_endergy@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:osgloglas_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 0,
-            "z": 4,
+            "z": 2,
             "elements": [
                 "casings_fluid_in"
             ]
         },
         {
-            "x": 4,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 1,
-            "z": 4,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reinforced_thermalloy_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 6,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 6,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 6,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "enderio:block_alloy_endergy@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:osgloglas_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 1,
-            "z": 4,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "deepmoblearning:infused_ingot_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "deepmoblearning:infused_ingot_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
             "x": -1,
             "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "deepmoblearning:infused_ingot_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
             "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 5,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@1"
             ]
         },
         {
             "x": 0,
-            "y": 5,
-            "z": 5,
+            "y": 2,
+            "z": 3,
             "elements": [
-                "extendedcrafting:storage@7"
+                "contenttweaker:ardite_block@0"
             ]
         },
         {
-            "x": -3,
-            "y": -1,
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
             "z": 2,
             "elements": [
-                "chisel:blockcobalt@4"
+                "thermalfoundation:storage@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:ardite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": -2,
             "y": 1,
-            "z": 3,
+            "z": 2,
             "elements": [
-                "thermalfoundation:glass@8"
+                "casings_fluid_in"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_item_out"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
             ]
         },
         {
             "x": -1,
-            "y": 3,
-            "z": 4,
+            "y": 2,
+            "z": 2,
             "elements": [
-                "thermalfoundation:fluid_mana@0"
+                "contenttweaker:ardite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:ardite_block@0"
             ]
         },
         {
             "x": 1,
-            "y": 5,
-            "z": 5,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:ardite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:osmiridium_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@1"
             ]
         },
         {
             "x": 0,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "deepmoblearning:infused_ingot_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "deepmoblearning:infused_ingot_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "deepmoblearning:infused_ingot_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 4,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 4,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 4,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:osmiridium_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:osmiridium_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:osmiridium_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:osmiridium_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:osmiridium_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:osmiridium_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:osmiridium_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:osmiridium_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:osmiridium_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "chisel:blockcobalt@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": -2,
             "y": 2,
             "z": 1,
             "elements": [
-                "chisel:blockplatinum@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "chisel:blockplatinum@5"
+                "contenttweaker:ardite_block@0"
             ]
         }
     ]}

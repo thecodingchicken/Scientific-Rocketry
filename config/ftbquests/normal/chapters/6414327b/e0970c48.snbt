@@ -1,0 +1,23 @@
+{
+	title: "Ardite Ore",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"b6d1efec"
+	],
+	tasks: [{
+		uid: "e0501f78",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ardite_ore"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "676e82eb",
+		type: "item",
+		item: "contenttweaker:ardite_ingot",
+		count: 16
+	}]
+}

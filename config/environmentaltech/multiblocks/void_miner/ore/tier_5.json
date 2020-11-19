@@ -193,12 +193,12 @@
     {
       "target": "blue",
       "weight": 163,
-      "id": "OD:oreCobalt"
+      "id": "contenttweaker:cobalt_ore"
     },
     {
       "target": "orange",
       "weight": 159,
-      "id": "OD:oreArdite"
+      "id": "contenttweaker:ardite_ore"
     },
     {
       "target": "light_blue",
@@ -258,7 +258,7 @@
     {
       "target": "black",
       "weight": 192,
-      "id": "OD:oreTungsten"
+      "id": "contenttweaker:tungsten_ore"
     },
     {
       "target": "light_blue",

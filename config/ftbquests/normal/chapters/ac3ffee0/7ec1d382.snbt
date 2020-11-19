@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "ff4840d5",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 40000,
+				Mode: 1
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

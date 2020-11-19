@@ -49,42 +49,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_adamantium", m, 50)
     .addFluidInput(<liquid:thermoconducting_alloy> * 2880)
     .build();
 
-// Enriched elite ingot
-mods.modularmachinery.RecipeBuilder.newBuilder(m + "_enriched_elite", m, 10)
-    .addEnergyPerTickInput(100000000)
-    .addItemOutput(<contenttweaker:enriched_elite_ingot> * 4)
-    .addItemInput(<contenttweaker:elite_ingot>)
-    .addItemInput(<nuclearcraft:compound:1> * 64)
-    .addFluidInput(<liquid:manyullyn> * 9216)
-    .addFluidInput(<liquid:osmiridium> * 9216)
-    .addFluidInput(<liquid:mana> * 10000)
-    .build();
-
-// Infused elite ingot
-mods.modularmachinery.RecipeBuilder.newBuilder(m + "_infused_elite", m, 21)
-    .addEnergyPerTickInput(100000000)
-    .addItemOutput(<contenttweaker:infused_elite_ingot> * 4)
-    .addItemInput(<contenttweaker:enriched_elite_ingot> * 4)
-    .addItemInput(<contenttweaker:elite_gem> * 8)
-    .addItemInput(<extendedcrafting:material:12> * 16)
-    .addFluidInput(<liquid:ruby> * 42624)
-    .addFluidInput(<liquid:sapphire> * 42624)
-    .addFluidInput(<liquid:peridot> * 42624)
-    .build();
-
-// Pile of neutrons
-mods.modularmachinery.RecipeBuilder.newBuilder(m + "_neutrons", m, 50)
-    .addEnergyPerTickInput(100000000)
-    .addItemOutput(<avaritia:resource:2> * 64)
-    .addItemInput(<extendedcrafting:material:32>)
-    .addItemInput(<extendedcrafting:storage:0> * 64)
-    .addItemInput(<contenttweaker:manyullyn_block> * 64)
-    .addItemInput(<contenttweaker:tungstensteel_block> * 64)
-    .addFluidInput(<liquid:reinforced_thermalloy> * 14400)
-    .addFluidInput(<liquid:osgloglas> * 14400)
-    .addFluidInput(<liquid:osmiridium> * 14400)
-    .build();
-
 // Processing eternity ore
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_infinity_process", m, 1200)
     .addEnergyPerTickInput(100000000)
@@ -103,4 +67,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_infinite_photovoltaic", m, 
     .addFluidInput(<liquid:adamantium> * 5040)
     .addFluidInput(<liquid:crystal_matrix> * 5040)
     .addFluidInput(<liquid:helium3> * 5000)
+    .build();
+
+// Neutronium
+mods.modularmachinery.RecipeBuilder.newBuilder(m + "_neutronium", m, 100)
+    .addEnergyPerTickInput(10000000)
+    .addItemOutput(<avaritia:resource:4>)
+    .addItemInput(<extendedcrafting:material:0>)
+    .addFluidInput(<liquid:osmiridium> * 1152)
+    .addFluidInput(<liquid:tungstensteel> * 1152)
+    .addFluidInput(<liquid:mana> * 5000)
     .build();

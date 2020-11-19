@@ -1,0 +1,39 @@
+{
+	title: "This isn't Omnifactory",
+	x: -12.0d,
+	y: 0.5d,
+	description: "Numismatic Dynamos no longer produce 12500 RF/t",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1954f5e7",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 5s
+		}]
+	},
+	{
+		uid: "97fbc0b6",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 720"
+		}]
+	},
+	{
+		uid: "bb0d274b",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_shulker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -4,7 +4,7 @@
 	x: 1.0d,
 	y: 0.0d,
 	text: [
-		"Emerald Ore is found rarely in Extreme Hills in the Overworld below y=32."
+		""
 	],
 	dependencies: [
 		"ee9a999b"

@@ -1,0 +1,11 @@
+{
+	x: -5.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "82672881",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 2"
+		}]
+	}]
+}

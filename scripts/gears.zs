@@ -203,17 +203,12 @@ var gears_items = [
     <threng:material:0>,
     <contenttweaker:ardite_ingot>,
     <contenttweaker:adamantium_ingot>,
-    <contenttweaker:elite_ingot>,
     <contenttweaker:cobalt_ingot>,
     <contenttweaker:opinionium_ingot>,
     <contenttweaker:tungstensteel_ingot>,
-    <contenttweaker:infused_elite_ingot>,
     <contenttweaker:tungsten_ingot>,
-    <contenttweaker:empowered_elite_ingot>,
     <contenttweaker:manyullyn_ingot>,
-    <contenttweaker:eternity_ingot>,
-    <contenttweaker:enriched_elite_ingot>,
-    <contenttweaker:elite_gem>
+    <contenttweaker:eternity_ingot>
 ] as IItemStack[];
 
 var gears_gears = [
@@ -254,17 +249,12 @@ var gears_gears = [
 	<contenttweaker:fluix_steel_gear>,
 	<contenttweaker:ardite_gear>,
     <contenttweaker:adamantium_gear>,
-    <contenttweaker:elite_gear>,
     <contenttweaker:cobalt_gear>,
     <contenttweaker:opinionium_gear>,
     <contenttweaker:tungstensteel_gear>,
-    <contenttweaker:infused_elite_gear>,
     <contenttweaker:tungsten_gear>,
-    <contenttweaker:empowered_elite_gear>,
     <contenttweaker:manyullyn_gear>,
-    <contenttweaker:eternity_gear>,
-    <contenttweaker:enriched_elite_gear>,
-	<contenttweaker:elite_gem_gear>
+    <contenttweaker:eternity_gear>
 ] as IItemStack[];
 
 // Custom gears

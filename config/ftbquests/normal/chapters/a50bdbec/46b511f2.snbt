@@ -1,7 +1,6 @@
 {
 	x: -0.5d,
 	y: 2.0d,
-	description: "Craft a Void Upgrade",
 	text: [
 		"Void Upgrades void excess items, which can be helpful for automation and farming."
 	],
@@ -14,5 +13,11 @@
 		items: [{
 			item: "storagedrawers:upgrade_void"
 		}]
+	}],
+	rewards: [{
+		uid: "a8ee6926",
+		type: "item",
+		item: "storagedrawers:upgrade_void",
+		count: 2
 	}]
 }

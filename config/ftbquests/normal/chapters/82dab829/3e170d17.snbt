@@ -1,0 +1,12 @@
+{
+	title: "Vanilla Progression",
+	x: -1.0d,
+	y: 0.5d,
+	text: [
+		"Vanilla progression is pretty much unchanged, so I didn't bother making quests for it."
+	],
+	tasks: [{
+		uid: "412fbe52",
+		type: "checkmark"
+	}]
+}

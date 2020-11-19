@@ -1,0 +1,24 @@
+{
+	title: "Eternity Ore",
+	x: -2.0d,
+	y: 6.0d,
+	description: "Spawns in the Infinity Dimension",
+	dependencies: [
+		"1020b7bc"
+	],
+	tasks: [{
+		uid: "453f20f7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:eternity_ore"
+		}],
+		count: 64L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "9cbb3af9",
+		type: "item",
+		item: "contenttweaker:eternity_ingot",
+		count: 16
+	}]
+}

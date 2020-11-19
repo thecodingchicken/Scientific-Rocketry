@@ -3,7 +3,7 @@
 	x: 0.0d,
 	y: -1.0d,
 	text: [
-		"Black Quartz Ore can be found in the Overworld below y=45."
+		""
 	],
 	dependencies: [
 		"3e283be3"

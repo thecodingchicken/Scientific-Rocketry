@@ -8,7 +8,6 @@
 	},
 	x: -1.5d,
 	y: -0.5d,
-	description: "Craft a Basic Drawer",
 	text: [
 		"Drawers can hold up to 32 stacks of a single item."
 	],
@@ -28,5 +27,10 @@
 			},
 			id: "itemfilters:filter"
 		}]
+	}],
+	rewards: [{
+		uid: "137612e9",
+		type: "item",
+		item: "minecraft:chest"
 	}]
 }

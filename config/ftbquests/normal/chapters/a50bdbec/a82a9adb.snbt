@@ -1,7 +1,6 @@
 {
 	x: 0.5d,
 	y: 2.0d,
-	description: "Craft a Drawer Controller",
 	text: [
 		"Drawer Controllers allow you to interact with all drawers in a 12-block radius around the controller."
 	],
@@ -14,5 +13,11 @@
 		items: [{
 			item: "storagedrawers:controller"
 		}]
+	}],
+	rewards: [{
+		uid: "2f793a36",
+		type: "item",
+		item: "storagedrawers:upgrade_storage 1 2",
+		count: 2
 	}]
 }

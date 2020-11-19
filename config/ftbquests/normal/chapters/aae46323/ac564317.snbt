@@ -1,0 +1,11 @@
+{
+	x: 5.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "3af5ce0d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cobblestone_generator"
+		}]
+	}]
+}

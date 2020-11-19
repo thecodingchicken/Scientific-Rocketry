@@ -35,16 +35,12 @@ var ingots = [
     <threng:material:0>,
     <contenttweaker:ardite_ingot>,
     <contenttweaker:adamantium_ingot>,
-    <contenttweaker:elite_ingot>,
     <contenttweaker:cobalt_ingot>,
     <contenttweaker:opinionium_ingot>,
     <contenttweaker:tungstensteel_ingot>,
-    <contenttweaker:infused_elite_ingot>,
     <contenttweaker:tungsten_ingot>,
-    <contenttweaker:empowered_elite_ingot>,
     <contenttweaker:manyullyn_ingot>,
-    <contenttweaker:eternity_ingot>,
-    <contenttweaker:enriched_elite_ingot>
+    <contenttweaker:eternity_ingot>
 ] as IItemStack[];
 
 var nuggets = [
@@ -81,16 +77,12 @@ var nuggets = [
     <contenttweaker:fluix_steel_nugget>,
     <contenttweaker:ardite_nugget>,
     <contenttweaker:adamantium_nugget>,
-    <contenttweaker:elite_nugget>,
     <contenttweaker:cobalt_nugget>,
     <contenttweaker:opinionium_nugget>,
     <contenttweaker:tungstensteel_nugget>,
-    <contenttweaker:infused_elite_nugget>,
     <contenttweaker:tungsten_nugget>,
-    <contenttweaker:empowered_elite_nugget>,
     <contenttweaker:manyullyn_nugget>,
-    <contenttweaker:eternity_nugget>,
-    <contenttweaker:enriched_elite_nugget>
+    <contenttweaker:eternity_nugget>
 ] as IItemStack[];
 
 for i, nugget in nuggets {

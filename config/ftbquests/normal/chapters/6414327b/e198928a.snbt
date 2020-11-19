@@ -3,7 +3,7 @@
 	x: -2.0d,
 	y: -1.0d,
 	text: [
-		"Iron Ore can be found frequently in the Overworld below y=64."
+		""
 	],
 	dependencies: [
 		"3e283be3"

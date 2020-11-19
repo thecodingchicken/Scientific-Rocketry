@@ -4,8 +4,7 @@
 	x: -1.0d,
 	y: -1.0d,
 	text: [
-		"Lapis Lazuli Ore can be found rarely in the Overworld below y=28.",
-		"It is most common at y=15."
+		""
 	],
 	dependencies: [
 		"3e283be3"

@@ -1,0 +1,12 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "4ac3480a",
+		type: "item",
+		items: [{
+			item: "mekanism:reinforcedalloy"
+		}],
+		count: 8L
+	}]
+}

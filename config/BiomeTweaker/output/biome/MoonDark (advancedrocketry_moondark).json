@@ -1,6 +1,6 @@
 
 {
-  "ID": 52,
+  "ID": 74,
   "Name": "MoonDark",
   "Resource Location": "advancedrocketry:moondark",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenMoonDark",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WASTELAND",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

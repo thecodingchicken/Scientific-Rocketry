@@ -1,0 +1,12 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "4f7da2b0",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicalloy"
+		}],
+		count: 8L
+	}]
+}

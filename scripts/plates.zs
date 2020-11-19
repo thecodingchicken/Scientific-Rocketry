@@ -107,17 +107,12 @@ var plates_items = [
     <threng:material:0>,
     <contenttweaker:ardite_ingot>,
     <contenttweaker:adamantium_ingot>,
-    <contenttweaker:elite_ingot>,
     <contenttweaker:cobalt_ingot>,
     <contenttweaker:opinionium_ingot>,
     <contenttweaker:tungstensteel_ingot>,
-    <contenttweaker:infused_elite_ingot>,
     <contenttweaker:tungsten_ingot>,
-    <contenttweaker:empowered_elite_ingot>,
     <contenttweaker:manyullyn_ingot>,
-    <contenttweaker:eternity_ingot>,
-    <contenttweaker:enriched_elite_ingot>,
-    <contenttweaker:elite_gem>
+    <contenttweaker:eternity_ingot>
 ] as IItemStack[];
 
 var plates_plates = [
@@ -158,17 +153,12 @@ var plates_plates = [
     <contenttweaker:fluix_steel_plate>,
     <contenttweaker:ardite_plate>,
     <contenttweaker:adamantium_plate>,
-    <contenttweaker:elite_plate>,
     <contenttweaker:cobalt_plate>,
     <contenttweaker:opinionium_plate>,
     <contenttweaker:tungstensteel_plate>,
-    <contenttweaker:infused_elite_plate>,
     <contenttweaker:tungsten_plate>,
-    <contenttweaker:empowered_elite_plate>,
     <contenttweaker:manyullyn_plate>,
-    <contenttweaker:eternity_plate>,
-    <contenttweaker:enriched_elite_plate>,
-    <contenttweaker:elite_gem_plate>
+    <contenttweaker:eternity_plate>
 ] as IItemStack[];
 
 // Custom plates recipes

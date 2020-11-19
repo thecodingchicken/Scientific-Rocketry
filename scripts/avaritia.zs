@@ -27,7 +27,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:endest_pearl>, [
 	[null, <ore:blockEndSteel>, <ore:blockEndSteel>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <ore:blockEndSteel>, <ore:blockEndSteel>, null], 
 	[<ore:blockEndSteel>, <ore:blockEndSteel>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <ore:ingotCosmicNeutronium>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <ore:blockEndSteel>, <ore:blockEndSteel>], 
 	[<ore:blockEndSteel>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <ore:ingotCosmicNeutronium>, <ore:blockGelidEnderium>, <ore:ingotCosmicNeutronium>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <ore:blockEndSteel>], 
-	[<ore:blockEndSteel>, <extendedcrafting:storage:7>, <ore:ingotCosmicNeutronium>, <ore:blockGelidEnderium>, <extendedcrafting:singularity:50>, <ore:blockGelidEnderium>, <ore:ingotCosmicNeutronium>, <extendedcrafting:storage:7>, <ore:blockEndSteel>], 
+	[<ore:blockEndSteel>, <extendedcrafting:storage:7>, <ore:ingotCosmicNeutronium>, <ore:blockGelidEnderium>, <extendedcrafting:singularity_custom:112>, <ore:blockGelidEnderium>, <ore:ingotCosmicNeutronium>, <extendedcrafting:storage:7>, <ore:blockEndSteel>], 
 	[<ore:blockEndSteel>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <ore:ingotCosmicNeutronium>, <ore:blockGelidEnderium>, <ore:ingotCosmicNeutronium>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <ore:blockEndSteel>], 
 	[<ore:blockEndSteel>, <ore:blockEndSteel>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <ore:ingotCosmicNeutronium>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <ore:blockEndSteel>, <ore:blockEndSteel>], 
 	[null, <ore:blockEndSteel>, <ore:blockEndSteel>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <ore:blockEndSteel>, <ore:blockEndSteel>, null], 
@@ -279,7 +279,7 @@ mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew> * 2);
 
 mods.extendedcrafting.TableCrafting.addShapeless(0, <avaritia:ultimate_stew> * 2, [
 	<avaritia:resource:2>, <ore:cropWheat>, <ore:cropCarrot>, <ore:cropBeetroot>, <ore:cropPotato>, <ore:cropMelon>, <ore:cropPumpkin>, <ore:blockCactus>, <ore:cropMushroomBrown>, 
-	<ore:mushroomAny>, <ore:cropNetherWart>, <ore:cropRice>, <ore:cropCanola>, <ore:string>, <ore:cropCoffee>
+	<ore:mushroomAny>, <ore:cropNetherWart>, <ore:cropRice>, <ore:cropCanola>, <ore:string>, <ore:cropCoffee>, <nuclearcraft:foursmore>
 ]);
 
 // Cosmic meatballs

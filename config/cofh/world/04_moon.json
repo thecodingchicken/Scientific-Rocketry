@@ -246,6 +246,29 @@
 				]
 			}
         },
+		
+		"thorium_moon": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "nuclearcraft:ore",
+					"metadata": 3
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 7,
+			"min-height": 1,
+			"max-height": 53,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
 
         "nickel_moon": {
 			"enabled": "true",

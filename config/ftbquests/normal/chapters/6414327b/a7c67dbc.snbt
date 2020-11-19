@@ -4,6 +4,9 @@
 	x: 1.0d,
 	y: -2.0d,
 	description: "Spawns in the End",
+	text: [
+		"Technically this only spawns when the dragon is killed, and only on the main island."
+	],
 	dependencies: [
 		"9271e162"
 	],

@@ -1,0 +1,12 @@
+{
+	x: -1.0d,
+	y: 7.5d,
+	tasks: [{
+		uid: "abb3960f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reinforced_thermalloy_ingot"
+		}],
+		count: 16L
+	}]
+}

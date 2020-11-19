@@ -1,0 +1,11 @@
+{
+	x: -8.0d,
+	y: -7.0d,
+	tasks: [{
+		uid: "fd3efe7b",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_16 1 3"
+		}]
+	}]
+}

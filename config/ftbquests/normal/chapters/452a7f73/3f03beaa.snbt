@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 7.5d,
+	text: [
+		"The Satellite Builder is used to build satellites."
+	],
+	dependencies: [
+		"f7e53e92"
+	],
+	tasks: [{
+		uid: "8af3a825",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satellitebuilder"
+		}]
+	}],
+	rewards: [{
+		uid: "3b441f67",
+		type: "item",
+		item: "libvulpes:productingot 1 7",
+		count: 12
+	}]
+}

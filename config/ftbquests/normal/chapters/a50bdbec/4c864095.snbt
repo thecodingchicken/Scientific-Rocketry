@@ -1,7 +1,6 @@
 {
 	x: 0.0d,
 	y: -0.5d,
-	description: "Craft a Small Storage Crate",
 	text: [
 		"Storage Crates from Actually Additions store a lot of items."
 	],
@@ -14,5 +13,11 @@
 		items: [{
 			item: "actuallyadditions:block_giant_chest"
 		}]
+	}],
+	rewards: [{
+		uid: "218d108f",
+		type: "item",
+		item: "actuallyadditions:block_misc 1 4",
+		count: 2
 	}]
 }

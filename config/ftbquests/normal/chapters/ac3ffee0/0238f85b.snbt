@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "a9c21ca9",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 10s
+		}],
+		ignore_nbt: 1b
+	}]
+}

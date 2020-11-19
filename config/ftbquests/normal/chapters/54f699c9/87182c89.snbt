@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: -8.5d,
+	tasks: [{
+		uid: "47b70ffe",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 1
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

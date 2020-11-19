@@ -307,75 +307,8 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<packagedexcrafting:combinat
     <libvulpes:metal0:7>
 ]);
 
-// Elite gem
-mods.extendedcrafting.TableCrafting.addShaped(0, <contenttweaker:elite_gem> * 16, [
-	[<avaritia:resource>, <ore:blockDimensionalShard>, <ore:blockDimensionalShard>, <ore:blockDimensionalShard>, <ore:blockDimensionalShard>, <ore:blockDimensionalShard>, <avaritia:resource>], 
-	[<ore:blockRuby>, <avaritia:resource>, <actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal_empowered:1>, <avaritia:resource>, <ore:blockPeridot>], 
-	[<ore:blockRuby>, <actuallyadditions:block_crystal_empowered>, <avaritia:resource>, <actuallyadditions:block_crystal_empowered:4>, <avaritia:resource>, <actuallyadditions:block_crystal_empowered:3>, <ore:blockPeridot>], 
-	[<ore:blockRuby>, <actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal_empowered:4>, <ore:blockGelidGem>, <actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal_empowered:3>, <ore:blockPeridot>], 
-	[<ore:blockRuby>, <actuallyadditions:block_crystal_empowered>, <avaritia:resource>, <actuallyadditions:block_crystal_empowered:2>, <avaritia:resource>, <actuallyadditions:block_crystal_empowered:3>, <ore:blockPeridot>], 
-	[<ore:blockRuby>, <avaritia:resource>, <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:5>, <avaritia:resource>, <ore:blockPeridot>], 
-	[<avaritia:resource>, <ore:blockSapphire>, <ore:blockSapphire>, <ore:blockSapphire>, <ore:blockSapphire>, <ore:blockSapphire>, <avaritia:resource>]
-]);
-
-// Empowered elite ingot
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:empowered_elite_ingot> * 4, 2147483647, 10000000, <contenttweaker:infused_elite_ingot>, [
-    <avaritia:block_resource:2>,
-    <avaritia:block_resource:2>,
-    <avaritia:block_resource:2>,
-    <avaritia:block_resource:2>,
-    <contenttweaker:adamantium_block>,
-    <contenttweaker:adamantium_block>,
-    <contenttweaker:adamantium_block>,
-    <contenttweaker:adamantium_block>
-]);
-
-// Empowered component
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:empowered_component>, 2147483647, 10000000, <extendedcrafting:material:18>, [
-    <extendedcrafting:material:7>,
-    <extendedcrafting:material:7>,
-    <contenttweaker:empowered_elite_plate>,
-    <contenttweaker:empowered_elite_plate>,
-    <contenttweaker:empowered_elite_plate>,
-    <contenttweaker:empowered_elite_plate>,
-    <contenttweaker:empowered_elite_plate>,
-    <contenttweaker:empowered_elite_plate>
-]);
-
-// Empowered catalyst
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:empowered_catalyst>, 2147483647, 10000000, <contenttweaker:adamantium_plate>, [
-    <contenttweaker:empowered_component>,
-    <contenttweaker:empowered_component>,
-    <contenttweaker:empowered_component>,
-    <contenttweaker:empowered_component>,
-    <contenttweaker:empowered_component>,
-    <contenttweaker:empowered_component>,
-    <contenttweaker:empowered_component>,
-    <contenttweaker:empowered_component>
-]);
-
-// The ultimate ingot
-mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:material:32> * 4, 2147483647, 10000000, <contenttweaker:empowered_catalyst>, [
-    <avaritia:resource:1>,
-    <avaritia:resource:1>,
-    <avaritia:resource:1>,
-    <avaritia:resource:1>,
-    <avaritia:resource:1>,
-    <avaritia:resource:1>,
-    <avaritia:resource:1>,
-    <avaritia:resource:1>,
-    <contenttweaker:adamantium_ingot>,
-    <contenttweaker:adamantium_ingot>,
-    <contenttweaker:adamantium_ingot>,
-    <contenttweaker:adamantium_ingot>,
-    <contenttweaker:adamantium_ingot>,
-    <contenttweaker:adamantium_ingot>,
-    <contenttweaker:adamantium_ingot>,
-    <contenttweaker:adamantium_ingot>
-]);
-
 // The ultimate component
-mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:material:19>, 2147483647, 10000000, <contenttweaker:empowered_component>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:material:19>, 2147483647, 10000000,   <extendedcrafting:material:18>, [
     <extendedcrafting:material:7>,
     <extendedcrafting:material:7>,
     <contenttweaker:the_ultimate_plate>,
@@ -400,8 +333,8 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:material:1
 
 // Infinite component
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:infinite_component>, 2147483647, 10000000, <extendedcrafting:material:19>, [
-    <extendedcrafting:storage:1>,
-    <extendedcrafting:storage:1>,
+    <extendedcrafting:singularity_custom:166>,
+    <extendedcrafting:singularity_custom:166>,
     <moreplates:infinity_plate>,
     <moreplates:infinity_plate>,
     <moreplates:infinity_plate>,
@@ -421,6 +354,33 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:infinite_cat
     <contenttweaker:infinite_component>,
     <contenttweaker:infinite_component>
 ]);
+
+// Eternal component
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eternal_component>, 2147483647, 10000000, <contenttweaker:infinite_component>, [
+    <extendedcrafting:singularity_custom:166>,
+    <extendedcrafting:singularity_custom:166>,
+    <contenttweaker:eternity_plate>,
+    <contenttweaker:eternity_plate>,
+    <contenttweaker:eternity_plate>,
+    <contenttweaker:eternity_plate>,
+    <contenttweaker:eternity_plate>,
+    <contenttweaker:eternity_plate>
+]);
+
+// Eternal catalyst
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eternal_catalyst>, 2147483647, 10000000, <extendedcrafting:singularity_custom:123>, [
+    <contenttweaker:eternal_component>,
+    <contenttweaker:eternal_component>,
+    <contenttweaker:eternal_component>,
+    <contenttweaker:eternal_component>,
+    <contenttweaker:eternal_component>,
+    <contenttweaker:eternal_component>,
+    <contenttweaker:eternal_component>,
+    <contenttweaker:eternal_component>
+]);
+
+// Vending upgrade
+mods.extendedcrafting.CompressionCrafting.addRecipe(<storagedrawers:upgrade_creative:1>, <storagedrawers:upgrade_creative:0>, 1000, <contenttweaker:eternal_catalyst>, 2147483647, 1000000);
 
 // Quantum compressor
 recipes.remove(<extendedcrafting:compressor>);
@@ -450,14 +410,12 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<storagedrawers:upgrade_crea
 ]);
 
 // Le endgame recipe thing
-mods.extendedcrafting.CompressionCrafting.addRecipe(<storagedrawers:upgrade_creative:1>, <contenttweaker:eternity_ingot>, 9001, <contenttweaker:infinite_catalyst>, 2147483647, 1000000);
-
 recipes.addShapeless(<storagedrawers:upgrade_creative:1> * 2, [<storagedrawers:upgrade_creative:1>]);
 
-// Elite ingot
-mods.extendedcrafting.TableCrafting.addShapeless(0, <contenttweaker:elite_ingot>, [
+// Ultimate ingot
+mods.extendedcrafting.TableCrafting.addShapeless(0, <extendedcrafting:material:32>, [
 	<ore:ingotIron>, <ore:ingotGold>, <ore:ingotArdite>, <ore:ingotAdamantium>, <ore:ingotReinforcedThermalloy>, <ore:ingotCobalt>, <ore:ingotTungstensteel>, <ore:ingotTungsten>, <ore:ingotOsgloglas>,
-	<ore:ingotOsmiridium>, <ore:ingotManyullyn>, <ore:ingotEnrichedSignalum>, <ore:ingotCrudeSteel>, <ore:ingotTitanium>, <ore:ingotAluminium>, <ore:ingotIridium>, <ore:ingotCrystalMatrix>, <ore:ingotRefinedObsidian>,
+	<ore:ingotOsmiridium>, <ore:ingotManyullyn>, <ore:ingotEnrichedSignalum>, <ore:ingotCrudeSteel>, <ore:ingotTitanium>, <ore:ingotTitaniumAluminide>, <ore:ingotTitaniumIridium>, <ore:ingotCrystalMatrix>, <ore:ingotRefinedObsidian>,
 	<ore:ingotOsmium>, <ore:ingotRefinedGlowstone>, <ore:ingotBlackIron>, <ore:ingotCrystaltine>, <ore:ingotEnder>, <ore:ingotEnhancedEnder>, <ore:ingotPinkSlime>, <ore:ingotFluixSteel>, <ore:ingotRedAlloy>, 
 	<ore:ingotElectrotineAlloy>, <ore:ingot_dark_soularium>, <ore:ingotCopper>, <ore:ingotTin>, <ore:ingotSilver>, <ore:ingotLead>, <ore:ingotAluminium>, <ore:ingotNickel>, <ore:ingotPlatinum>, 
 	<ore:ingotIridium>, <ore:ingotMithril>, <ore:ingotSteel>, <ore:ingotElectrum>, <ore:ingotInvar>, <ore:ingotBronze>, <ore:ingotConstantan>, <ore:ingotSignalum>, <ore:ingotLumium>, 
@@ -467,9 +425,6 @@ mods.extendedcrafting.TableCrafting.addShapeless(0, <contenttweaker:elite_ingot>
 	<ore:ingotGelidEnderium>, <ore:ingotElectricalSteel>, <ore:ingotEnergeticAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotRedstoneAlloy>, <ore:ingotConductiveIron>, <ore:ingotPulsatingIron>, <ore:ingotDarkSteel>, <ore:ingotSoularium>
 ]);
 
-// Infinity ingot alternate recipe
-mods.extendedcrafting.CompressionCrafting.addRecipe(<avaritia:resource:6>, <extendedcrafting:material:32>, 48, <contenttweaker:infinite_catalyst>, 2147483647, 1000000);
-
 // Automation interface
 recipes.remove(<extendedcrafting:interface>);
 
@@ -478,3 +433,15 @@ recipes.addShaped(<extendedcrafting:interface>, [
 	[<extendedcrafting:material:10>, <extendedcrafting:material:12>, <extendedcrafting:material:10>], 
 	[<ore:blockTough>, <extendedcrafting:material:11>, <ore:blockTough>]
 ]);
+
+// Infinity Artifact
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:infinity_artifact>, 2147483647, 1000000, <contenttweaker:infinite_catalyst>, [
+    <contenttweaker:creative_core>, <contenttweaker:power_core>, <contenttweaker:utility_core>, <contenttweaker:environmental_core>, <extendedcrafting:singularity_custom:114>, <extendedcrafting:singularity_custom:130>,
+    <extendedcrafting:singularity_custom:168>,
+    <extendedcrafting:singularity_ultimate>,
+    <avaritia:resource:5>,
+    <avaritia:block_resource:1>,
+    <extracells:storage.component:3>,
+    <extracells:storage.component:10>,
+    <extracells:storage.component:17>
+    ]);

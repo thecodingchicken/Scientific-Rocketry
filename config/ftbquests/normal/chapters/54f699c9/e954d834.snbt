@@ -1,0 +1,16 @@
+{
+	x: -0.5d,
+	y: -9.5d,
+	tasks: [{
+		uid: "5f104bdf",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock",
+			tag: {
+				tier: 2
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}]
+}

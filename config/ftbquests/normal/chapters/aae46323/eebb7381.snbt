@@ -1,0 +1,16 @@
+{
+	x: 7.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "68b5bef4",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:lithium_ion_battery_basic",
+			tag: {
+				maxTransfer: 32000000,
+				capacity: 32000000L,
+				energy: 0L
+			}
+		}]
+	}]
+}

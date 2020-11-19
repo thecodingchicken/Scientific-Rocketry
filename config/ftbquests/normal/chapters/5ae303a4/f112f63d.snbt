@@ -1,0 +1,13 @@
+{
+	x: -5.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "4e61b1e6",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_drill_upgrade_three_by_three"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -4,7 +4,7 @@
 	x: -2.0d,
 	y: -2.0d,
 	text: [
-		"Coal Ore can be found frequently in the Overworld below y=128."
+		""
 	],
 	dependencies: [
 		"9271e162"

@@ -4,8 +4,7 @@
 	x: -2.0d,
 	y: 1.0d,
 	text: [
-		"Obsidian can be found wherever water flows on lava.",
-		"This is most common around y=11."
+		""
 	],
 	dependencies: [
 		"fad0586e"

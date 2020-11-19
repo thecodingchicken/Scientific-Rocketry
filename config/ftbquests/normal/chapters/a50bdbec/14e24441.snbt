@@ -1,7 +1,6 @@
 {
 	x: -3.0d,
 	y: 2.5d,
-	description: "Craft an Obsidian Chest",
 	dependencies: [
 		"796530b1"
 	],
@@ -11,5 +10,17 @@
 		items: [{
 			item: "ironchest:iron_chest 1 6"
 		}]
+	}],
+	rewards: [{
+		uid: "86dbe57b",
+		type: "item",
+		item: "thermalfoundation:material 1 130",
+		count: 8
+	},
+	{
+		uid: "15777cc3",
+		type: "item",
+		item: "thermalfoundation:material 1 131",
+		count: 8
 	}]
 }

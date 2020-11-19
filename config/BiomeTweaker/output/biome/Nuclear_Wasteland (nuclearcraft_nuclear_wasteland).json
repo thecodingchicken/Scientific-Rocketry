@@ -20,18 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WASTELAND",
-    "SPARSE",
-    "SAVANNA",
-    "DRY",
     "HOT",
-    "DEAD"
+    "PLAINS"
   ],
-  "BiomeManager Entries": {
-    "DESERT Weights": [
-      5
-    ]
-  },
+  "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
       "Entity Class": "nc.entity.EntityFeralGhoul",
@@ -50,6 +42,6 @@
   ],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
-  "Spawn Biome": true,
+  "Spawn Biome": false,
   "Tweaked": false
 }

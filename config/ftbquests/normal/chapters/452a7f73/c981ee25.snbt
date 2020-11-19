@@ -1,0 +1,27 @@
+{
+	title: "Meteors",
+	x: -3.5d,
+	y: 5.0d,
+	text: [
+		"AE2 Meteors do not spawn in the Overworld. They spawn on the Moon instead.",
+		"",
+		"They are your first source of Sky Stone and contain inscriber presses for beginning AE2, although you need more exotic resources to actually craft the machines."
+	],
+	dependencies: [
+		"cf25a854"
+	],
+	tasks: [{
+		uid: "6e0e33a6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_block"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "e63a9eae",
+		type: "item",
+		item: "appliedenergistics2:smooth_sky_stone_block",
+		count: 16
+	}]
+}

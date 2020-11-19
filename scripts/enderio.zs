@@ -20,6 +20,10 @@ recipes.addShaped(<enderio:item_basic_capacitor:2>, [
 mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_material:16>, <enderio:item_material:15>, <liquid:melodic_alloy> * 144, 32000);
 mods.nuclearcraft.Infuser.addRecipe(<enderio:item_material:15>, <liquid:melodic_alloy> * 144, <enderio:item_material:16>, 1.5, 3.5);
 
+// Dark steel upgrade
+mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_dark_steel_upgrade:0>, <moreplates:dark_steel_plate>, <liquid:ender> * 250, 8000);
+mods.nuclearcraft.Infuser.addRecipe(<moreplates:dark_steel_plate>, <liquid:ender> * 250, <enderio:item_dark_steel_upgrade:0>);
+
 // Simple machine chassis
 recipes.remove(<enderio:item_material:0>);
 recipes.remove(<enderio:item_material:69>);
@@ -236,9 +240,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<enderio:block_cap_bank:0>, [
 	[<ore:blockCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <mekanism:basicblock2:4>.withTag({tier: 3}), <mekanism:basicblock2:4>.withTag({tier: 3}), <mekanism:basicblock2:4>.withTag({tier: 3}), <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <ore:plateCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <solarflux:solar_panel_neutronium>, <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <mekanism:basicblock2:4>.withTag({tier: 3}), <thermalfoundation:upgrade:35>, <extendedcrafting:singularity:3>, <extendedcrafting:singularity:48>, <extendedcrafting:singularity:3>, <thermalfoundation:upgrade:35>, <mekanism:basicblock2:4>.withTag({tier: 3}), <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <mekanism:basicblock2:4>.withTag({tier: 3}), <mekanism:basicblock2:3>.withTag({tier: 3}), <extendedcrafting:singularity:48>, <extendedcrafting:material:13>, <extendedcrafting:singularity:48>, <mekanism:basicblock2:3>.withTag({tier: 3}), <mekanism:basicblock2:4>.withTag({tier: 3}), <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <mekanism:basicblock2:4>.withTag({tier: 3}), <thermalfoundation:upgrade:35>, <extendedcrafting:singularity:3>, <extendedcrafting:singularity:48>, <extendedcrafting:singularity:3>, <thermalfoundation:upgrade:35>, <mekanism:basicblock2:4>.withTag({tier: 3}), <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <mekanism:basicblock2:4>.withTag({tier: 3}), <thermalfoundation:upgrade:35>, <extendedcrafting:singularity:29>, <extendedcrafting:singularity_custom:134>, <extendedcrafting:singularity:29>, <thermalfoundation:upgrade:35>, <mekanism:basicblock2:4>.withTag({tier: 3}), <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <mekanism:basicblock2:4>.withTag({tier: 3}), <mekanism:basicblock2:3>.withTag({tier: 3}), <extendedcrafting:singularity_custom:134>, <extendedcrafting:material:13>, <extendedcrafting:singularity_custom:134>, <mekanism:basicblock2:3>.withTag({tier: 3}), <mekanism:basicblock2:4>.withTag({tier: 3}), <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <mekanism:basicblock2:4>.withTag({tier: 3}), <thermalfoundation:upgrade:35>, <extendedcrafting:singularity:29>, <extendedcrafting:singularity_custom:134>, <extendedcrafting:singularity:29>, <thermalfoundation:upgrade:35>, <mekanism:basicblock2:4>.withTag({tier: 3}), <ore:plateCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <solarflux:solar_panel_neutronium>, <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <ore:plateCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <enderio:block_cap_bank:3>, <thermalfoundation:upgrade:35>, <mekanism:basicblock2:4>.withTag({tier: 3}), <mekanism:basicblock2:4>.withTag({tier: 3}), <mekanism:basicblock2:4>.withTag({tier: 3}), <thermalfoundation:upgrade:35>, <enderio:block_cap_bank:3>, <ore:plateCosmicNeutronium>], 
 	[<ore:blockCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockCosmicNeutronium>]
@@ -448,3 +452,45 @@ recipes.addShaped(<contenttweaker:stellar_armor_plating>, [
 	[<ore:plateStellarAlloy>, <redstonerepository:material:7>, <ore:plateStellarAlloy>],
 	[<ore:plateMithril>, <ore:plateStellarAlloy>, <ore:plateMithril>]
 ]);
+
+// Energy conduits
+recipes.replaceAllOccurences(<ore:ingotStellarAlloy>, <ore:ingotUltimate>, <enderio:item_endergy_conduit:11> * 8);
+
+<enderio:item_endergy_conduit:11>.displayName = "Ultimate Energy Conduit";
+
+recipes.replaceAllOccurences(<ore:ingotMelodicAlloy>, <ore:ingotAdamantium>, <enderio:item_endergy_conduit:10> * 8);
+
+<enderio:item_endergy_conduit:10>.displayName = "Adamantium Energy Conduit";
+
+recipes.replaceAllOccurences(<ore:ingotCrystallinePinkSlime>, <ore:ingotStellarAlloy>, <enderio:item_endergy_conduit:9> * 8);
+
+<enderio:item_endergy_conduit:9>.displayName = "Stellar Energy Conduit";
+
+recipes.replaceAllOccurences(<ore:ingotCrystallineAlloy>, <ore:ingotMithril>, <enderio:item_endergy_conduit:8> * 8);
+
+<enderio:item_endergy_conduit:8>.displayName = "Mithril Energy Conduit";
+
+recipes.replaceAllOccurences(<ore:ingotEnergeticSilver>, <ore:ingotOsgloglas>, <enderio:item_endergy_conduit:7> * 8);
+
+<enderio:item_endergy_conduit:7>.displayName = "Osgloglas Energy Conduit";
+
+// Removes other endergy conduits
+recipes.remove(<enderio:item_endergy_conduit:6> * 8);
+recipes.remove(<enderio:item_endergy_conduit:5> * 8);
+recipes.remove(<enderio:item_endergy_conduit:4> * 8);
+recipes.remove(<enderio:item_endergy_conduit:3> * 8);
+recipes.remove(<enderio:item_endergy_conduit:2> * 8);
+recipes.remove(<enderio:item_endergy_conduit:1> * 8);
+recipes.remove(<enderio:item_endergy_conduit:0> * 8);
+
+recipes.remove(<enderio:item_material:10>);
+
+recipes.addShaped(<thermalfoundation:material:23>, [
+	[null, <ore:cobblestone>, null],
+	[<ore:cobblestone>, <ore:gearWood>, <ore:cobblestone>],
+	[null, <ore:cobblestone>, null]
+]);
+
+// Tormented enderman head
+mods.thermalexpansion.Transposer.addFillRecipe(<enderio:block_enderman_skull:2>, <enderio:block_enderman_skull:0>, <liquid:water> * 4000, 8000);
+mods.nuclearcraft.Infuser.addRecipe(<enderio:block_enderman_skull:0>, <liquid:water> * 4000, <enderio:block_enderman_skull:2>);	

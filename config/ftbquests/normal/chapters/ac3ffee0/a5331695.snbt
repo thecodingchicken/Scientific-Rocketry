@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "59499d2c",
+		type: "item",
+		items: [{
+			id: "redstonerepository:armor.plate_gelid",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

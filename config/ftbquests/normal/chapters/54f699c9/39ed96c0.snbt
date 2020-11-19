@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: -8.5d,
+	tasks: [{
+		uid: "c6fd9e3c",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			}
+		}]
+	}]
+}

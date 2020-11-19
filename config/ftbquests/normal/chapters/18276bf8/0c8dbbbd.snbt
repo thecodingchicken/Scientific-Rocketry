@@ -1,0 +1,23 @@
+{
+	x: -4.5d,
+	y: 1.0d,
+	text: [
+		"The ME Terminal allows you to view all of the items stored in your network."
+	],
+	dependencies: [
+		"7ce98292"
+	],
+	tasks: [{
+		uid: "2ce69b59",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 380"
+		}]
+	}],
+	rewards: [{
+		uid: "db3a27a1",
+		type: "item",
+		item: "mekanism:controlcircuit 1 1",
+		count: 6
+	}]
+}

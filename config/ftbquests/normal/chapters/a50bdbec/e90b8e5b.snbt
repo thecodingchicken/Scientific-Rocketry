@@ -1,0 +1,25 @@
+{
+	x: -3.0d,
+	y: 6.5d,
+	text: [
+		"The Storage Tablet can be used to access your Modular Storage remotely."
+	],
+	dependencies: [
+		"1627b092"
+	],
+	tasks: [{
+		uid: "9554e664",
+		type: "item",
+		items: [{
+			item: "rftools:storage_module_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e8bb1a7",
+		type: "item",
+		item: "thermalfoundation:material 1 161",
+		count: 12
+	}]
+}

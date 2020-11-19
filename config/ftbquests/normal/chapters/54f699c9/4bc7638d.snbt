@@ -1,0 +1,30 @@
+{
+	title: "Fusion Reactor",
+	x: 3.5d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "10d85faf",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor"
+		}]
+	},
+	{
+		uid: "90fb19cc",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "80ef2268",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 2"
+		}]
+	}]
+}

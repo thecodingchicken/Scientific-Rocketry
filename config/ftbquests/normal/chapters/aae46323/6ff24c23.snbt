@@ -1,0 +1,11 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "6ace6374",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 10"
+		}]
+	}]
+}

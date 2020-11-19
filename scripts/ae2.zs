@@ -396,3 +396,16 @@ recipes.replaceAllOccurences(<ore:dyeYellow>, <ore:ingotLumium>, <extracells:sto
 recipes.replaceAllOccurences(<ore:dyeYellow>, <ore:ingotEndSteel>, <extracells:storage.component:15>);
 recipes.replaceAllOccurences(<ore:dyeYellow>, <ore:ingotOsmiridium>, <extracells:storage.component:16>);
 recipes.replaceAllOccurences(<ore:dyeYellow>, <ore:ingotStellarAlloy>, <extracells:storage.component:17>);
+
+// Creative energy cell
+mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:creative_energy_cell>, [
+	[<ore:blockCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <extendedcrafting:material:13>, <appliedenergistics2:dense_energy_cell>, <extendedcrafting:singularity_custom:100>, <ore:blockFluixSteel>, <extendedcrafting:singularity_custom:100>, <appliedenergistics2:dense_energy_cell>, <extendedcrafting:material:13>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <appliedenergistics2:dense_energy_cell>, <ore:blockFluixSteel>, <extracells:storage.component:3>, <mekanism:basicblock2:4>.withTag({tier: 3}), <extracells:storage.component:3>, <ore:blockFluixSteel>, <appliedenergistics2:dense_energy_cell>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <extendedcrafting:singularity_custom:100>, <extracells:storage.component:3>, <extracells:storage.component:3>, <extendedcrafting:singularity_custom:142>, <extracells:storage.component:3>, <extracells:storage.component:3>, <extendedcrafting:singularity_custom:100>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <ore:blockFluixSteel>, <mekanism:basicblock2:4>.withTag({tier: 3}), <extendedcrafting:singularity_custom:142>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:singularity_custom:142>, <mekanism:basicblock2:4>.withTag({tier: 3}), <ore:blockFluixSteel>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <extendedcrafting:singularity_custom:100>, <extracells:storage.component:3>, <extracells:storage.component:3>, <extendedcrafting:singularity_custom:142>, <extracells:storage.component:3>, <extracells:storage.component:3>, <extendedcrafting:singularity_custom:100>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <appliedenergistics2:dense_energy_cell>, <ore:blockFluixSteel>, <extracells:storage.component:3>, <mekanism:basicblock2:4>.withTag({tier: 3}), <extracells:storage.component:3>, <ore:blockFluixSteel>, <appliedenergistics2:dense_energy_cell>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <extendedcrafting:material:13>, <appliedenergistics2:dense_energy_cell>, <extendedcrafting:singularity_custom:100>, <ore:blockFluixSteel>, <extendedcrafting:singularity_custom:100>, <appliedenergistics2:dense_energy_cell>, <extendedcrafting:material:13>, <ore:plateCosmicNeutronium>], 
+	[<ore:blockCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockCosmicNeutronium>]
+]);

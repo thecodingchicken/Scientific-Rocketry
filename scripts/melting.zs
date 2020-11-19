@@ -7,7 +7,6 @@ import mods.nuclearcraft.Enricher;
 import mods.nuclearcraft.Infuser;
 import mods.nuclearcraft.IngotFormer;
 import mods.nuclearcraft.Manufactory;
-import mods.nuclearcraft.Melter;
 import mods.nuclearcraft.SaltMixer;
 import mods.nuclearcraft.Extractor;
 import crafttweaker.item.IItemStack;
@@ -433,13 +432,28 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:neutronium> * 1296, <avaritia:b
 mods.thermalexpansion.Crucible.addRecipe(<liquid:neutronium> * 144, <moreplates:neutronium_plate>, 1280000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:neutronium> * 576, <moreplates:neutronium_gear>, 5120000);
 
-mods.nuclearcraft.Melter.addRecipe(<avaritia:resource:4>, <liquid:neutronium> * 144, 1.0, 1024.0);
-mods.nuclearcraft.Melter.addRecipe(<avaritia:resource:3>, <liquid:neutronium> * 16, 0.125, 1024.0);
-mods.nuclearcraft.Melter.addRecipe(<avaritia:block_resource:0>, <liquid:neutronium> * 1296, 8.0, 1024.0);
-mods.nuclearcraft.Melter.addRecipe(<moreplates:neutronium_plate>, <liquid:neutronium> * 144, 1.0, 1024.0);
-mods.nuclearcraft.Melter.addRecipe(<moreplates:neutronium_gear>, <liquid:neutronium> * 576, 4.0, 1024.0);
+mods.nuclearcraft.Melter.addRecipe(<avaritia:resource:4>, <liquid:neutronium> * 144, 1.0, 32.0);
+mods.nuclearcraft.Melter.addRecipe(<avaritia:resource:3>, <liquid:neutronium> * 16, 0.125, 32.0);
+mods.nuclearcraft.Melter.addRecipe(<avaritia:block_resource:0>, <liquid:neutronium> * 1296, 8.0, 32.0);
+mods.nuclearcraft.Melter.addRecipe(<moreplates:neutronium_plate>, <liquid:neutronium> * 144, 1.0, 32.0);
+mods.nuclearcraft.Melter.addRecipe(<moreplates:neutronium_gear>, <liquid:neutronium> * 576, 4.0, 32.0);
 
 mods.nuclearcraft.IngotFormer.addRecipe(<liquid:neutronium> * 144, <avaritia:resource:4>, 1.0, 32.0);
+
+// Molten ultimate
+mods.thermalexpansion.Crucible.addRecipe(<liquid:ultimate> * 144, <extendedcrafting:material:32>, 1280000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:ultimate> * 16, <extendedcrafting:material:33>, 160000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:ultimate> * 1296, <extendedcrafting:storage:4>, 10240000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:ultimate> * 144, <contenttweaker:the_ultimate_plate>, 1280000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:ultimate> * 576, <contenttweaker:the_ultimate_gear>, 5120000);
+
+mods.nuclearcraft.Melter.addRecipe(<extendedcrafting:material:32>, <liquid:ultimate> * 144, 1.0, 32.0);
+mods.nuclearcraft.Melter.addRecipe(<extendedcrafting:material:33>, <liquid:ultimate> * 16, 0.125, 32.0);
+mods.nuclearcraft.Melter.addRecipe(<extendedcrafting:storage:4>, <liquid:ultimate> * 1296, 8.0, 32.0);
+mods.nuclearcraft.Melter.addRecipe(<contenttweaker:the_ultimate_plate>, <liquid:ultimate> * 144, 1.0, 32.0);
+mods.nuclearcraft.Melter.addRecipe(<contenttweaker:the_ultimate_gear>, <liquid:ultimate> * 576, 4.0, 32.0);
+
+mods.nuclearcraft.IngotFormer.addRecipe(<liquid:ultimate> * 144, <extendedcrafting:material:32>, 1.0, 32.0);
 
 // Molten electrical steel
 mods.thermalexpansion.Crucible.addRecipe(<liquid:electrical_steel> * 144, <enderio:item_alloy_ingot:0>, 4000);
@@ -1858,11 +1872,11 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:crystaltine> * 1296, <extendedc
 mods.thermalexpansion.Crucible.addRecipe(<liquid:crystaltine> * 144, <contenttweaker:crystaltine_plate>, 400000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:crystaltine> * 576, <contenttweaker:crystaltine_gear>, 1600000);
 
-mods.nuclearcraft.Melter.addRecipe(<extendedcrafting:material:24>, <liquid:crystaltine> * 144, 1.0, 128.0);
-mods.nuclearcraft.Melter.addRecipe(<extendedcrafting:material:25>, <liquid:crystaltine> * 16, 0.125, 128.0);
-mods.nuclearcraft.Melter.addRecipe(<extendedcrafting:storage:3>, <liquid:crystaltine> * 1296, 8.0, 128.0);
-mods.nuclearcraft.Melter.addRecipe(<contenttweaker:crystaltine_plate>, <liquid:crystaltine> * 144, 128.0);
-mods.nuclearcraft.Melter.addRecipe(<contenttweaker:crystaltine_gear>, <liquid:crystaltine> * 576, 4.0, 128.0);
+mods.nuclearcraft.Melter.addRecipe(<extendedcrafting:material:24>, <liquid:crystaltine> * 144, 1.0, 8.0);
+mods.nuclearcraft.Melter.addRecipe(<extendedcrafting:material:25>, <liquid:crystaltine> * 16, 0.125, 8.0);
+mods.nuclearcraft.Melter.addRecipe(<extendedcrafting:storage:3>, <liquid:crystaltine> * 1296, 8.0, 8.0);
+mods.nuclearcraft.Melter.addRecipe(<contenttweaker:crystaltine_plate>, <liquid:crystaltine> * 144, 8.0);
+mods.nuclearcraft.Melter.addRecipe(<contenttweaker:crystaltine_gear>, <liquid:crystaltine> * 576, 4.0, 8.0);
 
 mods.nuclearcraft.IngotFormer.addRecipe(<liquid:crystaltine> * 144, <extendedcrafting:material:24>, 1.0, 8.0);
 
@@ -1873,11 +1887,11 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:crystal_matrix> * 1296, <avarit
 mods.thermalexpansion.Crucible.addRecipe(<liquid:crystal_matrix> * 144, <moreplates:crystal_matrix_plate>, 800000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:crystal_matrix> * 576, <moreplates:crystal_matrix_gear>, 3200000);
 
-mods.nuclearcraft.Melter.addRecipe(<avaritia:resource:1>, <liquid:crystal_matrix> * 144, 1.0, 256.0);
-mods.nuclearcraft.Melter.addRecipe(<contenttweaker:crystal_matrix_nugget>, <liquid:crystal_matrix> * 16, 0.125, 256.0);
-mods.nuclearcraft.Melter.addRecipe(<avaritia:block_resource:2>, <liquid:crystal_matrix> * 1296, 8.0, 256.0);
-mods.nuclearcraft.Melter.addRecipe(<moreplates:crystal_matrix_plate>, <liquid:crystal_matrix> * 144, 256.0);
-mods.nuclearcraft.Melter.addRecipe(<moreplates:crystal_matrix_gear>, <liquid:crystal_matrix> * 576, 4.0, 256.0);
+mods.nuclearcraft.Melter.addRecipe(<avaritia:resource:1>, <liquid:crystal_matrix> * 144, 1.0, 16.0);
+mods.nuclearcraft.Melter.addRecipe(<contenttweaker:crystal_matrix_nugget>, <liquid:crystal_matrix> * 16, 0.125, 16.0);
+mods.nuclearcraft.Melter.addRecipe(<avaritia:block_resource:2>, <liquid:crystal_matrix> * 1296, 8.0, 16.0);
+mods.nuclearcraft.Melter.addRecipe(<moreplates:crystal_matrix_plate>, <liquid:crystal_matrix> * 144, 1.0, 16.0);
+mods.nuclearcraft.Melter.addRecipe(<moreplates:crystal_matrix_gear>, <liquid:crystal_matrix> * 576, 4.0, 16.0);
 
 mods.nuclearcraft.IngotFormer.addRecipe(<liquid:crystal_matrix> * 144, <avaritia:resource:1>, 1.0, 16.0);
 

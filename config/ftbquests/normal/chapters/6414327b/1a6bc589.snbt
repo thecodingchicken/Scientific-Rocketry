@@ -3,6 +3,9 @@
 	x: -2.0d,
 	y: 4.0d,
 	description: "Spawns on other planets",
+	text: [
+		"Also I disabled the feature where you can turn Silver into Mithril. Nice try, IE:E players."
+	],
 	dependencies: [
 		"320ab7ec"
 	],

@@ -1,0 +1,29 @@
+{
+	title: "Integrated Crafting",
+	x: 1.5d,
+	y: 5.5d,
+	text: [
+		"Crafting Interfaces can be used for auto-crafting using Integrated Dynamics."
+	],
+	dependencies: [
+		"9894261b"
+	],
+	tasks: [{
+		uid: "c809f3d8",
+		type: "item",
+		items: [{
+			item: "integratedcrafting:part_interface_crafting_item"
+		}]
+	}],
+	rewards: [{
+		uid: "73c6a4a9",
+		type: "item",
+		item: "nuclearcraft:gem 1 6",
+		count: 64
+	},
+	{
+		uid: "fccaae08",
+		type: "item",
+		item: "mekanism:controlcircuit 1 1"
+	}]
+}

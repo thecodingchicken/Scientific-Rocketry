@@ -1,0 +1,12 @@
+{
+	x: -6.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "7c0881c4",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 3"
+		}],
+		count: 16L
+	}]
+}

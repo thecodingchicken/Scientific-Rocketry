@@ -1,0 +1,16 @@
+{
+	x: 0.5d,
+	y: -10.5d,
+	tasks: [{
+		uid: "8cc6a338",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 3
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"Welcome to Scientific Rocketry!",
+		"This is an expert pack based on tech progression and space travel."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "176ae4c2",
+		type: "checkmark",
+		title: "Pack Intro"
+	}]
+}

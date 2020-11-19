@@ -176,6 +176,48 @@ recipes.addShaped(<modularmachinery:blockfluidinputhatch:7>, [
 	[<industrialforegoing:black_hole_tank>, <ore:ingotCrystaltine>, <industrialforegoing:black_hole_tank>]
 ]);
 
+// Normal fluid output bus
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>, [
+	[<mekanism:machineblock2:11>.withTag({ tier: 0 }), <ore:ingotDarkSteel>, <mekanism:machineblock2:11>.withTag({ tier: 0 })],
+	[<ore:ingotDarkSteel>, <modularmachinery:blockfluidoutputhatch:1>, <ore:ingotDarkSteel>], 
+	[null, <ore:blockHopper>, null]
+]);
+
+// Reinforced fluid output bus
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:3>, [
+	[<mekanism:machineblock2:11>.withTag({ tier: 1 }), <ore:ingotEnderium>, <mekanism:machineblock2:11>.withTag({ tier: 1 })],
+	[<ore:ingotEnderium>, <modularmachinery:blockfluidoutputhatch:2>, <ore:ingotEnderium>], 
+	[null, <ore:blockHopper>, null]
+]);
+
+// Big fluid output bus
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:4>, [
+	[<mekanism:machineblock2:11>.withTag({ tier: 2 }), <ore:ingotExtreme>, <mekanism:machineblock2:11>.withTag({ tier: 2 })],
+	[<ore:ingotExtreme>, <modularmachinery:blockfluidoutputhatch:3>, <ore:ingotExtreme>], 
+	[null, <ore:blockHopper>, null]
+]);
+
+// Huge fluid output bus
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:5>, [
+	[<mekanism:machineblock2:11>.withTag({ tier: 3 }), <ore:ingotOsmiridium>, <mekanism:machineblock2:11>.withTag({ tier: 3 })],
+	[<ore:ingotOsmiridium>, <modularmachinery:blockfluidoutputhatch:4>, <ore:ingotOsmiridium>], 
+	[null, <ore:blockHopper>, null]
+]);
+
+// Ludicrous fluid output bus
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:6>, [
+	[<appliedenergistics2:material:57>, <ore:ingotMithril>, <appliedenergistics2:material:57>],
+	[<ore:ingotMithril>, <modularmachinery:blockfluidoutputhatch:5>, <ore:ingotMithril>], 
+	[null, <ore:blockHopper>, null]
+]);
+
+// Vacuum fluid output bus
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:7>, [
+	[<industrialforegoing:black_hole_tank>, <ore:ingotCrystaltine>, <industrialforegoing:black_hole_tank>],
+	[<ore:ingotCrystaltine>, <modularmachinery:blockfluidoutputhatch:6>, <ore:ingotCrystaltine>], 
+	[null, <ore:blockHopper>, null]
+]);
+
 // Tiny energy input hatch
 recipes.remove(<modularmachinery:blockenergyinputhatch:0>);
 
@@ -234,4 +276,18 @@ recipes.addShaped(<modularmachinery:blockenergyinputhatch:7>, [
 	[<ore:blockMithril>, <advancedrocketry:ic:2>, <ore:blockMithril>], 
 	[<ore:blockCrystaltine>, <modularmachinery:blockenergyinputhatch:6>, <ore:blockCrystaltine>], 
 	[<ore:blockMithril>, <ore:blockCrystaltine>, <ore:blockMithril>]
+]);
+
+// Titanium machine casing
+recipes.addShaped(<contenttweaker:titanium_machine_casing> * 2, [
+	[<ore:ingotTitanium>, <ore:plateTitanium>, <ore:ingotTitanium>],
+	[<ore:plateTitanium>, <modularmachinery:blockcasing:0>, <ore:plateTitanium>],
+	[<ore:ingotTitanium>, <ore:plateTitanium>, <ore:ingotTitanium>]
+]);
+
+// Osmiridium machine casing
+recipes.addShaped(<contenttweaker:osmiridium_machine_casing> * 2, [
+	[<ore:ingotOsmiridium>, <ore:plateOsmiridium>, <ore:ingotOsmiridium>],
+	[<ore:plateOsmiridium>, <modularmachinery:blockcasing:4>, <ore:plateOsmiridium>],
+	[<ore:ingotOsmiridium>, <ore:plateOsmiridium>, <ore:ingotOsmiridium>]
 ]);

@@ -1,0 +1,34 @@
+{
+	title: "Digital Storage",
+	x: -0.5d,
+	y: 1.0d,
+	text: [
+		"ME Drives can hold up to 10 storage cells. Storage cells can be made with any Storage Component, and store the corresponding thing (items, fluids, or gases)."
+	],
+	dependencies: [
+		"7ce98292"
+	],
+	tasks: [{
+		uid: "f67d3771",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	},
+	{
+		uid: "b304e5cd",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0e99d05b",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 24
+	}]
+}

@@ -1,7 +1,0 @@
-{
-	title: "Tech Progression",
-	icon: "thermalfoundation:material 1 24",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

@@ -1,0 +1,11 @@
+{
+	x: -5.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "3ae67297",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:separator"
+		}]
+	}]
+}

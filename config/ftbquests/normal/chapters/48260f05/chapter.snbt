@@ -1,7 +1,0 @@
-{
-	title: "Tier 1",
-	icon: "thermalexpansion:frame",
-	always_invisible: false,
-	group: -8030415,
-	default_quest_shape: ""
-}

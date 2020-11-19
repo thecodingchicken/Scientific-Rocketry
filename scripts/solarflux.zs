@@ -45,42 +45,42 @@ recipes.addShaped(<solarflux:custom_solar_panel_leadstone>, [
 ]);
 
 // Hardened solar panel
-recipes.addShaped(<solarflux:custom_solar_panel_hardened>, [
+recipes.addShaped(<solarflux:custom_solar_panel_hardened> * 2, [
     [<contenttweaker:hardened_photovoltaic_cell>, <contenttweaker:hardened_photovoltaic_cell>, <contenttweaker:hardened_photovoltaic_cell>], 
 	[<solarflux:custom_solar_panel_leadstone>, <ore:gearRedstoneAlloy>, <solarflux:custom_solar_panel_leadstone>], 
 	[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>]
 ]);
 
 // Hardened photovoltaic cell
-recipes.addShaped(<contenttweaker:hardened_photovoltaic_cell>, [
+recipes.addShaped(<contenttweaker:hardened_photovoltaic_cell> * 2, [
     [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>], 
 	[<solarflux:mirror>, <ore:alloyAdvanced>, <solarflux:mirror>], 
 	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
 ]);
 
 // Reinforced solar panel
-recipes.addShaped(<solarflux:custom_solar_panel_reinforced>, [
+recipes.addShaped(<solarflux:custom_solar_panel_reinforced> * 2, [
     [<contenttweaker:reinforced_photovoltaic_cell>, <contenttweaker:reinforced_photovoltaic_cell>, <contenttweaker:reinforced_photovoltaic_cell>], 
 	[<solarflux:custom_solar_panel_hardened>, <ore:gearRestonia>, <solarflux:custom_solar_panel_hardened>], 
 	[<ore:plateElectrum>, <ore:plateElectrum>, <ore:plateElectrum>]
 ]);
 
 // Reinforced photovoltaic cell
-recipes.addShaped(<contenttweaker:reinforced_photovoltaic_cell>, [
+recipes.addShaped(<contenttweaker:reinforced_photovoltaic_cell> * 2, [
     [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>], 
 	[<contenttweaker:hardened_photovoltaic_cell>, <ore:alloyElite>, <contenttweaker:hardened_photovoltaic_cell>], 
 	[<ore:plateEnori>, <ore:plateEnori>, <ore:plateEnori>]
 ]);
 
 // Signalum solar panel
-recipes.addShaped(<solarflux:custom_solar_panel_signalum>, [
+recipes.addShaped(<solarflux:custom_solar_panel_signalum> * 2, [
     [<contenttweaker:signalum_photovoltaic_cell>, <contenttweaker:signalum_photovoltaic_cell>, <contenttweaker:signalum_photovoltaic_cell>], 
 	[<solarflux:custom_solar_panel_reinforced>, <ore:gearEnergeticAlloy>, <solarflux:custom_solar_panel_reinforced>], 
 	[<ore:plateSignalum>, <ore:plateSignalum>, <ore:plateSignalum>]
 ]);
 
 // Signalum photovoltaic cell
-recipes.addShaped(<contenttweaker:signalum_photovoltaic_cell>, [
+recipes.addShaped(<contenttweaker:signalum_photovoltaic_cell> * 2, [
     [<ore:fusedQuartz>, <ore:fusedQuartz>, <ore:fusedQuartz>], 
 	[<contenttweaker:reinforced_photovoltaic_cell>, <ore:alloyUltimate>, <contenttweaker:reinforced_photovoltaic_cell>], 
 	[<ore:plateLumium>, <ore:plateLumium>, <ore:plateLumium>]
@@ -94,7 +94,7 @@ recipes.addShaped(<solarflux:custom_solar_panel_resonant>, [
 ]);
 
 // Resonant photovoltaic cell
-recipes.addShaped(<contenttweaker:resonant_photovoltaic_cell>, [
+recipes.addShaped(<contenttweaker:resonant_photovoltaic_cell> * 2, [
     [<ore:fusedQuartz>, <ore:fusedQuartz>, <ore:fusedQuartz>], 
 	[<contenttweaker:signalum_photovoltaic_cell>, <ore:circuitElite>, <contenttweaker:signalum_photovoltaic_cell>], 
 	[<ore:plateVibrantAlloy>, <ore:plateVibrantAlloy>, <ore:plateVibrantAlloy>]
@@ -108,14 +108,14 @@ recipes.addShaped(<solarflux:custom_solar_panel_iridium>, [
 ]);
 
 // Iridium photovoltaic cell
-recipes.addShaped(<contenttweaker:iridium_photovoltaic_cell>, [
+recipes.addShaped(<contenttweaker:iridium_photovoltaic_cell> * 2, [
     [<ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>], 
 	[<contenttweaker:resonant_photovoltaic_cell>, <ore:circuitUltimate>, <contenttweaker:resonant_photovoltaic_cell>], 
 	[<ore:plateDiamatineEmpowered>, <ore:plateDiamatineEmpowered>, <ore:plateDiamatineEmpowered>]
 ]);
 
 // Osgloglas photovoltaic cell
-recipes.addShaped(<contenttweaker:osgloglas_photovoltaic_cell>, [
+recipes.addShaped(<contenttweaker:osgloglas_photovoltaic_cell> * 2, [
     [<ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>], 
 	[<contenttweaker:iridium_photovoltaic_cell>, <ore:gearGlitchInfused>, <contenttweaker:iridium_photovoltaic_cell>], 
 	[<ore:plateEnhancedEnder>, <ore:plateEnhancedEnder>, <ore:plateEnhancedEnder>]
@@ -138,7 +138,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<solarflux:custom_solar_pane
 ]);
 
 // Mithril photovoltaic cell
-recipes.addShaped(<contenttweaker:mithril_photovoltaic_cell>, [
+recipes.addShaped(<contenttweaker:mithril_photovoltaic_cell> * 2, [
     [<thermalfoundation:glass:8>, <thermalfoundation:glass:8>, <thermalfoundation:glass:8>], 
 	[<contenttweaker:osgloglas_photovoltaic_cell>, <ore:gearTungsten>, <contenttweaker:osgloglas_photovoltaic_cell>], 
 	[<ore:plateOsmiridium>, <ore:plateOsmiridium>, <ore:plateOsmiridium>]
@@ -154,7 +154,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <solarflux:custom_solar_panel_m
 ]);
 
 // Adamantium photovoltaic cell
-recipes.addShaped(<contenttweaker:adamantium_photovoltaic_cell>, [
+recipes.addShaped(<contenttweaker:adamantium_photovoltaic_cell> * 2, [
     [<thermalfoundation:glass:8>, <thermalfoundation:glass:8>, <thermalfoundation:glass:8>], 
 	[<contenttweaker:mithril_photovoltaic_cell>, <ore:gearTungstensteel>, <contenttweaker:mithril_photovoltaic_cell>], 
 	[<ore:plateCrystaltine>, <ore:plateCrystaltine>, <ore:plateCrystaltine>]
@@ -178,9 +178,9 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:neutronium_p
     <moreplates:neutronium_plate>,
     <moreplates:neutronium_plate>,
     <moreplates:neutronium_plate>,
-    <contenttweaker:empowered_catalyst>,
-    <contenttweaker:empowered_catalyst>,
-    <contenttweaker:empowered_catalyst>,
+    <extendedcrafting:material:12>,
+    <extendedcrafting:material:12>,
+    <extendedcrafting:material:12>,
     <extendedcrafting:material:32>,
     <extendedcrafting:material:32>,
     <extendedcrafting:material:32>,
@@ -215,3 +215,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <solarflux:solar_panel_infinity
 
 // Blank upgrade
 recipes.replaceAllOccurences(<solarflux:mirror>, <contenttweaker:signalum_photovoltaic_cell>, <solarflux:blank_upgrade>);
+
+// Efficiency upgrade
+recipes.replaceAllOccurences(<solarflux:photovoltaic_cell_1>, <contenttweaker:iridium_photovoltaic_cell>, <solarflux:efficiency_upgrade>);

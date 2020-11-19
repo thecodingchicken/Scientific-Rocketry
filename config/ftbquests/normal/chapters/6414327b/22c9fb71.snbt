@@ -5,7 +5,7 @@
 	y: -2.0d,
 	description: "Spawns in the Nether",
 	text: [
-		"Nether Quartz Ore can be found at every elevation in the Nether."
+		""
 	],
 	dependencies: [
 		"9271e162"

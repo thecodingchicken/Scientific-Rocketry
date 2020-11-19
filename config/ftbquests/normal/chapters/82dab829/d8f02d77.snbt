@@ -1,0 +1,23 @@
+{
+	title: "Hammers",
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"Thermal Foundation adds hammers which can be used to mine a 3x3 space."
+	],
+	tasks: [{
+		uid: "ad83f236",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.hammer_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "75f5dc04",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 64
+	}]
+}

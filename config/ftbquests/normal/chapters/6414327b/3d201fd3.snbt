@@ -1,0 +1,23 @@
+{
+	title: "Tungsten Ore",
+	x: 4.0d,
+	y: 3.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"b6d1efec"
+	],
+	tasks: [{
+		uid: "b150b921",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tungsten_ore"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "e79b84d5",
+		type: "item",
+		item: "contenttweaker:tungsten_ingot",
+		count: 16
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "3f6e385d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 50000000
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

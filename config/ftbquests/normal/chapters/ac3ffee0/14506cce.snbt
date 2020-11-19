@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "8ffca3e0",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:reservoir",
+			tag: {},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

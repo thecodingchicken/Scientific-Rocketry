@@ -364,3 +364,9 @@ recipes.replaceAllOccurences(<ore:dustOsmium>, <ore:dustSignalum>, <mekanism:spe
 
 // Energy upgrade
 recipes.replaceAllOccurences(<ore:dustGold>, <ore:dustLumium>, <mekanism:energyupgrade>);
+
+// Gas upgrade
+recipes.replaceAllOccurences(<ore:dustIron>, <ore:dustEnderium>, <mekanism:gasupgrade>);
+
+// Anchor upgrade
+recipes.replaceAllOccurences(<ore:dustDiamond>, <ore:dustPlatinum>, <mekanism:anchorupgrade>);

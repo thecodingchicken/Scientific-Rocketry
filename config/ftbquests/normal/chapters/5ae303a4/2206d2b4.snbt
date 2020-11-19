@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: "bb09bb41",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 5"
+		}]
+	}]
+}

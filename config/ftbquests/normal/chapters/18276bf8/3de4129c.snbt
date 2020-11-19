@@ -1,0 +1,45 @@
+{
+	title: "Inscriber Presses",
+	x: -3.5d,
+	y: -1.5d,
+	text: [
+		"Inscriber Presses can be found in meteors on the Moon."
+	],
+	dependencies: [
+		"cf25a854"
+	],
+	tasks: [{
+		uid: "26c4e329",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "c15bb98f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "3f897bdb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "6b39692e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "ec48a842",
+		type: "item",
+		item: "appliedenergistics2:sky_stone_block",
+		count: 32
+	}]
+}

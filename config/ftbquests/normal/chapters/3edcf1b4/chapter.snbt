@@ -1,7 +1,0 @@
-{
-	title: "Resource Production",
-	icon: "environmentaltech:void_ore_miner_cont_1",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

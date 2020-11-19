@@ -1,0 +1,56 @@
+{
+	title: "Satellite Missions",
+	icon: "advancedrocketry:satelliteidchip",
+	x: 0.5d,
+	y: 7.5d,
+	text: [
+		"Satellites can be sent on missions to collect data.",
+		"",
+		"Distance, Mass, and Composition data can be collected with Optical Sensors, Mass Detectors, and Composition Sensors.",
+		"",
+		"This data is required for discovering other planets."
+	],
+	dependencies: [
+		"3f03beaa"
+	],
+	tasks: [{
+		uid: "3067377d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteidchip"
+		}]
+	},
+	{
+		uid: "6b590cf0",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteprimaryfunction 1 1"
+		}]
+	},
+	{
+		uid: "d45eb93e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteprimaryfunction 1 2"
+		}]
+	},
+	{
+		uid: "99a5addb",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteprimaryfunction"
+		}]
+	}],
+	rewards: [{
+		uid: "f230f205",
+		type: "item",
+		item: "nuclearcraft:alloy 1 2",
+		count: 36
+	},
+	{
+		uid: "3d7d1d36",
+		type: "item",
+		item: "thermalfoundation:material 1 135",
+		count: 4
+	}]
+}

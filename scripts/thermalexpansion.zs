@@ -445,3 +445,6 @@ recipes.replaceAllOccurences(<ore:gearSignalum>, <ore:gearEnrichedSignalum>, <th
 
 // Lapidary calibration
 recipes.replaceAllOccurences(<ore:gemEmerald>, <actuallyadditions:item_crystal_empowered:4>, <thermalexpansion:augment:720>);
+
+// Cryo-stabilized fluxduct
+recipes.replaceAllOccurences(<ore:ingotElectrum>, <ore:ingotOsgloglas>, <thermaldynamics:duct_0:9>);

@@ -9,6 +9,17 @@
 		"modularmachinery:blockfluidinputhatch@6",
 		"modularmachinery:blockfluidinputhatch@7"
     ],
+
+    "casings_fluid_out": [
+        "modularmachinery:blockfluidoutputhatch@0",
+        "modularmachinery:blockfluidoutputhatch@1",
+        "modularmachinery:blockfluidoutputhatch@2",
+		"modularmachinery:blockfluidoutputhatch@3",
+		"modularmachinery:blockfluidoutputhatch@4",
+		"modularmachinery:blockfluidoutputhatch@5",
+		"modularmachinery:blockfluidoutputhatch@6",
+		"modularmachinery:blockfluidoutputhatch@7"
+    ],
 	
     "casings_energy_in": [
         "modularmachinery:blockenergyinputhatch@0",

@@ -1,0 +1,17 @@
+{
+	title: "Opinionium Ore",
+	x: -1.0d,
+	y: 5.0d,
+	description: "Spawns in the Creative Realm",
+	dependencies: [
+		"c443dff4"
+	],
+	tasks: [{
+		uid: "7c635b05",
+		type: "item",
+		items: [{
+			item: "contenttweaker:opinionium_ore"
+		}],
+		count: 64L
+	}]
+}

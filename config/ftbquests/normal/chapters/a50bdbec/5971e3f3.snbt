@@ -1,0 +1,31 @@
+{
+	title: "XNet",
+	x: -1.5d,
+	y: 3.5d,
+	text: [
+		"XNet can be used for automation and logistics.",
+		"It involves networks with cables that connect to various devices.",
+		"Each network can have up to 8 channels and uses power.",
+		"XNet has its own manual."
+	],
+	tasks: [{
+		uid: "19892af0",
+		type: "item",
+		items: [{
+			item: "xnet:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "1b46ef7a",
+		type: "item",
+		item: {
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_blue.name"
+				}
+			}
+		},
+		count: 32
+	}]
+}

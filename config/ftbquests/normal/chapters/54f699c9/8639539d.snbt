@@ -1,0 +1,12 @@
+{
+	x: -0.5d,
+	y: -7.5d,
+	tasks: [{
+		uid: "0c116d41",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -5.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: "f9c3b266",
+		type: "item",
+		items: [{
+			id: "actuallyadditions:item_battery_triple",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

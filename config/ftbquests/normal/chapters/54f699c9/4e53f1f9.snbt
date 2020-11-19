@@ -1,0 +1,13 @@
+{
+	x: -2.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: "3a945d27",
+		type: "item",
+		items: [{
+			item: "mekanism:portableteleporter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

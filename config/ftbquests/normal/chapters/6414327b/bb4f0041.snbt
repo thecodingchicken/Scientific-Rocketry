@@ -4,7 +4,7 @@
 	x: 0.0d,
 	y: 0.0d,
 	text: [
-		"Redstone Ore is found frequently in the Overworld below y=16."
+		""
 	],
 	dependencies: [
 		"ee9a999b"

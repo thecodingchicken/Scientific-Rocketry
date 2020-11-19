@@ -1,0 +1,11 @@
+{
+	x: 7.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "4ce54aae",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:nitrogen_collector"
+		}]
+	}]
+}

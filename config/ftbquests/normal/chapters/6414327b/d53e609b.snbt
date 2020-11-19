@@ -1,6 +1,6 @@
 {
 	title: "Aethium",
-	x: -2.0d,
+	x: 0.0d,
 	y: 5.0d,
 	description: "Spawns on other planets",
 	dependencies: [

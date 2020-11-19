@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "ffd1aff7",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:saw",
+			tag: {
+				Energy: 400000,
+				Mode: 3
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -31,6 +31,7 @@
             "posY" : 48,
             "width" : 200,
             "height" : 20,
+            "texture": "mainmenu:menubutton2.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -45,6 +46,7 @@
             "posY" : 72,
             "width" : 200,
             "height" : 20,
+            "texture": "mainmenu:menubutton2.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -59,6 +61,7 @@
             "posY" : 96,
             "width" : 200,
             "height" : 20,
+            "texture": "mainmenu:menubutton2.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -71,8 +74,9 @@
             "text" : "menu.options",
             "posX" : -100,
             "posY" : 132,
-            "width" : 98,
+            "width" : 95,
             "height" : 20,
+            "texture": "mainmenu:menubutton.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -83,41 +87,14 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : 2,
+            "posX" : 5,
             "posY" : 132,
-            "width" : 98,
+            "width" : 95,
             "height" : 20,
+            "texture": "mainmenu:menubutton.png",
             "action" : 
             {
                 "type" : "quit"
-            }
-        },
-        
-        "language":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
             }
         }
     },
@@ -127,7 +104,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "hoverText" : "ï¿½nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,

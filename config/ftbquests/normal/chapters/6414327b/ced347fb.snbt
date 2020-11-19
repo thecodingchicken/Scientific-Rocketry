@@ -1,0 +1,23 @@
+{
+	title: "Cobalt Ore",
+	x: 2.0d,
+	y: 3.0d,
+	description: "Spawns on other planets",
+	dependencies: [
+		"b6d1efec"
+	],
+	tasks: [{
+		uid: "e5446cf6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cobalt_ore"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "a39db301",
+		type: "item",
+		item: "contenttweaker:cobalt_ingot",
+		count: 16
+	}]
+}

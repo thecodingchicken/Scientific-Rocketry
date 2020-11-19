@@ -38,7 +38,7 @@ recipes.remove(<simplyjetpacks:metaitemmods:10>);
 
 recipes.addShaped(<simplyjetpacks:metaitemmods:10>, [
     [<ore:ingotVibrantAlloy>, <enderio:item_capacitor_crystalline>, <ore:ingotVibrantAlloy>], 
-	[<enderio:item_endergy_conduit:8>, <enderio:item_capacitor_crystalline>, <enderio:item_endergy_conduit:8>], 
+	[<enderio:item_endergy_conduit:7>, <enderio:item_capacitor_crystalline>, <enderio:item_endergy_conduit:7>], 
 	[<ore:itemVibrantCrystal>, <ore:gearRestonia>, <ore:itemVibrantCrystal>]
 ]);
 
@@ -47,7 +47,7 @@ recipes.remove(<simplyjetpacks:metaitemmods:11>);
 
 recipes.addShaped(<simplyjetpacks:metaitemmods:11>, [
     [<ore:ingot_dark_soularium>, <enderio:item_capacitor_stellar>, <ore:ingot_dark_soularium>], 
-	[<enderio:item_endergy_conduit:11>, <enderio:item_capacitor_stellar>, <enderio:item_endergy_conduit:11>], 
+	[<enderio:item_endergy_conduit:9>, <enderio:item_capacitor_stellar>, <enderio:item_endergy_conduit:9>], 
 	[<ore:itemEnderCrystal>, <simplyjetpacks:metaitemmods:6>, <ore:itemEnderCrystal>]
 ]);
 

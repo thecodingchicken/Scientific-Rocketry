@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "1a082850",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "mana",
+				Amount: 1000
+			}
+		}]
+	}]
+}

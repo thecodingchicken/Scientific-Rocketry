@@ -1,7 +1,6 @@
 {
 	x: 1.5d,
 	y: 2.0d,
-	description: "Craft a Compacting Drawer",
 	text: [
 		"Compacting Drawers can convert items into compressed forms such as storage blocks, allowing you to store more of a compatible item."
 	],
@@ -14,5 +13,11 @@
 		items: [{
 			item: "storagedrawers:compdrawers"
 		}]
+	}],
+	rewards: [{
+		uid: "109a1bb0",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 9
 	}]
 }

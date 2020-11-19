@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: 6.5d,
+	text: [
+		"Storage Terminals can be used to view all items in a storage network."
+	],
+	dependencies: [
+		"9894261b"
+	],
+	tasks: [{
+		uid: "73dbf2a9",
+		type: "item",
+		items: [{
+			item: "integratedterminals:part_terminal_storage_item"
+		}]
+	}],
+	rewards: [{
+		uid: "d9bf7d87",
+		type: "item",
+		item: "thermalfoundation:glass 1 3",
+		count: 8
+	}]
+}

@@ -1,7 +1,6 @@
 {
 	x: -3.0d,
 	y: -0.5d,
-	description: "Craft an Iron Chest",
 	text: [
 		"Chests from the Iron Chests mod hold more items than a regular chest.",
 		"They gain more storage space as you progress in the mod."
@@ -15,5 +14,11 @@
 		items: [{
 			item: "ironchest:iron_chest"
 		}]
+	}],
+	rewards: [{
+		uid: "5de761e4",
+		type: "item",
+		item: "minecraft:log",
+		count: 16
 	}]
 }

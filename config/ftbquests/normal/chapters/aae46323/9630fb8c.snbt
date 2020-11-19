@@ -1,0 +1,11 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "bee64a45",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rtg_uranium"
+		}]
+	}]
+}

@@ -3,7 +3,6 @@
 	icon: "minecraft:chest",
 	x: -1.5d,
 	y: -2.0d,
-	description: "Craft some Chests",
 	text: [
 		"Chests hold 27 stacks of items each."
 	],
@@ -23,5 +22,11 @@
 		}],
 		count: 4L,
 		consume_items: false
+	}],
+	rewards: [{
+		uid: "e6c769e6",
+		type: "item",
+		item: "minecraft:log",
+		count: 8
 	}]
 }

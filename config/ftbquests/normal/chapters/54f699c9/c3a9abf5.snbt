@@ -1,0 +1,15 @@
+{
+	x: 3.5d,
+	y: -9.5d,
+	tasks: [{
+		uid: "c5de73e4",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 3
+			},
+			Damage: 3s
+		}]
+	}]
+}

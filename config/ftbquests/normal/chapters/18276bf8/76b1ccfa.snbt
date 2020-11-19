@@ -1,0 +1,23 @@
+{
+	x: -5.5d,
+	y: 1.0d,
+	text: [
+		"The ME Crafting Terminal has crafting support."
+	],
+	dependencies: [
+		"0c8dbbbd"
+	],
+	tasks: [{
+		uid: "0c183c1e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	}],
+	rewards: [{
+		uid: "00d61228",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot 1 6",
+		count: 12
+	}]
+}

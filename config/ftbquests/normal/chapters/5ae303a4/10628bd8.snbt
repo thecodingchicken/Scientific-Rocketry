@@ -1,0 +1,13 @@
+{
+	x: 1.5d,
+	y: 7.5d,
+	tasks: [{
+		uid: "04416908",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_phantom_connector"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

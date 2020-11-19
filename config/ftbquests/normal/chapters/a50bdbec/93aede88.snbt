@@ -1,7 +1,6 @@
 {
 	x: -3.0d,
 	y: 0.5d,
-	description: "Craft a Gold Chest",
 	dependencies: [
 		"0d55de76"
 	],
@@ -11,5 +10,11 @@
 		items: [{
 			item: "ironchest:iron_chest 1 1"
 		}]
+	}],
+	rewards: [{
+		uid: "483e370b",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 8
 	}]
 }

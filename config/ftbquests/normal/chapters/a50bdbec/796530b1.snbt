@@ -1,7 +1,6 @@
 {
 	x: -3.0d,
 	y: 1.5d,
-	description: "Craft a Diamond Chest",
 	dependencies: [
 		"93aede88"
 	],

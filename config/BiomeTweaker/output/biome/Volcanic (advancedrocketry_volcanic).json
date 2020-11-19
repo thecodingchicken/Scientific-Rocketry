@@ -1,6 +1,6 @@
 
 {
-  "ID": 53,
+  "ID": 75,
   "Name": "Volcanic",
   "Resource Location": "advancedrocketry:volcanic",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenVolcanic",
@@ -20,8 +20,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WASTELAND",
     "MOUNTAIN",
+    "WASTELAND",
     "DRY",
     "HOT"
   ],

@@ -1,7 +1,6 @@
 {
 	x: -3.0d,
 	y: 3.5d,
-	description: "Craft a Crystal Chest",
 	text: [
 		"Crystal Chests are transparent and store a lot of items. They are also required in a few recipes."
 	],
@@ -14,5 +13,11 @@
 		items: [{
 			item: "ironchest:iron_chest 1 5"
 		}]
+	}],
+	rewards: [{
+		uid: "c9d9ee9c",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 8
 	}]
 }

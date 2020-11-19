@@ -1,0 +1,29 @@
+{
+	title: "Processing Custom Ores",
+	x: -2.5d,
+	y: 10.0d,
+	shape: "square",
+	text: [
+		"Cobalt and Ardite Ore require at least 3x processing from Mekanism to process.",
+		"",
+		"They also have special recipes in the Metallurgic Fabricator.",
+		"",
+		"Other ContentTweaker ores also require Mekanism or Metallurgic Fabricator recipes to process."
+	],
+	tasks: [{
+		uid: "606d42e5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cobalt_crystal"
+		}],
+		count: 12L
+	},
+	{
+		uid: "be439ee2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ardite_crystal"
+		}],
+		count: 12L
+	}]
+}

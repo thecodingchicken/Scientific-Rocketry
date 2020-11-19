@@ -1,0 +1,15 @@
+{
+	x: -5.5d,
+	y: -11.5d,
+	tasks: [{
+		uid: "611f3dc9",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 2s
+		}]
+	}]
+}

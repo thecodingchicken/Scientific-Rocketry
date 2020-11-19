@@ -1,0 +1,23 @@
+{
+	x: -3.5d,
+	y: 1.0d,
+	text: [
+		"The ME Controller is the core of an ME system, and can be placed in a multiblock configuration. How channels work exactly is beyond the scope of this questbook, but basically ME Controllers have 32 channels per face."
+	],
+	dependencies: [
+		"1a1b8471"
+	],
+	tasks: [{
+		uid: "c50c530e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "1354c4e3",
+		type: "item",
+		item: "libvulpes:productingot 1 7",
+		count: 32
+	}]
+}

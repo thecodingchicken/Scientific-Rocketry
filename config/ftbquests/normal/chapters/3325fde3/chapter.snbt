@@ -1,7 +1,0 @@
-{
-	title: "The Endgame Begins",
-	icon: "extendedcrafting:material 1 32",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

@@ -3,7 +3,7 @@
 	x: -1.0d,
 	y: 0.0d,
 	text: [
-		"Gold Ore is found rarely in the Overworld below y=32."
+		""
 	],
 	dependencies: [
 		"ee9a999b"

@@ -1,0 +1,13 @@
+{
+	x: -4.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "231fcb2f",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_drill_upgrade_fortune"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

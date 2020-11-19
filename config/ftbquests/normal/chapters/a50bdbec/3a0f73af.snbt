@@ -1,7 +1,6 @@
 {
 	x: 1.0d,
 	y: 0.5d,
-	description: "Craft a Medium Storage Crate",
 	dependencies: [
 		"4c864095"
 	],
