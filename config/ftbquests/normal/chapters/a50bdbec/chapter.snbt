@@ -1,7 +1,0 @@
-{
-	title: "Storage and Logistics",
-	icon: "minecraft:chest",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

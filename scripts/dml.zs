@@ -50,3 +50,37 @@ recipes.addShaped(<deepmoblearning:trial_key>, [
     [<ore:pearlEnderEye>, <ore:gemCrystalFlux>, <ore:gemCrystalFlux>],
     [null, <ore:nuggetElectricalSteel>, <ore:nuggetElectricalSteel>]
 ]);
+
+// Removes default data model recipes (they start at faulty)
+recipes.remove(<deepmoblearning:data_model_zombie>);
+recipes.remove(<deepmoblearning:data_model_skeleton>);
+recipes.remove(<deepmoblearning:data_model_creeper>);
+recipes.remove(<deepmoblearning:data_model_spider>);
+recipes.remove(<deepmoblearning:data_model_slime>);
+recipes.remove(<deepmoblearning:data_model_witch>);
+recipes.remove(<deepmoblearning:data_model_blaze>);
+recipes.remove(<deepmoblearning:data_model_wither_skeleton>);
+recipes.remove(<deepmoblearning:data_model_enderman>);
+recipes.remove(<deepmoblearning:data_model_wither>);
+recipes.remove(<deepmoblearning:data_model_dragon>);
+recipes.remove(<deepmoblearning:data_model_shulker>);
+recipes.remove(<deepmoblearning:data_model_guardian>);
+recipes.remove(<deepmoblearning:data_model_ghast>);
+recipes.remove(<deepmoblearning:data_model_thermal_elemental>);
+
+// Starts at basic tier
+recipes.addShapeless(<deepmoblearning:data_model_zombie>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}),[<deepmoblearning:data_model_blank>, <minecraft:rotten_flesh>]);
+recipes.addShapeless(<deepmoblearning:data_model_skeleton>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:bone>]);
+recipes.addShapeless(<deepmoblearning:data_model_creeper>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:gunpowder>]);
+recipes.addShapeless(<deepmoblearning:data_model_spider>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:spider_eye>]);
+recipes.addShapeless(<deepmoblearning:data_model_slime>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:slime_ball>]);
+recipes.addShapeless(<deepmoblearning:data_model_witch>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:glass_bottle>]);
+recipes.addShapeless(<deepmoblearning:data_model_blaze>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:blaze_powder>]);
+recipes.addShapeless(<deepmoblearning:data_model_ghast>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:ghast_tear>]);
+recipes.addShapeless(<deepmoblearning:data_model_wither_skeleton>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:skull:1>]);
+recipes.addShapeless(<deepmoblearning:data_model_enderman>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:ender_pearl>]);
+recipes.addShapeless(<deepmoblearning:data_model_wither>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:nether_star>]);
+recipes.addShapeless(<deepmoblearning:data_model_dragon>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:dragon_egg>]);
+recipes.addShapeless(<deepmoblearning:data_model_shulker>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:shulker_shell>]);
+recipes.addShapeless(<deepmoblearning:data_model_guardian>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <minecraft:prismarine_shard>]);
+recipes.addShapeless(<deepmoblearning:data_model_thermal_elemental>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0}), [<deepmoblearning:data_model_blank>, <thermalfoundation:material:1025> | <thermalfoundation:material:1026> | <thermalfoundation:material:1027>]);

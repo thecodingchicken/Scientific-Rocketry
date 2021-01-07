@@ -185,6 +185,8 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:emerald> * 2664, <thermalfounda
 mods.nuclearcraft.Melter.addRecipe(<moreplates:emerald_plate>, <liquid:emerald> * 666);
 mods.nuclearcraft.Melter.addRecipe(<thermalfoundation:material:27>, <liquid:emerald> * 2664, 4.0);
 
+mods.nuclearcraft.IngotFormer.addRecipe(<liquid:emerald_custom> * 666, <minecraft:emerald>);
+
 // Recipes for molten quartz
 mods.thermalexpansion.Crucible.addRecipe(<liquid:quartz> * 666, <minecraft:quartz>, 2000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:quartz> * 2664, <minecraft:quartz_block:0>, 8000);

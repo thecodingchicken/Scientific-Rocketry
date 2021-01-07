@@ -36,6 +36,21 @@
       "id": "OD:oreIron"
     },
     {
+      "target": "purple",
+      "weight": 269,
+      "id": "OD:oreTitanium"
+    },
+    {
+      "target": "white",
+      "weight": 384,
+      "id": "OD:oreDilithium"
+    },
+    {
+      "target": "black",
+      "weight": 318,
+      "id": "OD:oreEnderBiotite"
+    },
+    {
       "target": "white",
       "weight": 560,
       "id": "OD:oreQuartz"

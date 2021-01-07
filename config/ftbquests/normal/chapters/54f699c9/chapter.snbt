@@ -1,7 +1,0 @@
-{
-	title: "Mekanism",
-	icon: "mekanism:reinforcedalloy",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

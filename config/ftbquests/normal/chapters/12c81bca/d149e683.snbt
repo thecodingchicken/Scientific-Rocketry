@@ -1,0 +1,27 @@
+{
+	icon: "contenttweaker:infinity_artifact",
+	x: 0.0d,
+	y: 6.0d,
+	description: "The end is near",
+	text: [
+		"This item unlocks the Infinity Dimension, which has lots of Infinity Blocks and Eternity Ore."
+	],
+	dependencies: [
+		"9697503e",
+		"8390dce1",
+		"7ec8480e",
+		"97d58df2"
+	],
+	tasks: [{
+		uid: "32152e94",
+		type: "item",
+		items: [{
+			item: "contenttweaker:infinity_artifact"
+		}]
+	},
+	{
+		uid: "dd653948",
+		type: "dimension",
+		dim: 104
+	}]
+}

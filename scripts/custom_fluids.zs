@@ -96,3 +96,4 @@ registerFluid("clean_adamantium_slurry", "fc3041");
 registerFluid("opinionium_slurry", "c2c4ad");
 registerFluid("clean_opinionium_slurry", "eff0e4");
 registerFluid("ultimate", "ff00f2");
+registerFluid("emerald_custom", "09ff05");

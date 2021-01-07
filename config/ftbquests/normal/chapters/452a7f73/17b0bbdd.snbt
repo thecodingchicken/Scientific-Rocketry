@@ -1,7 +1,7 @@
 {
 	title: "Warp Speed",
-	x: 0.5d,
-	y: 10.0d,
+	x: -1.5d,
+	y: 6.75d,
 	shape: "hexagon",
 	description: "Build a Warp Controller",
 	text: [

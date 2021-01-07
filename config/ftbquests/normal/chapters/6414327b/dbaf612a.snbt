@@ -6,8 +6,7 @@
 	description: "Titanium",
 	text: [
 		"Titanium is the next mining level.",
-		"There are a few tools that can mine ores in this level.",
-		"I would recommend using a Dark Pick."
+		"There are a few tools that can mine ores in this level, such as a Dark Pick or higher-tier Fluxbore."
 	],
 	dependencies: [
 		"fad0586e"

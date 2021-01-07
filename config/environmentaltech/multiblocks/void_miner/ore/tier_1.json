@@ -181,9 +181,19 @@
       "id": "OD:oreQuartzBlack"
     },
     {
+      "target": "black",
+      "weight": 237,
+      "id": "OD:oreEnderBiotite"
+    },
+    {
       "target": "white",
       "weight": 233,
       "id": "OD:oreMagnesium"
+    },
+    {
+      "target": "white",
+      "weight": 318,
+      "id": "OD:oreDilithium"
     },
     {
       "target": "white",

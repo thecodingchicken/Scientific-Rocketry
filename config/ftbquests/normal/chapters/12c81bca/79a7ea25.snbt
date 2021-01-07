@@ -1,0 +1,38 @@
+{
+	title: "Creative Portable Tank",
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"This item is a game-changer.....if you can handle the cost.",
+		"",
+		"Since this is so powerful, the later recipes in the pack tend to be even harder. So good luck!"
+	],
+	dependencies: [
+		"fa4b5265",
+		"8d78784a"
+	],
+	tasks: [{
+		uid: "e243054d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				Creative: 1,
+				Level: 4
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7370ee5c",
+		type: "item",
+		item: "nuclearcraft:melter",
+		count: 64
+	},
+	{
+		uid: "36ef46e7",
+		type: "item",
+		item: "nuclearcraft:ingot_former",
+		count: 64
+	}]
+}

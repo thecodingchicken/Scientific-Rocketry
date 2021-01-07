@@ -325,3 +325,10 @@ recipes.addShaped(<advancedrocketry:asteroidchip>, [
 	[<ore:circuitElite>, <advancedrocketry:ic:1>, <ore:circuitElite>], 
 	[<actuallyadditions:item_crystal:3>, <advancedrocketry:dataunit>, <actuallyadditions:item_crystal:3>]
 ]);
+
+// Airtight seal
+recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: (<enchantment:advancedrocketry:spacebreathing>.id) as short}]}), [
+	[<ore:plateTitanium>, <ore:circuitUltimate>, <ore:plateTitanium>],
+	[<ore:plateIridium>, <minecraft:nether_star>, <ore:plateIridium>], 
+	[<ore:plateTitanium>, <ore:circuitUltimate>, <ore:plateTitanium>]
+]);

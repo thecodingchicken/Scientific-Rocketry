@@ -36,9 +36,24 @@
       "id": "OD:oreCoal"
     },
     {
+      "target": "purple",
+      "weight": 315,
+      "id": "OD:oreTitanium"
+    },
+    {
+      "target": "white",
+      "weight": 356,
+      "id": "OD:oreDilithium"
+    },
+    {
       "target": "white",
       "weight": 750,
       "id": "OD:oreIron"
+    },
+    {
+      "target": "black",
+      "weight": 286,
+      "id": "OD:oreEnderBiotite"
     },
     {
       "target": "white",

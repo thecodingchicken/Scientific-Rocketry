@@ -1,6 +1,6 @@
 {
 	x: 2.0d,
-	y: 7.5d,
+	y: 6.0d,
 	text: [
 		"The Satellite Builder is used to build satellites."
 	],

@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"Crying Obsidian is used instead of beds to set spawn.",
+		"",
+		"You cannot sleep through the night in this pack."
+	],
+	tasks: [{
+		uid: "c969d839",
+		type: "item",
+		items: [{
+			item: "cryingobsidian:crying_obsidian_block"
+		}]
+	}],
+	rewards: [{
+		uid: "3de2b5b8",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 4
+	}]
+}

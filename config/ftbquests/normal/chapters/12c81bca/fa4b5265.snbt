@@ -1,0 +1,33 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	description: "Produces near-infinite power",
+	text: [
+		"One of the first really good creative items available to the player. You are going to need this much power, so be prepared."
+	],
+	dependencies: [
+		"c83fe7e9"
+	],
+	tasks: [{
+		uid: "fb14a66d",
+		type: "item",
+		items: [{
+			id: "enderio:block_cap_bank",
+			tag: {
+				"enderio:energy": 50000000
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "56988511",
+		type: "item",
+		item: "enderio:item_endergy_conduit 1 11",
+		count: 64
+	},
+	{
+		uid: "629df4a0",
+		type: "item",
+		item: "extendedcrafting:material 1 13",
+		count: 8
+	}]
+}

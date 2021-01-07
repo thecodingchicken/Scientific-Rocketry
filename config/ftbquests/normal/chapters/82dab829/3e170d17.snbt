@@ -3,8 +3,15 @@
 	x: -1.0d,
 	y: 0.5d,
 	text: [
-		"Vanilla progression is pretty much unchanged, so I didn't bother making quests for it."
+		"For the most part, Vanilla progression is unchanged. ",
+		"",
+		"However, it is important to note that Hardcore Darkness is in the pack, so the nights are really dark.",
+		"",
+		"Additionally, mobs tend to be buffed a bitt compared to Vanilla.",
+		"",
+		"Good luck!"
 	],
+	hide_dependency_lines: true,
 	tasks: [{
 		uid: "412fbe52",
 		type: "checkmark"

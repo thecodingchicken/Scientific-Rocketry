@@ -9,7 +9,10 @@
 		uid: "ad83f236",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:tool.hammer_iron"
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "thermalfoundation:tool.hammer_iron"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

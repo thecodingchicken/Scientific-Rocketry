@@ -3,7 +3,6 @@
 
     "populate": {
         "reslon_redstone": {
-			"type": "large-vein",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -19,7 +18,8 @@
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 500
+				"cluster-size": 500,
+				"type": "large-vein"
 			},
 			"cluster-count": 1,
 			"min-height": 0,

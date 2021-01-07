@@ -241,16 +241,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:material:1
     <extendedcrafting:material:18>
 ]);
 
-// Dragon egg (100M RF)
-mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:dragon_egg>, 100000000, 1000000, <contenttweaker:terrestrial_artifact>, [
-    <enderio:block_alloy_endergy:2>,
-    <enderio:block_alloy_endergy:2>,
-    <extendedcrafting:material:48>,
-    <extendedcrafting:material:48>,
-    <extendedcrafting:material:48>,
-    <extendedcrafting:material:48>
-]);
-
 // Remove ender package crafter
 recipes.remove(<packagedexcrafting:ender_crafter>);
 
@@ -380,7 +370,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eternal_cata
 ]);
 
 // Vending upgrade
-mods.extendedcrafting.CompressionCrafting.addRecipe(<storagedrawers:upgrade_creative:1>, <storagedrawers:upgrade_creative:0>, 1000, <contenttweaker:eternal_catalyst>, 2147483647, 1000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<storagedrawers:upgrade_creative:1>, <storagedrawers:upgrade_creative:0>, 10000, <contenttweaker:eternal_catalyst>, 2147483647, 1000000);
 
 // Quantum compressor
 recipes.remove(<extendedcrafting:compressor>);

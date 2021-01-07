@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: -7.0d,
+	tasks: [{
+		uid: "7a786390",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "1f91193d",
+		type: "item",
+		item: "thermalfoundation:material 1 136",
+		count: 16
+	}]
+}

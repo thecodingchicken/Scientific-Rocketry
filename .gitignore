@@ -1,11 +1,17 @@
 .mixin.out/**
 backups/**
 crash-reports/**
+coremods/**
+dumps/**
 downloads/**
 exports/**
 generated/**
 journeymap/**
 local/**
+mputils/**
+patchouli_books/**
+server-resource-packs/**
+valkr
 logs/**
 maps/**
 mods/**
@@ -31,3 +37,6 @@ minecraftinstance.json
 patchouli_data.json
 usercache.json
 usernamecache.json
+mods.zip
+scripts.zip
+ScientificRocketryNew.zip

@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "eebdf0da",
+		type: "item",
+		items: [{
+			item: "rftools:builder"
+		}]
+	}],
+	rewards: [{
+		uid: "fa5437a8",
+		type: "item",
+		item: "thermalfoundation:material 1 165",
+		count: 16
+	}]
+}

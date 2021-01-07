@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	description: "Actually infinite RF",
+	text: [
+		"I am aware the endgame is super unbalanced, but I don't plan on doing anything about it."
+	],
+	dependencies: [
+		"79a7ea25"
+	],
+	tasks: [{
+		uid: "c8485b79",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 4
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d1aa917",
+		type: "item",
+		item: "avaritia:resource 1 5"
+	}]
+}

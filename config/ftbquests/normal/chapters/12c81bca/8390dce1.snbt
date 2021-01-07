@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: 4.5d,
+	text: [
+		"This recipe has one hard part."
+	],
+	dependencies: [
+		"b642892c"
+	],
+	tasks: [{
+		uid: "977fd807",
+		type: "item",
+		items: [{
+			item: "contenttweaker:power_core"
+		}]
+	}]
+}

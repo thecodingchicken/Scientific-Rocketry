@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "757a539d",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_litherite"
+		}]
+	}],
+	rewards: [{
+		uid: "a2962bf0",
+		type: "item",
+		item: "environmentaltech:litherite_crystal",
+		count: 16
+	}]
+}

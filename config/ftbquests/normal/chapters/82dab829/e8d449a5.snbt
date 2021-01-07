@@ -1,6 +1,11 @@
 {
 	title: "OreExcavate",
-	icon: "minecraft:iron_pickaxe",
+	icon: {
+		ForgeCaps: {
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:iron_pickaxe"
+	},
 	x: -2.5d,
 	y: 0.5d,
 	text: [
@@ -26,6 +31,11 @@
 	rewards: [{
 		uid: "80af8ebf",
 		type: "item",
-		item: "minecraft:stone_axe"
+		item: {
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:stone_axe"
+		}
 	}]
 }

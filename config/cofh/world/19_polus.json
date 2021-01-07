@@ -180,24 +180,20 @@
 				"block": [
 					{
 						"name": "contenttweaker:adamantium_ore",
-						"weight": 85
+						"weight": 97
 					},
 
 					{
-						"name": "thermalfoundation:fluid_cryotheum",
-						"weight": 14
-					},
-
-					{
-						"name": "avaritia:block_resource:2",
-						"weight": 1
+						"name": "avaritia:block_resource",
+						"metadata": 2,
+						"weight": 3
 					}
 				],
 				"material": "minecraft:stone",
 				"cluster-size": 60
 			},
 			"cluster-count": 1,
-			"chunk-chance": 5,
+			"chunk-chance": 40,
 			"min-height": 0,
 			"max-height": 41,
 			"retrogen": false,

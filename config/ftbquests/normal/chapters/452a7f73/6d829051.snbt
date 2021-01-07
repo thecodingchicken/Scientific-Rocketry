@@ -2,7 +2,7 @@
 	title: "Creative Realm",
 	icon: "mekanism:saltblock",
 	x: 0.5d,
-	y: 15.0d,
+	y: 8.0d,
 	shape: "square",
 	text: [
 		"The Creative Realm requires a Salt Singularity as an artifact. It contains Opinionium Ore.",

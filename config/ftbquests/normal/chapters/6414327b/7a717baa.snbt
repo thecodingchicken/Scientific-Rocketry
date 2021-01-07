@@ -13,5 +13,11 @@
 			item: "contenttweaker:opinionium_ore"
 		}],
 		count: 64L
+	}],
+	rewards: [{
+		uid: "ee50f90d",
+		type: "item",
+		item: "contenttweaker:opinionium_ingot",
+		count: 16
 	}]
 }

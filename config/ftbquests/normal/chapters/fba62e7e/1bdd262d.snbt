@@ -1,0 +1,21 @@
+{
+	x: -7.0d,
+	y: 3.0d,
+	dependencies: [
+		"3f4a7a32"
+	],
+	tasks: [{
+		uid: "f0caa881",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_6"
+		}]
+	}],
+	rewards: [{
+		uid: "28dea8e8",
+		type: "item",
+		auto: "disabled",
+		item: "deepmoblearning:glitch_infused_ingot",
+		count: 16
+	}]
+}

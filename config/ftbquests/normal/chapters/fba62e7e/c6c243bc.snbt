@@ -1,0 +1,20 @@
+{
+	x: -7.0d,
+	y: 1.0d,
+	dependencies: [
+		"ad2b42f7"
+	],
+	tasks: [{
+		uid: "fe73a045",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_4"
+		}]
+	}],
+	rewards: [{
+		uid: "fde0bbec",
+		type: "item",
+		item: "thermalfoundation:material 1 135",
+		count: 16
+	}]
+}

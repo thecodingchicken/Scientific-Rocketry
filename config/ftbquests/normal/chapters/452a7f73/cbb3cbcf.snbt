@@ -2,7 +2,7 @@
 	title: "Satellite Missions",
 	icon: "advancedrocketry:satelliteidchip",
 	x: 0.5d,
-	y: 7.5d,
+	y: 6.0d,
 	text: [
 		"Satellites can be sent on missions to collect data.",
 		"",

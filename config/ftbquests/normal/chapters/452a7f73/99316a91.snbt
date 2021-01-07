@@ -19,9 +19,7 @@
 				FluidName: "rocket_fuel",
 				Amount: 1000
 			}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		}]
 	}],
 	rewards: [{
 		uid: "ad2947be",

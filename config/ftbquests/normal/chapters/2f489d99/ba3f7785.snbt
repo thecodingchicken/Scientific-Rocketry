@@ -1,0 +1,27 @@
+{
+	x: 1.0d,
+	y: 8.5d,
+	description: "9x9 Crafting (and the first truly evil recipe)",
+	text: [
+		"There is a good chance this will be a wall for you.",
+		"",
+		"I recommend that you rethink your infrastructure if you struggle too much with making, say, the ME Storage Components."
+	],
+	dependencies: [
+		"31316439",
+		"147f18af"
+	],
+	tasks: [{
+		uid: "28f3c20d",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_ultimate"
+		}]
+	}],
+	rewards: [{
+		uid: "d8419725",
+		type: "item",
+		item: "avaritia:resource 1 1",
+		count: 16
+	}]
+}

@@ -1,17 +1,19 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-quaternary
-Peregrinus11
-Ivy_
-NickT
-Robijnvogel
-XxNeapTidexX
-AdaraChristine
-IDroid
-Pongo Sapiens
-otakup0pe
-realTIMematrix
 Jonathan McManus
+realTIMematrix
+quaternary
+Robijnvogel
+IDroid
+otakup0pe
+NickT
+Ivy_
+Peregrinus11
+Pongo Sapiens
+Spool
 DreamThorn
+Genryu
+BigAl607
+AdaraChristine
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
@@ -20,6 +22,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: advancedrocketry.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: advgenerators.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ae2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ae2_storage_easy.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ae2_storage_hard.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: avaritia.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: combination_crafter_port.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: custom_blocks.zs} as we are currently loading with a different loader
@@ -32,8 +36,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: environmentaltech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: exchangers.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: extendedcrafting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: fluid_infusion.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: foregoing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gears.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: heart_canisters.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: industrialforegoing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: intdynamics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ironchests.zs} as we are currently loading with a different loader
@@ -50,6 +56,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oreprocessing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: plates.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: projred.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: quark_processes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: remove_recipes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: rftools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: rods.zs} as we are currently loading with a different loader
@@ -59,14 +66,17 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: solarflux.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: storage_blocks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: thermalexpansion.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tooltips.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 25ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 7ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: actuallyadditions.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: advancedrocketry.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: advgenerators.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ae2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ae2_storage_easy.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ae2_storage_hard.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: avaritia.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: combination_crafter_port.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: custom_blocks.zs}
@@ -79,8 +89,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: environmentaltech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: exchangers.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: extendedcrafting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: fluid_infusion.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: foregoing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gears.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: heart_canisters.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: industrialforegoing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: intdynamics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ironchests.zs} as we are currently loading with a different loader
@@ -97,6 +109,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oreprocessing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: plates.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: projred.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: quark_processes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: remove_recipes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: rftools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: rods.zs} as we are currently loading with a different loader
@@ -106,14 +119,17 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: solarflux.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: storage_blocks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: thermalexpansion.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tooltips.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 962ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 689ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [mekatweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: actuallyadditions.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: advancedrocketry.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: advgenerators.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ae2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ae2_storage_easy.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ae2_storage_hard.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: avaritia.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: combination_crafter_port.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: custom_blocks.zs} as we are currently loading with a different loader
@@ -126,8 +142,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: environmentaltech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: exchangers.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: extendedcrafting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: fluid_infusion.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: foregoing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gears.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: heart_canisters.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: industrialforegoing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: intdynamics.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ironchests.zs} as we are currently loading with a different loader
@@ -144,6 +162,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oreprocessing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: plates.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: projred.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: quark_processes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: remove_recipes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: rftools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: rods.zs} as we are currently loading with a different loader
@@ -153,6 +172,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: solarflux.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: storage_blocks.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: thermalexpansion.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tooltips.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
@@ -192,6 +212,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: advgenerators.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ae2.zs}
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Creative Energy Cell
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ae2_storage_easy.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ae2_storage_hard.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: avaritia.zs}
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Diamond Lattice
 [INITIALIZATION][CLIENT][INFO] Removing Extreme Recipe from Avaritia with the output of: Neutron Collector
@@ -199,9 +221,9 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Removing Extreme Recipe from Avaritia with the output of: Endest Pearl
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Endest Pearl
 [INITIALIZATION][CLIENT][INFO] Removing Extreme Recipe from Avaritia with the output of: Infinity Catalyst
-[INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Infinity Catalyst
+[INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Infinity Catalyst
 [INITIALIZATION][CLIENT][INFO] Removing Extreme Recipe from Avaritia with the output of: Infinity Ingot
-[INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Infinity Ingot
+[INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Infinity Ingot
 [INITIALIZATION][CLIENT][INFO] Removing Extreme Recipe from Avaritia with the output of: World Breaker
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for World Breaker
 [INITIALIZATION][CLIENT][INFO] Removing Extreme Recipe from Avaritia with the output of: Sword of the Cosmos
@@ -288,7 +310,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Ultimate Catalyst
 [INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Crystaltine Component
 [INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Crystaltine Catalyst
-[INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Dragon Egg
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Advanced Package Crafter
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Elite Package Crafter
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Ultimate Package Crafter
@@ -304,8 +325,20 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Creative Storage Upgrade
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for The Ultimate Ingot
 [INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Infinity Artifact
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: fluid_infusion.zs}
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_infuser recipe: 1 x item.redstone:0, 144 x electrum -> 4 x item.actuallyadditions.item_crystal:0
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_infuser recipe: 1 x item.dyePowder:4, 144 x energetic_silver -> 4 x item.actuallyadditions.item_crystal:1
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_infuser recipe: 1 x item.diamond:0, 144 x crystalline_alloy -> 4 x item.actuallyadditions.item_crystal:2
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_infuser recipe: 1 x item.coal:0, 144 x tough -> 4 x item.actuallyadditions.item_crystal:3
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_infuser recipe: 1 x item.emerald:0, 144 x vibrant_alloy -> 4 x item.actuallyadditions.item_crystal:4
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_infuser recipe: 1 x item.ingotIron:0, 144 x electrical_steel -> 4 x item.actuallyadditions.item_crystal:5
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: foregoing.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gears.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: heart_canisters.zs}
+[INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Orange Heart Canister
+[INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Green Heart Canister
+[INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Blue Heart Canister
+[INITIALIZATION][CLIENT][INFO] Adding a Compression Crafting recipe for Heart Amulet
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: industrialforegoing.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: intdynamics.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ironchests.zs}
@@ -482,6 +515,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_ingot_former recipe: 250 x glowstone -> 1 x item.yellowDust:0
 [INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_melter recipe: 1 x item.moreplates.emerald_plate:0 -> 666 x emerald
 [INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_melter recipe: 1 x item.thermalfoundation.material:27 -> 2664 x emerald
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_ingot_former recipe: 666 x emerald_custom -> 1 x item.emerald:0
 [INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_melter recipe: 1 x tile.quartzBlock:1 -> 2664 x quartz
 [INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_melter recipe: 1 x tile.quartzBlock:2 -> 2664 x quartz
 [INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_melter recipe: 1 x tile.stoneSlab:7 -> 1332 x quartz
@@ -1104,6 +1138,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Power Core
 [INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Creative Core
 [INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Utility Core
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_infuser recipe: 4 x item.enderdragon_scale:0, 576 x adamantium -> 1 x tile.dragonEgg:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modmach.zs}
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Machine Blueprint
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modular_machinery\advanced_metallurgic_fabricator.zs}
@@ -1522,6 +1557,16 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_pressurizer recipe: 4 x item.contenttweaker.black_iron_plate:0 -> 1 x item.ec.material:2
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: projred.zs}
 [INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_manufactory recipe: 1 x item.projectred.core.itemResource:300 -> 8 x item.projectred.core.itemResource:301
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: quark_processes.zs}
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_extractor recipe: 1 x tile.crystal:0 -> 1 x item.actuallyadditions.item_crystal:5, 1000 x glass
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_extractor recipe: 1 x tile.crystal:1 -> 1 x item.actuallyadditions.item_crystal:0, 1000 x glass
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_extractor recipe: 1 x tile.crystal:2 -> 1 x item.redstonearsenal.material:160, 1000 x glass
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_extractor recipe: 1 x tile.crystal:3 -> 1 x item.item_material:15, 1000 x glass
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_extractor recipe: 1 x tile.crystal:4 -> 1 x item.actuallyadditions.item_crystal:4, 1000 x glass
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_extractor recipe: 1 x tile.crystal:5 -> 1 x item.actuallyadditions.item_crystal:2, 1000 x glass
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_extractor recipe: 1 x tile.crystal:6 -> 1 x item.actuallyadditions.item_crystal:1, 1000 x glass
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_extractor recipe: 1 x tile.crystal:7 -> 1 x item.appliedenergistics2.material:7, 1000 x glass
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_extractor recipe: 1 x tile.crystal:8 -> 1 x item.actuallyadditions.item_crystal:3, 1000 x glass
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: remove_recipes.zs}
 [INITIALIZATION][CLIENT][INFO] Removing all Table Crafting recipes for Crystaltine Ingot
 [INITIALIZATION][CLIENT][INFO] Removing all Ender Crafting recipes for Ender Star
@@ -1549,8 +1594,72 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding a Combination Crafting recipe for Resonant Cell Frame (Full)
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Portable Tank (Creative)
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Flux Capacitor (Creative)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tooltips.zs}
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <avaritia:resource:2>: "Neutron Collector is disabled"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <avaritia:resource:4>: "Craft using Advanced Metallurgic Fabricator"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <extendedcrafting:singularity_custom:131>: "Used to unlock the Creative Realm in the Warp Controller"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <contenttweaker:infinity_artifact>: "Used to unlock the Infinity Dimension in the Warp Controller"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <extendedcrafting:material:8>: "Used to unlock the Garden Dimension in the Warp Controller"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:item_crystal_empowered>: "Requires 500k RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:item_crystal_empowered:1>: "Requires 500k RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:item_crystal_empowered:2>: "Requires 500k RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:item_crystal_empowered:3>: "Requires 500k RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:item_crystal_empowered:4>: "Requires 500k RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:item_crystal_empowered:5>: "Requires 500k RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:block_crystal_empowered>: "Requires 5 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:block_crystal_empowered:1>: "Requires 5 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:block_crystal_empowered:2>: "Requires 5 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:block_crystal_empowered:3>: "Requires 5 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:block_crystal_empowered:4>: "Requires 5 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:block_crystal_empowered:5>: "Requires 5 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:item_misc:24>: "Requires 100k RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <extendedcrafting:crafting_core>: "Can handle the same recipes the Empowerer can, as well as various new recipes"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <extendedcrafting:crafting_core>: "Hover over the energy bar in JEI to determine the power cost and RF/t usage"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <extendedcrafting:crafting_core>: "Requires 50 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <extendedcrafting:material:8>: "Requires 10 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <extendedcrafting:material:9>: "Requires 15 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <extendedcrafting:material:10>: "Requires 20 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <extendedcrafting:material:11>: "Requires 25 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <mekanism:controlcircuit:3>: "Requires 7.5 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <thermalexpansion:frame:147>: "Requires 20 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <thermalfoundation:material:1028>: "Requires 5 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <enderio:item_material:44>: "Requires 1 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <bhc:orange_heart_canister>: "Requires 1 million RF"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <contenttweaker:opinionium_ore>: "Only spawns in the Creative Realm"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <contenttweaker:eternity_ore>: "Only spawns in the Infinity Dimension"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <contenttweaker:tungsten_ore>: "Requires Tier 4 Void Ore Miner"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <contenttweaker:adamantium_ore>: "Requires Tier 6 Void Ore Miner"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <contenttweaker:ardite_ore>: "Requires Tier 3 Void Ore Miner"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <contenttweaker:cobalt_ore>: "Requires Tier 3 Void Ore Miner"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <nuclearcraft:ore:3>: "Requires Tier 3 Void Ore Miner"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <thermalfoundation:ore:7>: "Requires Tier 2 Void Ore Miner"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <thermalfoundation:ore:8>: "Requires Tier 5 Void Ore Miner"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <libvulpes:ore0:8>: "Requires Tier 2 Void Ore Miner"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <environmentaltech:void_ore_miner_cont_1>: "Void Ore Miners require more power than usual in this pack"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <environmentaltech:void_ore_miner_cont_2>: "Void Ore Miners require more power than usual in this pack"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <environmentaltech:void_ore_miner_cont_3>: "Void Ore Miners require more power than usual in this pack"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <environmentaltech:void_ore_miner_cont_4>: "Void Ore Miners require more power than usual in this pack"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <environmentaltech:void_ore_miner_cont_5>: "Void Ore Miners require more power than usual in this pack"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <environmentaltech:void_ore_miner_cont_6>: "Void Ore Miners require more power than usual in this pack"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:1>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:2>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:3>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:4>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:5>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:6>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:7>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:8>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:9>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:10>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:11>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:12>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:13>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:14>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <minecraft:bed:15>: "Beds are disabled, use Crying Obsidian to set spawn"
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <cryingobsidian:crying_obsidian_block>: "Used to set spawn instead of beds"
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 4018ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 4093ms
 [INITIALIZATION][CLIENT][INFO] Translating enderio.item_endergy_conduit_stellar.name to Ultimate Energy Conduit
 [INITIALIZATION][CLIENT][INFO] Translating enderio.item_endergy_conduit_melodic.name to Adamantium Energy Conduit
 [INITIALIZATION][CLIENT][INFO] Translating enderio.item_endergy_conduit_pink_slime.name to Stellar Energy Conduit
@@ -1585,28 +1694,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <appliedenergistics2:quartz_glass> and replacing them with <ore:blockGlassHardened>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotIron> and replacing them with <ore:ingotTitanium>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustFluix> and replacing them with <ore:plateTitanium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustRedstone> and replacing them with <ore:ingotRedstoneAlloy>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustRedstone> and replacing them with <ore:ingotElectrum>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustGlowstone> and replacing them with <ore:ingotEnergeticAlloy>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustGlowstone> and replacing them with <ore:ingotSignalum>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustGlowstone> and replacing them with <ore:ingotVibrantAlloy>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustGlowstone> and replacing them with <ore:ingotOsgloglas>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustGlowstone> and replacing them with <ore:ingotArdite>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustGlowstone> and replacing them with <ore:ingotAdamantium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gemLapis> and replacing them with <ore:dustElectrotine>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gemLapis> and replacing them with <ore:ingotElectrotineAlloy>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gemLapis> and replacing them with <ore:ingotEnergeticSilver>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gemLapis> and replacing them with <ore:ingotVividAlloy>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dyeBlue> and replacing them with <ore:ingotEnderium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dyeBlue> and replacing them with <ore:ingotCobalt>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dyeBlue> and replacing them with <ore:ingotMithril>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dyeYellow> and replacing them with <ore:ingotConstantan>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dyeYellow> and replacing them with <ore:ingotGold>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dyeYellow> and replacing them with <ore:ingotRefinedGlowstone>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dyeYellow> and replacing them with <ore:ingotLumium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dyeYellow> and replacing them with <ore:ingotEndSteel>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dyeYellow> and replacing them with <ore:ingotOsmiridium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dyeYellow> and replacing them with <ore:ingotStellarAlloy>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotStellarAlloy> and replacing them with <ore:ingotUltimate>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotMelodicAlloy> and replacing them with <ore:ingotAdamantium>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotCrystallinePinkSlime> and replacing them with <ore:ingotStellarAlloy>
@@ -1635,6 +1722,9 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <minecraft:leather> and replacing them with <simplyjetpacks:itemjetpack:4>
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "extendedcrafting:luminessence"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "unidict:gearsteel_x1_shape.aba c aba"
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotIron> and replacing them with <ore:ingotAluminum>
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "bhc:green_heart_canister"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "bhc:blue_heart_canister"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "industrialforegoing:black_hole_unit"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "industrialforegoing:black_hole_tank"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "industrialforegoing:black_hole_controller_reworked"
@@ -1681,6 +1771,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustDiamond> and replacing them with <ore:dustPlatinum>
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "rftools:dimensional_shard_hard"
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gemDiamond> and replacing them with <actuallyadditions:item_crystal:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gemDiamond> and replacing them with <actuallyadditions:item_crystal_empowered:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <minecraft:gold_block> and replacing them with <thermalfoundation:storage_alloy:6>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotGold> and replacing them with <ore:ingotLumium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dyeBlue> and replacing them with <ore:plateEnderium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gemDiamond> and replacing them with <actuallyadditions:item_crystal_empowered:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gemDiamond> and replacing them with <teslacorelib:machine_case>
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "cns:nether_star"
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <minecraft:light_weighted_pressure_plate> and replacing them with <ore:plateElectrum>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotBeryllium> and replacing them with <ore:plateBeryllium>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotLead> and replacing them with <ore:plateLead>
@@ -1814,6 +1911,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Altitude Controller with name ct_shaped-23086083
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Space Station Id Chip with name ct_shaped1612857689
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Asteroid Chip with name ct_shaped-1489857129
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enchanted Book with name ct_shaped367600323
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Frame with name ct_shaped-1827347917
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pressure Valve with name ct_shaped456378123
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Advanced Pressure Valve with name ct_shaped-1325344010
@@ -1857,9 +1955,28 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Packager Extension with name ct_shaped-1142401808
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Package Recipe Holder with name ct_shaped475436841
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for ME Controller with name ct_shaped-168354889
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for ME Terminal with name ct_shaped-2124356867
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for ME Crafting Terminal with name ct_shapeless-376313197
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for ME Storage Bus with name ct_shapeless1424640191
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 1k ME Storage Component with name ct_shaped14395479
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4k ME Storage Component with name ct_shaped1286896375
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 16k ME Storage Component with name ct_shaped-546046856
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 64k ME Storage Component with name ct_shaped509654393
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 256k ME Storage Component with name ct_shaped-1652772186
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 1024k ME Storage Component with name ct_shaped760165981
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4096k ME Storage Component with name ct_shaped-1405259746
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 16384k ME Storage Component with name ct_shaped-989711457
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 1k ME Fluid Storage Component with name ct_shaped445468372
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4k ME Fluid Storage Component with name ct_shaped-1326423764
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 16k ME Fluid Storage Component with name ct_shaped-2048305227
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 64k ME Fluid Storage Component with name ct_shaped-1654093002
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 256k ME Fluid Storage Component with name ct_shaped1595208420
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 1024k ME Fluid Storage Component with name ct_shaped-1857954395
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4096k ME Fluid Storage Component with name ct_shaped-930734061
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 1k ME Gas Storage Component with name ct_shaped1892644694
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4k ME Gas Storage Component with name ct_shaped28079478
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 16k ME Gas Storage Component with name ct_shaped-1246520521
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 64k ME Gas Storage Component with name ct_shaped-1613878088
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 256k ME Gas Storage Component with name ct_shaped-1189456424
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 1024k ME Gas Storage Component with name ct_shaped-2056761675
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4096k ME Gas Storage Component with name ct_shaped-1074486822
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Powered Diamond Anvil with name ct_shaped269537979
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Soot-covered Machine Casing with name ct_shaped183457181
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Simulation Chamber with name ct_shaped1988231827
@@ -1867,6 +1984,21 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Deep Learner with name ct_shaped701762025
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blank Data Model with name ct_shaped-1743054416
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Trial Key with name ct_shaped-810235943
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Zombie Data Model with name ct_shapeless-960366902
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Skeleton Data Model with name ct_shapeless2062415980
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Creeper Data Model with name ct_shapeless-1298230134
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Spider Data Model with name ct_shapeless1284584423
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Slime Data Model with name ct_shapeless-1627138867
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Witch Data Model with name ct_shapeless-1013849535
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Blaze Data Model with name ct_shapeless611213523
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Ghast Data Model with name ct_shapeless-450762370
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Wither Skeleton Data Model with name ct_shapeless-1242397488
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Enderman Data Model with name ct_shapeless-658828626
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Wither Data Model with name ct_shapeless-611437095
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Ender Dragon Data Model with name ct_shapeless-558486149
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Shulker Data Model with name ct_shapeless-1234487636
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Guardian Data Model with name ct_shapeless145358001
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Thermal Elemental Data Model with name ct_shapeless360965365
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Octadic Capacitor with name ct_shaped-869315241
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Simple Machine Chassis with name ct_shaped335039744
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystalline Capacitor with name ct_shaped410947754
@@ -2049,6 +2181,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Emerald /dank/null Panel with name ct_shaped39287857
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for /dank/null/MK VI with name ct_shaped269048291
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Universal Remote with name ct_shaped369787951
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nether Star Fragment with name ct_shaped-393392477
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nether Star with name ct_shaped-1298991376
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Casing with name ct_shaped1546035787
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Controller with name ct_shaped1895509258
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Vent with name ct_shaped473057686
@@ -2347,28 +2481,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for ME Packaging Component with name packagedauto-me_package_component-remodified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Meteorite Compass with name appliedenergistics2-misc/meteors_sky_compass-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spatial Pylon with name appliedenergistics2-network/blocks/spatial_io_pylon-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 1k ME Storage Component with name appliedenergistics2-network/cells/storage_components_cell_1k_part-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4k ME Storage Component with name appliedenergistics2-network/cells/storage_components_cell_4k_part-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 16k ME Storage Component with name appliedenergistics2-network/cells/storage_components_cell_16k_part-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 64k ME Storage Component with name appliedenergistics2-network/cells/storage_components_cell_64k_part-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 256k ME Storage Component with name extracells-storagecomponent/item/256k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 1024k ME Storage Component with name extracells-storagecomponent/item/1024k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4096k ME Storage Component with name extracells-storagecomponent/item/4096k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 16384k ME Storage Component with name extracells-storagecomponent/item/16384k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 1k ME Fluid Storage Component with name appliedenergistics2-network/cells/fluid_storage_components_cell_1k_part-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4k ME Fluid Storage Component with name appliedenergistics2-network/cells/fluid_storage_components_cell_4k_part-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 16k ME Fluid Storage Component with name appliedenergistics2-network/cells/fluid_storage_components_cell_16k_part-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 64k ME Fluid Storage Component with name appliedenergistics2-network/cells/fluid_storage_components_cell_64k_part-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 256k ME Fluid Storage Component with name extracells-storagecomponent/fluid/256k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 1024k ME Fluid Storage Component with name extracells-storagecomponent/fluid/1024k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4096k ME Fluid Storage Component with name extracells-storagecomponent/fluid/4096k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 1k ME Gas Storage Component with name extracells-storagecomponent/gas/1k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4k ME Gas Storage Component with name extracells-storagecomponent/gas/4k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 16k ME Gas Storage Component with name extracells-storagecomponent/gas/16k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 64k ME Gas Storage Component with name extracells-storagecomponent/gas/64k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 256k ME Gas Storage Component with name extracells-storagecomponent/gas/256k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 1024k ME Gas Storage Component with name extracells-storagecomponent/gas/1024k-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4096k ME Gas Storage Component with name extracells-storagecomponent/gas/4096k-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ultimate Energy Conduit with name enderio-conduit_endergy_stellar-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Adamantium Energy Conduit with name enderio-conduit_endergy_melodic-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stellar Energy Conduit with name enderio-conduit_endergy_crystalline_pink_slime-modified
@@ -2390,6 +2502,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Null Modifier with name environmentaltech-m_multiblocks/m_components/m_modifiers/modifier_null-remodified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Laser Core with name environmentaltech-m_multiblocks/m_void/laser_core-remodified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Creative Flight Modifier with name environmentaltech-m_multiblocks/m_nanobot/modifier_creative_flight-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Canister with name bhc-canister-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mob Crusher with name industrialforegoing-mob_relocator-reremodified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tree Fluid Extractor with name industrialforegoing-tree_fluid_extractor-remodified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Fortune Addon with name industrialforegoing-fortune_addon-modified
@@ -2415,6 +2528,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gas Upgrade with name mekanism-gasupgrade-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Anchor Upgrade with name mekanism-anchorupgrade-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamond /dank/null Panel with name danknull-dank_null_panel_4-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mega Torch with name torchmaster-mega_torch-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Feral Flare Lantern with name torchmaster-feral_flare_lantern-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Interdiction Pulsar with name cyclicmagic-tile.magnet_anti_block_1-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Harvester with name cyclicmagic-tile.harvester_block_1-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Energy Upgrade with name nuclearcraft-item.nuclearcraft.upgrade.energy-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Energy Upgrade with name nuclearcraft-item.nuclearcraft.upgrade.energy_1-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Beryllium-Carbon Neutron Reflector with name nuclearcraft-tile.nuclearcraft.fission_reflector.beryllium_carbon-modified
@@ -2633,6 +2750,12 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Adding 1 Empowerer Recipe(s) for <extendedcrafting:material:9>
 [AVAILABLE][CLIENT][INFO] Adding 1 Empowerer Recipe(s) for <extendedcrafting:material:10>
 [AVAILABLE][CLIENT][INFO] Adding 1 Empowerer Recipe(s) for <extendedcrafting:material:11>
+[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:electrum> * 144
+[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:energetic_silver> * 144
+[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:crystalline_alloy> * 144
+[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:tough> * 144
+[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:vibrant_alloy> * 144
+[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:electrical_steel> * 144
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_material:11>
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_material:12>
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_material:13>
@@ -2732,6 +2855,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <contenttweaker:manyullyn_ingot> * 4
 [AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <contenttweaker:eternity_gear> in mode: GEAR
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <contenttweaker:eternity_ingot> * 4
+[AVAILABLE][CLIENT][INFO] Adding 1 Empowerer Recipe(s) for <bhc:orange_heart_canister>
 [AVAILABLE][CLIENT][INFO] Adding 1 Empowerer Recipe(s) for <mekanism:controlcircuit:3>
 [AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <liquid:gold> * 1296
 [AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <liquid:gold> * 288
@@ -3781,21 +3905,22 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <liquid:tungstensteel> * 1296
 [AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <liquid:tungstensteel> * 144
 [AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <liquid:tungstensteel> * 576
+[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:adamantium> * 576
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:fission_glass>
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:fission_conductor>
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:heat_exchanger_glass>
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:turbine_glass>
-[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@43be29e9"
+[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@74720ed1"
 [AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <contenttweaker:cobalt_dust>
-[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@7b15cda2"
+[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@5a6a8b6c"
 [AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <contenttweaker:ardite_dust>
-[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@349fe42d"
+[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@54e6bb0b"
 [AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <contenttweaker:tungsten_dust>
-[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@1d8d3d"
+[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@53fb219a"
 [AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <contenttweaker:adamantium_dust>
-[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@325e1db6"
+[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@379bb9b2"
 [AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <contenttweaker:opinionium_dust>
-[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@6773ae82"
+[AVAILABLE][CLIENT][INFO] Adding 1 Crusher Recipe(s) for "net.minecraft.item.crafting.Ingredient@39a475c6"
 [AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <contenttweaker:eternity_dust>
 [AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <contenttweaker:fluix_plate> in mode: ALL
 [AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <contenttweaker:fluix_plate> in mode: ALL
@@ -3891,6 +4016,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <contenttweaker:eternity_plate> in mode: ALL
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <contenttweaker:eternity_ingot>
 [AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <extendedcrafting:material:2> in mode: ALL
+[AVAILABLE][CLIENT][INFO] Altering Pulverizer Recipe(s) for <minecraft:gravel>
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <minecraft:iron_ingot>
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:128>
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:160>
@@ -3911,55 +4037,3 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <avaritia:resource:2>
 [AVAILABLE][CLIENT][INFO] Hiding category in JEI: Avatitia.Compressor
 [AVAILABLE][CLIENT][INFO] Adding <thermalexpansion:tank>.withTag({Creative: 1, Level: 4}) to JEI
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 1ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: custom_blocks.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: custom_fluids.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: custom_items.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 40ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [mekatweaker]
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: actuallyadditions.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: advancedrocketry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: advgenerators.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ae2.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: avaritia.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: combination_crafter_port.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: custom_gases.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: cyclic.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: dml.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: enderio.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: environmentaltech.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: exchangers.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: extendedcrafting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: foregoing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gears.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: industrialforegoing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: intdynamics.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ironchests.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: mekanism.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: melting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: misc.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modmach.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modular_machinery\advanced_metallurgic_fabricator.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modular_machinery\metallurgic_fabricator.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: nuclearcraft.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: nuggets.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: opencomputers.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oredict.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oreprocessing.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: plates.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: projred.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: remove_recipes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: rftools.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: rods.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: sheets.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: simplyjetpacks.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: smalldusts.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: solarflux.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: storage_blocks.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: thermalexpansion.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 367ms

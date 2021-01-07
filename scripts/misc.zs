@@ -305,5 +305,44 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:utility_core
 	<thermalinnovation:quiver:4>,
 	<enderio:item_stellar_alloy_pickaxe>,
 	<enderio:item_stellar_alloy_axe>,
-	<enderio:item_capacitor_totemic>
+	<enderio:item_capacitor_totemic>,
+	<bhc:heart_amulet>
+]);
+
+// Mega torch
+recipes.replaceAllOccurences(<ore:gemDiamond>, <actuallyadditions:item_crystal_empowered:2>, <torchmaster:mega_torch:0>);
+recipes.replaceAllOccurences(<minecraft:gold_block>, <thermalfoundation:storage_alloy:6>, <torchmaster:mega_torch:0>);
+
+// Feral flare lantern
+recipes.replaceAllOccurences(<ore:ingotGold>, <ore:ingotLumium>, <torchmaster:feral_flare_lantern>);
+
+// Interdiction pulsar
+recipes.replaceAllOccurences(<ore:dyeBlue>, <ore:plateEnderium>, <cyclicmagic:magnet_anti_block>);
+recipes.replaceAllOccurences(<ore:gemDiamond>, <actuallyadditions:item_crystal_empowered:2>, <cyclicmagic:magnet_anti_block>);
+
+// Harvester
+recipes.replaceAllOccurences(<ore:gemDiamond>, <teslacorelib:machine_case>, <cyclicmagic:harvester_block>);
+
+// Dragon egg
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:dragon_egg>, <quark:enderdragon_scale> * 4, <liquid:adamantium> * 576, 128000);
+mods.nuclearcraft.Infuser.addRecipe(<quark:enderdragon_scale> * 4, <liquid:adamantium> * 576, <minecraft:dragon_egg>, 3.5, 6.5);
+
+// Craftable nether stars
+recipes.remove(<cns:star_core>);
+
+recipes.remove(<cns:star_fragment>);
+
+recipes.addShaped(<cns:star_fragment>, [
+	[<ore:gemQuartz>, <extendedcrafting:material:7>, <ore:gemQuartz>], 
+	[<extendedcrafting:material:7>, <ore:dustMana>, <extendedcrafting:material:7>], 
+	[<ore:gemQuartz>, <extendedcrafting:material:7>, <ore:gemQuartz>]
+]);
+
+// Nether star
+recipes.removeByRecipeName("cns:nether_star");
+
+recipes.addShaped(<minecraft:nether_star>, [
+	[<ore:ingotMithril>, <cns:star_fragment>, <ore:ingotGlitchInfused>], 
+	[<cns:star_fragment>, <cns:star_core>, <cns:star_fragment>], 
+	[<ore:ingotOsgloglas>, <cns:star_fragment>, <ore:ingotReinforcedThermalloy>]
 ]);

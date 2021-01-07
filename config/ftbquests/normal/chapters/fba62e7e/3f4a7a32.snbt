@@ -1,0 +1,21 @@
+{
+	disable_toast: true,
+	x: -7.0d,
+	y: 2.0d,
+	dependencies: [
+		"c6c243bc"
+	],
+	tasks: [{
+		uid: "21ce09c0",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_5"
+		}]
+	}],
+	rewards: [{
+		uid: "51c450d2",
+		type: "item",
+		item: "contenttweaker:osmiridium_ingot",
+		count: 16
+	}]
+}

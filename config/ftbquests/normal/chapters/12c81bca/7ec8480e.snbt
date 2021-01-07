@@ -1,0 +1,17 @@
+{
+	x: -0.5d,
+	y: 4.5d,
+	text: [
+		"Well it's only one infinity ingot?"
+	],
+	dependencies: [
+		"b642892c"
+	],
+	tasks: [{
+		uid: "912a7980",
+		type: "item",
+		items: [{
+			item: "contenttweaker:utility_core"
+		}]
+	}]
+}

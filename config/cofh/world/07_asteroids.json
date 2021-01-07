@@ -23,12 +23,12 @@
 		},
 
 		"skystone_asteroid": {
-			"type": "cluster",
-			"distribution": "uniform",
+			"distribution": "gaussian",
 			"generator": {
 				"block": "appliedenergistics2:sky_stone_block",
 				"material": "minecraft:air",
-				"cluster-size": 4094
+				"cluster-size": 4000,
+				"type": "cluster"
 			},
 			"cluster-count": 2,
 			"center-height": 116,

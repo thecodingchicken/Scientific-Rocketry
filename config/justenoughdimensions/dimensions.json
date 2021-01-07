@@ -142,7 +142,10 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 512,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 36000,
+                "NightLength": 12000
             },
             
             "worldinfo_onetime": {
@@ -170,7 +173,10 @@
                 "CanSpawnHostiles": true,
                 "CanSpawnPeacefulMobs": true,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 36000,
+                "NightLength": 36000
             },
             
             "worldinfo_onetime": {
@@ -199,7 +205,10 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 512,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 16000,
+                "NightLength": 16000
             },
             
             "worldinfo_onetime": {
@@ -228,7 +237,10 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 512,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 56000,
+                "NightLength": 78000
             },
             
             "worldinfo_onetime": {
@@ -258,7 +270,10 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 512,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 4800,
+                "NightLength": 48000
             },
             
             "worldinfo_onetime": {
@@ -293,7 +308,10 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 512,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 9001,
+                "NightLength": 9001
             },
             
             "worldinfo_onetime": {
@@ -351,7 +369,10 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 512,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 18000,
+                "NightLength": 18000
             },
             
             "worldinfo_onetime": {
@@ -380,7 +401,10 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 512,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 3000,
+                "NightLength": 3000
             },
             
             "worldinfo_onetime": {
@@ -409,7 +433,10 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 512,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 9000,
+                "NightLength": 6000
             },
             
             "worldinfo_onetime": {
@@ -438,7 +465,10 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 512,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 1000000,
+                "NightLength": 240
             },
             
             "worldinfo_onetime": {
@@ -473,7 +503,10 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 512,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 13000,
+                "NightLength": 26000
             },
             
             "worldinfo_onetime": {
@@ -503,7 +536,10 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 512,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 44000,
+                "NightLength": 36000
             },
             
             "worldinfo_onetime": {
@@ -533,7 +569,109 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 512,
                 "SkyRenderType": 1,
-                "SkyDisableFlags": 2
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 1600,
+                "NightLength": 1600
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            
+            "dim": 118,
+            "biome": "biometweaker:palo",
+
+            "dimensiontype": {
+                "id": 118,
+                "name": "Palo",
+                "suffix": "_dim118",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "3a3ccf",
+                "FogColor": "3a3ccf",
+                "CanSpawnHostiles": true,
+                "CanSpawnPeacefulMobs": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 128,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 48000,
+                "NightLength": 44000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            
+            "dim": 119,
+            "biome": "biometweaker:stellos",
+
+            "dimensiontype": {
+                "id": 119,
+                "name": "Stellos",
+                "suffix": "_dim119",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "0afff3",
+                "FogColor": "0afff3",
+                "CanSpawnHostiles": true,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 1200,
+                "NightLength": 1200
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            
+            "dim": 122,
+            "biome": "biometweaker:anchios",
+
+            "dimensiontype": {
+                "id": 122,
+                "name": "Anchios",
+                "suffix": "_dim122",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "7d7d7d",
+                "FogColor": "7d7d7d",
+                "CanSpawnHostiles": true,
+                "CanSpawnPeacefulMobs": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 8000,
+                "NightLength": 8000
             },
             
             "worldinfo_onetime": {

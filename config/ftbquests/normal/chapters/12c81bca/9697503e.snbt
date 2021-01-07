@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 4.5d,
+	text: [
+		"Cheap Chaos Plank ripoff.",
+		"",
+		"Also insanely difficult to get."
+	],
+	dependencies: [
+		"b642892c"
+	],
+	tasks: [{
+		uid: "63662af9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:creative_core"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: 4.5d,
+	text: [
+		"This one is easy, but I still made the quest after the Creative Energy Cube just because I could."
+	],
+	dependencies: [
+		"b642892c"
+	],
+	tasks: [{
+		uid: "487833e4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:environmental_core"
+		}]
+	}]
+}

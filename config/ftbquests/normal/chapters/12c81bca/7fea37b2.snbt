@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 7.5d,
+	text: [
+		"Eternity Ore requires......\"special\" processing."
+	],
+	dependencies: [
+		"d149e683"
+	],
+	tasks: [{
+		uid: "3088a79a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:eternal_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "894bfea8",
+		type: "item",
+		item: "avaritia:resource 1 6"
+	}]
+}

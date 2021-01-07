@@ -30,6 +30,17 @@
       "weight": 750,
       "id": "OD:oreIron"
     },
+    
+    {
+      "target": "white",
+      "weight": 284,
+      "id": "OD:oreDilithium"
+    },
+    {
+      "target": "purple",
+      "weight": 235,
+      "id": "OD:oreTitanium"
+    },
     {
       "target": "white",
       "weight": 560,
@@ -39,6 +50,11 @@
       "target": "red",
       "weight": 515,
       "id": "OD:oreRedstone"
+    },
+    {
+      "target": "black",
+      "weight": 254,
+      "id": "OD:oreEnderBiotite"
     },
     {
       "target": "blue",
